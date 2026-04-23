@@ -1,0 +1,402 @@
+AI PARTY Workshop - Plano de Aula (3h)
+
+Formato: presencial/online ao vivo
+Idioma: pt-BR
+Publico: misto (QA, Devs e outras pessoas de produto/tecnologia)
+Duracao total: 180 minutos
+
+========================================
+VISAO GERAL DE TEMPO
+========================================
+
+00 - Abertura + The 4Ds                          15 min
+01 - Assistentes + Context Management            15 min
+02 - MCP (Model Context Protocol)                10 min
+03 - Playwright MCP [DEEP]                       25 min
+04 - Playwright CLI [DEEP]                       25 min
+05 - Playwright Agents [DEEP]                    15 min
+06 - Cursor Deep Dive [DEEP]                     25 min
+07 - Claude Code                                  10 min
+08 - Panorama de outras ferramentas               15 min
+09 - Q&A + Encerramento                           15 min
+Buffer distribuido (micro-ajustes)               10 min
+
+Observacao de conducao:
+- Este plano assume demos curtas e objetivas.
+- O buffer deve ser diluido entre blocos 03, 04, 06 e 09.
+- Se atrasar, reduzir exemplos do bloco 08 primeiro.
+
+========================================
+CRONOGRAMA (HORARIO CORRIDO)
+========================================
+
+00:00-00:15  Bloco 00
+00:15-00:30  Bloco 01
+00:30-00:40  Bloco 02
+00:40-01:05  Bloco 03
+01:05-01:30  Bloco 04
+01:30-01:45  Bloco 05
+01:45-02:10  Bloco 06
+02:10-02:20  Bloco 07
+02:20-02:35  Bloco 08
+02:35-02:50  Bloco 09
+02:50-03:00  Buffer final / ajuste
+
+========================================
+BLOCO 00 - ABERTURA + THE 4Ds (15 min)
+========================================
+
+Objetivo:
+- Nivelar o grupo e definir o que e "fluencia em IA" para o workshop.
+
+Talking points:
+- O que e AI Fluency: uso efetivo, eficiente, etico e seguro de IA.
+- The 4Ds:
+  - Delegation: o que vai para IA vs humano.
+  - Description: como pedir melhor.
+  - Discernment: como revisar saida.
+  - Diligence: responsabilidade e transparencia no uso.
+- Conectar 4Ds com o restante da aula:
+  - Delegation -> agents e automacao.
+  - Description -> prompts e regras.
+  - Discernment -> validacao e QA.
+  - Diligence -> seguranca e accountability.
+
+Divisao sugerida:
+- 8 min teoria
+- 5 min exemplos praticos
+- 2 min check-in com o publico
+
+Pergunta de engajamento:
+- "Qual dos 4Ds voces acham mais dificil no dia a dia?"
+
+Recurso:
+- docs/AI_Fluency_vocabulary_cheat_sheet.pdf
+
+========================================
+BLOCO 01 - ASSISTENTES + CONTEXT MANAGEMENT (15 min)
+========================================
+
+Objetivo:
+- Explicar o modelo mental de trabalho com coding assistants.
+
+Talking points:
+- Triangulo de colaboracao: voce <-> assistente <-> modelo de linguagem.
+- Tokens e janela de contexto:
+  - o que cabe no contexto;
+  - por que respostas degradam em conversas longas.
+- Controle de contexto:
+  - /compact: resumir historico sem perder contexto util.
+  - /clear: reiniciar conversa para mudar de tarefa.
+- Quando usar cada estrategia:
+  - conversa longa;
+  - troca de assunto;
+  - repeticao de erro.
+
+Demo sugerida:
+- Mostrar uma conversa longa e aplicar /compact.
+- Simular troca de tarefa e usar /clear.
+
+Divisao sugerida:
+- 7 min teoria
+- 6 min demo
+- 2 min perguntas rapidas
+
+Takeaway:
+- Quem controla contexto controla qualidade de resposta.
+
+========================================
+BLOCO 02 - MCP: MODEL CONTEXT PROTOCOL (10 min)
+========================================
+
+Objetivo:
+- Dar base conceitual para entender integracoes com ferramentas.
+
+Talking points:
+- O que e MCP:
+  - protocolo padrao para conectar IA a ferramentas externas.
+- Diferenca entre:
+  - modelo sem contexto extra;
+  - modelo com contexto + ferramentas.
+- Beneficios:
+  - acesso a dados atuais;
+  - automacao segura e auditavel;
+  - menos copia/cola manual.
+
+Demo sugerida:
+- Explicar fluxo simples: modelo -> MCP server -> ferramenta -> resposta.
+
+Divisao sugerida:
+- 8 min teoria
+- 2 min transicao para Playwright MCP
+
+Takeaway:
+- MCP e ponte entre IA e mundo real de ferramentas.
+
+========================================
+BLOCO 03 - PLAYWRIGHT MCP [DEEP] (25 min)
+========================================
+
+Objetivo:
+- Mostrar como usar Playwright MCP para navegacao e automacao assistida.
+
+Talking points:
+- O que e Playwright MCP e casos de uso.
+- Instalacao/configuracao de alto nivel.
+- Estrategia de trabalho:
+  - snapshot da pagina;
+  - refs para interacao;
+  - acao + verificacao.
+- Quando Playwright MCP ajuda mais:
+  - validacoes de fluxo web;
+  - reproducoes de bug;
+  - smoke checks guiados por IA.
+
+Demo sugerida:
+- Abrir app web de exemplo.
+- Fazer navegacao guiada por instrucoes.
+- Mostrar snapshot/ref e executar acao.
+- Validar resultado e repetir em outro fluxo curto.
+
+Divisao sugerida:
+- 8 min conceitos
+- 15 min demo
+- 2 min recap
+
+Pitfalls para alertar:
+- repetir acao sem evidencias novas;
+- nao validar estado da pagina entre passos;
+- tentativa de automacao sem escopo claro.
+
+Recursos:
+- https://github.com/microsoft/playwright/blob/93273b29c2cc891c90a510171bfc8602fb2214dd/packages/playwright-core/src/tools/trace/SKILL.md
+
+========================================
+BLOCO 04 - PLAYWRIGHT CLI [DEEP] (25 min)
+========================================
+
+Objetivo:
+- Cobrir em profundidade Playwright CLI, com foco em fluxo real de produtividade.
+
+Talking points:
+- O que e CLI e por que usar mesmo com UI.
+- Comandos principais para onboarding rapido.
+- Fluxo tipico:
+  1) iniciar/projetar ambiente;
+  2) gerar base de teste;
+  3) rodar em modo local;
+  4) depurar falha;
+  5) abrir report/trace.
+- Diferenca entre:
+  - execucao local;
+  - execucao em CI;
+  - debug rapido.
+- Comandos de maior valor no dia a dia:
+  - criacao e setup;
+  - execucao por arquivo/teste;
+  - headed/headless;
+  - UI mode;
+  - report/trace.
+
+Demo sugerida (passo a passo):
+- Preparar projeto.
+- Rodar testes com filtros.
+- Simular falha.
+- Abrir report e trace para diagnostico.
+- Ajustar e reexecutar.
+
+Divisao sugerida:
+- 7 min teoria orientada a fluxo
+- 16 min demo pratica
+- 2 min checklist final de CLI
+
+Pergunta de engajamento:
+- "Qual etapa do fluxo de teste consome mais tempo no seu time?"
+
+Takeaway:
+- CLI bem dominada reduz atrito operacional e acelera debug.
+
+Recursos:
+- https://github.com/microsoft/playwright/blob/93273b29c2cc891c90a510171bfc8602fb2214dd/packages/playwright-core/src/tools/cli-client/skill/SKILL.md
+
+========================================
+BLOCO 05 - PLAYWRIGHT AGENTS [DEEP] (15 min)
+========================================
+
+Objetivo:
+- Apresentar conceito de agentes Playwright e casos onde faz sentido.
+
+Talking points:
+- O que e "agente" nesse contexto (execucao orientada por objetivo).
+- Diferenca entre comando pontual e fluxo agentico.
+- Casos bons:
+  - validacoes repetitivas;
+  - exploracao guiada de fluxo;
+  - apoio em investigacao.
+- Casos ruins:
+  - tarefas sem criterio de sucesso;
+  - interacao sensivel sem guardrails.
+
+Demo sugerida:
+- Mostrar exemplo de teste/narracao com agente.
+- Apontar como descrever objetivo, restricoes e criterio de sucesso.
+
+Divisao sugerida:
+- 6 min conceitos
+- 7 min exemplo pratico
+- 2 min recap
+
+Recursos:
+- https://www.youtube.com/watch?v=9tFioGfuA-c
+- https://github.com/Qambar/playwright-questions/blob/main/tests/05-screencast-narration.spec.ts
+
+========================================
+BLOCO 06 - CURSOR DEEP DIVE [DEEP] (25 min)
+========================================
+
+Objetivo:
+- Ensinar uso pratico de Cursor para padronizar qualidade e acelerar entrega.
+
+Talking points:
+- Cursor para times:
+  - consistencia;
+  - velocidade;
+  - padroes compartilhados.
+- Cursor Rules:
+  - quando criar;
+  - como manter simples e acionavel;
+  - exemplos de regras uteis (seguranca, estilo, fluxo de PR).
+- Cursor Skills:
+  - quando usar skill vs prompt livre;
+  - encadeamento de skill para tarefas recorrentes.
+- Boas praticas:
+  - contexto enxuto;
+  - instrucoes objetivas;
+  - validacao incremental.
+
+Demo sugerida:
+- Mostrar regra aplicada em tarefa real curta.
+- Mostrar skill sendo reutilizada.
+- Comparar saida sem regra vs com regra.
+
+Divisao sugerida:
+- 10 min teoria
+- 13 min demo
+- 2 min Q&A rapido
+
+Takeaway:
+- Rule e Skill transformam produtividade individual em padrao de time.
+
+========================================
+BLOCO 07 - CLAUDE CODE (10 min)
+========================================
+
+Objetivo:
+- Posicionar Claude Code no ecossistema e orientar escolha de ferramenta.
+
+Talking points:
+- O que e Claude Code no fluxo de dev/qa.
+- Onde ele brilha:
+  - refatoracao guiada;
+  - leitura e explicacao de codigo;
+  - scaffolding de tarefas.
+- Comparativo rapido com Cursor (sem guerra de ferramenta):
+  - criterio = contexto, integracao, preferencia de fluxo.
+
+Divisao sugerida:
+- 6 min comparativo pratico
+- 4 min dicas de adocao
+
+Takeaway:
+- Escolher ferramenta por contexto da tarefa, nao por hype.
+
+========================================
+BLOCO 08 - PANORAMA DE OUTRAS FERRAMENTAS (15 min)
+========================================
+
+Objetivo:
+- Dar mapa do ecossistema sem aprofundar.
+
+Talking points (overview rapido):
+- Codex
+- VSCode
+- GitHub Copilot
+- Opus High
+- Integracoes e workflow:
+  - Grafana
+  - Jira
+  - GitHub
+
+Roteiro sugerido:
+- 2 min: visao geral de mercado.
+- 8 min: comparativo pratico por uso (geracao, revisao, automacao, observabilidade).
+- 5 min: como montar stack minima do time.
+
+Formato recomendado:
+- Tabela curta: ferramenta x melhor uso x cautela.
+
+Takeaway:
+- Nao e sobre "uma ferramenta vencedora", e sobre composicao de stack.
+
+========================================
+BLOCO 09 - Q&A + ENCERRAMENTO (15 min)
+========================================
+
+Objetivo:
+- Fechar com clareza e proximo passo acionavel.
+
+Estrutura:
+- 10 min: perguntas abertas do publico.
+- 3 min: recap dos 5 aprendizados principais.
+- 2 min: call to action (proxima pratica guiada + materiais).
+
+Recap sugerido:
+1) The 4Ds para guiar uso de IA.
+2) Context management para manter qualidade.
+3) MCP como base de integracoes.
+4) Playwright MCP/CLI/Agents em fluxo pratico.
+5) Cursor Rules/Skills para escala de time.
+
+Mensagem final:
+- Comece pequeno, padronize cedo, e evolua com evidencia.
+
+========================================
+BUFFER E CONTINGENCIA (10 min)
+========================================
+
+Se estiver adiantado:
+- Abrir mais 1 demo curta de CLI (filtro de execucao e debug).
+- Fazer comparativo curto "bom prompt vs prompt vago".
+
+Se estiver atrasado:
+- Reduzir bloco 08 para 8 minutos.
+- Levar parte do Q&A para canal assicrono.
+
+Plano B para demo com problema tecnico:
+- Usar screenshots/gifs pre-gravados.
+- Priorizar explicacao de fluxo + resultado esperado.
+
+========================================
+MATERIAIS DE APOIO (PARA USAR NA AULA)
+========================================
+
+Arquivos de referencia interna:
+- temp/aula.txt
+- temp/slides-playwright.html
+- temp/ebook-playwright-alunos.html
+- temp/ebook-playwright-instrutora.html
+- docs/AI_Fluency_vocabulary_cheat_sheet.pdf
+
+Links externos:
+- https://www.youtube.com/watch?v=9tFioGfuA-c
+- https://github.com/Qambar/playwright-questions/blob/main/tests/05-screencast-narration.spec.ts
+- https://github.com/microsoft/playwright/blob/93273b29c2cc891c90a510171bfc8602fb2214dd/packages/playwright-core/src/tools/cli-client/skill/SKILL.md
+- https://github.com/microsoft/playwright/blob/93273b29c2cc891c90a510171bfc8602fb2214dd/packages/playwright-core/src/tools/trace/SKILL.md
+
+========================================
+PROXIMO PASSO DE PRODUCAO
+========================================
+
+1) Gerar deck de slides com este mesmo sequenciamento.
+2) Gerar ebook do aluno (resumo + referencia rapida).
+3) Gerar ebook da instrutora (timeline + roteiro de demo + perguntas de engajamento).

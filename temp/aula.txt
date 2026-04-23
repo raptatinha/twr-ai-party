@@ -1,0 +1,79 @@
+
+
+https://www.youtube.com/watch?v=9tFioGfuA-c
+https://github.com/Qambar/playwright-questions/blob/main/tests/05-screencast-narration.spec.ts
+
+https://github.com/microsoft/playwright/blob/93273b29c2cc891c90a510171bfc8602fb2214dd/packages/playwright-core/src/tools/cli-client/skill/SKILL.md
+https://github.com/microsoft/playwright/blob/93273b29c2cc891c90a510171bfc8602fb2214dd/packages/playwright-core/src/tools/trace/SKILL.md
+
+
+#Intro
+##The4Ds
+The four core competencies of AI Fluency: Delegation, Description, Discernment, and Diligence.
+
+## Coding assistants (claude, cursor)
+You - Coding Assistant - Language Model
+
+##Context management
+Context Management Commands
+Claude provides several commands to help manage conversation context effectively:
+
+/compact
+The /compact command summarizes your entire conversation history while preserving the key information Claude has learned. This is ideal when:
+
+Claude has gained valuable knowledge about your project
+You want to continue with related tasks
+The conversation has become long but contains important context
+Use compact when Claude has learned a lot about the current task and you want to maintain that knowledge as it moves to the next related task.
+
+/clear
+The /clear command completely removes the conversation history, giving you a fresh start. This is most useful when:
+
+You're switching to a completely different, unrelated task
+The current conversation context might confuse Claude for the new task
+You want to start over without any previous context
+ 
+
+When to Use These Techniques
+These conversation control techniques are particularly valuable during:
+
+Long-running conversations where context can become cluttered
+Task transitions where previous context might be distracting
+Situations where Claude repeatedly makes the same mistakes
+Complex projects where you need to maintain focus on specific components
+By using escape, double-tap escape, /compact, and /clear strategically, you can keep Claude focused and productive throughout your development workflow. These aren't just convenience features—they're essential tools for maintaining effective AI-assisted development sessions.
+
+##tokens
+
+##MCP
+what it is
+
+mention Claude mentions playwright MCP
+
+##Playwright MCP
+how to install
+
+how to use it (examples)
+
+##Playwright cli
+what is it
+how to install
+how to use
+examples
+
+-------
+## Topics
+Playwright Agents
+Playwright MCP
+Playwright CLI
+Cursor
+Cursor Rules
+Cursor Skills
+Claude Code
+Opus High
+Codex
+VSCode
+GitHub Copilot
+Grafana
+Jira
+GitHub

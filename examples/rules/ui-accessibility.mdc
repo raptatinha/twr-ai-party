@@ -1,0 +1,119 @@
+---
+description: Accessibility and testability requirements for interactive UI elements
+globs: platform/src/app/**/*.tsx, platform/src/components/**/*.tsx
+---
+
+# UI Accessibility & Testability
+
+Every interactive element must be accessible to assistive technologies and locatable by Playwright tests. Follow the W3C WAI-ARIA Authoring Practices.
+
+## First rule of ARIA: prefer native HTML
+
+Use semantic HTML elements instead of ARIA roles whenever possible:
+
+| Instead of | Use |
+|---|---|
+| `<div role="button" tabIndex={0}>` | `<button>` |
+| `<div role="navigation">` | `<nav>` |
+| `<span role="link">` | `<a href="...">` |
+| `<div role="textbox">` | `<input>` or `<textarea>` |
+
+Native elements already have built-in roles, keyboard behavior, and focus management. Adding ARIA to a `<div>` forces you to reimplement all of that manually.
+
+## Labeling — W3C priority order
+
+Use the **highest applicable method**. Lower methods override higher ones, so don't double up unnecessarily:
+
+### 1. Visible `<Label htmlFor>` (preferred for form fields)
+
+```tsx
+<Label htmlFor="email">Email</Label>
+<Input id="email" type="email" />
+```
+
+Screen readers announce "Email, edit text". No `aria-label` needed — the `<label>` association is sufficient.
+
+### 2. `aria-labelledby` (references another visible element)
+
+```tsx
+<h2 id="section-title">Workshop Details</h2>
+<form aria-labelledby="section-title">...</form>
+```
+
+Use when a visible heading or text already describes the element. Avoids duplicating text.
+
+### 3. `aria-label` (only when no visible text exists)
+
+Use `aria-label` ONLY for elements that have **no visible label or text content**:
+
+| Use case | Example |
+|---|---|
+| Icon-only button | `<button aria-label="Close dialog"><X /></button>` |
+| Toggle button | `<button aria-label={visible ? "Hide password" : "Show password"}>` |
+| Landmark disambiguation | `<nav aria-label="Main navigation">` vs `<nav aria-label="Footer links">` |
+| Search input without visible label | `<Input aria-label="Search workshops" />` |
+
+### When NOT to use `aria-label`
+
+- Input already has `<Label htmlFor>` — the label is sufficient
+- Button already has descriptive text — `<button>Sign In</button>` is self-describing
+- Link already has descriptive text — `<a href="/workshops">View workshops</a>` is self-describing
+
+`aria-label` **overrides** all other naming. If an input has both `<Label>` and `aria-label`, screen readers will ONLY announce the `aria-label`, ignoring the visible label. This creates a disconnect between what sighted and non-sighted users perceive.
+
+## Error and validation states
+
+Form fields with validation MUST link to their error messages:
+
+```tsx
+<Input
+  id="email"
+  aria-describedby={errors.email ? "email-error" : undefined}
+  aria-invalid={!!errors.email}
+/>
+{errors.email && (
+  <p id="email-error">{errors.email.message}</p>
+)}
+```
+
+- `aria-describedby` — points to the error message element
+- `aria-invalid` — bound to the error state
+
+## data-testid
+
+All interactive elements MUST have a `data-testid` attribute for Playwright test stability:
+
+### Naming convention
+
+`data-testid` values use **kebab-case** with the pattern: `{context}-{element-type}`
+
+| Element | data-testid example |
+|---|---|
+| Email input | `data-testid="login-email-input"` |
+| Password input | `data-testid="login-password-input"` |
+| Submit button | `data-testid="login-submit-button"` |
+| Navigation link | `data-testid="sidebar-workshops-link"` |
+| Table row | `data-testid="users-table-row"` |
+| Modal | `data-testid="delete-confirmation-dialog"` |
+
+### Rules
+
+- Page-scoped context prefix to avoid collisions — `login-email-input` not just `email-input`
+- Repeating elements use a suffix: `data-testid={`users-table-row-${user.id}`}`
+- `data-testid` is for test stability only — never use it for styling or application logic
+- Prefer semantic locators (`getByRole`, `getByLabel`) in tests; `getByTestId` is the fallback
+
+## autoFocus
+
+The first interactive field in every form MUST have `autoFocus` so keyboard users land on the right field without extra tab presses.
+
+## Checklist for new interactive elements
+
+When adding or modifying any interactive element, verify:
+
+1. **Semantic HTML** — use the right element (`<button>`, `<a>`, `<input>`, `<select>`)
+2. **Visible label** — `<Label htmlFor>` for form fields, descriptive text for buttons/links
+3. **`aria-label`** — ONLY if no visible label or text content exists (icon-only buttons, toggles, landmarks)
+4. **`aria-describedby`** + **`aria-invalid`** — for fields with validation errors
+5. **`data-testid`** — unique, kebab-case, context-prefixed
+6. **`autoFocus`** — on first field of every form

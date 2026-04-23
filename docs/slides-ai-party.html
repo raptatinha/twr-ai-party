@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI PARTY Workshop - Slides - testingwithrenata.com</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/slides.css">
+<script>/* Anti-FOUC */
+(function(){try{var t=localStorage.getItem('twr-docs-theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');if(t==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}})();
+</script>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- SLIDE 01 -->
+  <div class="slide active" id="s1">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-green"></div>
+    <div class="bg-glow-blue"></div>
+    <div class="slide-num">01 / 15</div>
+
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center; position:relative; z-index:1;">
+      <a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="display:inline-block; margin-bottom:24px;"><img src="img/logo_branca_menor.webp" alt="Testing with Renata" style="height:64px;" class="logo-light"><img src="img/Logo_escura.png" alt="Testing with Renata" style="height:64px;" class="logo-dark"></a>
+      <div class="tag tag-green">AI PARTY Workshop</div>
+      <h1>AI PARTY<br><span class="hl">Hands-on com IA</span></h1>
+      <p class="subtitle">Playwright MCP/CLI/Agents · Cursor · Claude Code · Ferramentas de produtividade</p>
+      <div style="display:flex; gap:40px; margin-top:48px;">
+        <div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:4px;">Duracao</div>
+          <div style="font-size:18px; font-weight:600;">3 horas</div>
+        </div>
+        <div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:4px;">Formato</div>
+          <div style="font-size:18px; font-weight:600;">Misto + demo</div>
+        </div>
+        <div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:4px;">Foco</div>
+          <div style="font-size:18px; font-weight:600;">Pratica real</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="position:relative; z-index:1; font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--muted);">ai-party.ptbr</div>
+    <div style="position:relative; z-index:1; align-self:flex-end; margin-top:auto;"><a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:6px; text-decoration:none; opacity:0.45;"><img src="img/icone_branco.png" alt="" style="height:18px; width:18px;" class="logo-light"><img src="img/icone_escuro.png" alt="" style="height:18px; width:18px;" class="logo-dark"><span style="font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--muted);">testingwithrenata.com</span></a></div>
+  </div>
+
+  <!-- SLIDE 02 -->
+  <div class="slide" id="s2">
+    <div class="bg-grid"></div>
+    <div class="slide-num">02 / 15</div>
+    <div class="tag tag-blue">Agenda da Aula</div>
+    <h2>Roteiro de 180 minutos</h2>
+    <div class="hdivider"></div>
+    <div class="timeline-list">
+      <div class="tl-row highlight"><div class="tl-time">00:00</div><div><div class="tl-name">Abertura + The 4Ds</div><div class="tl-sub">Delegation, Description, Discernment, Diligence</div></div><span class="tl-badge badge-g">15 min</span></div>
+      <div class="tl-row"><div class="tl-time">00:15</div><div><div class="tl-name">Assistentes + Context Management</div><div class="tl-sub">tokens, /compact, /clear, foco da conversa</div></div><span class="tl-badge badge-g">15 min</span></div>
+      <div class="tl-row"><div class="tl-time">00:30</div><div><div class="tl-name">MCP</div><div class="tl-sub">base conceitual e arquitetura</div></div><span class="tl-badge badge-g">10 min</span></div>
+      <div class="tl-row"><div class="tl-time">00:40</div><div><div class="tl-name">Playwright MCP [DEEP]</div><div class="tl-sub">configuracao, uso e demo guiada</div></div><span class="tl-badge badge-o">25 min</span></div>
+      <div class="tl-row"><div class="tl-time">01:05</div><div><div class="tl-name">Playwright CLI [DEEP]</div><div class="tl-sub">fluxo completo de execucao e debug</div></div><span class="tl-badge badge-o">25 min</span></div>
+      <div class="tl-row"><div class="tl-time">01:30</div><div><div class="tl-name">Playwright Agents [DEEP]</div><div class="tl-sub">workflow agentico e narracao</div></div><span class="tl-badge badge-g">15 min</span></div>
+      <div class="tl-row"><div class="tl-time">01:45</div><div><div class="tl-name">Cursor Deep Dive [DEEP]</div><div class="tl-sub">Rules, Skills e padroes de time</div></div><span class="tl-badge badge-o">25 min</span></div>
+      <div class="tl-row"><div class="tl-time">02:10</div><div><div class="tl-name">Claude Code</div><div class="tl-sub">quando usar, comparativo pratico</div></div><span class="tl-badge badge-g">10 min</span></div>
+      <div class="tl-row"><div class="tl-time">02:20</div><div><div class="tl-name">Panorama de ferramentas</div><div class="tl-sub">Codex, Copilot, VSCode, Grafana, Jira, GitHub</div></div><span class="tl-badge badge-g">15 min</span></div>
+      <div class="tl-row highlight-blue"><div class="tl-time">02:35</div><div><div class="tl-name">Q&A + Encerramento</div><div class="tl-sub">duvidas, recap e proximos passos</div></div><span class="tl-badge badge-b">15 min</span></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 03 -->
+  <div class="slide" id="s3">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-green"></div>
+    <div class="slide-num">03 / 15</div>
+    <div class="tag tag-green">Bloco 00 · 15 min</div>
+    <h2>The 4Ds como base da aula</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1;">
+      <div class="card green-border">
+        <div class="card-label">Framework de fluencia em IA</div>
+        <ul class="bullets">
+          <li><strong>Delegation</strong>: o que delegar para IA</li>
+          <li><strong>Description</strong>: como pedir com clareza</li>
+          <li><strong>Discernment</strong>: como avaliar saidas</li>
+          <li><strong>Diligence</strong>: responsabilidade e transparencia</li>
+        </ul>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div class="card">
+          <div class="card-label">Conexao com o workshop</div>
+          <ul class="bullets">
+            <li>Delegation -> Agents e automacoes</li>
+            <li>Description -> prompts, rules e skills</li>
+            <li>Discernment -> QA e revisao critica</li>
+            <li>Diligence -> seguranca e accountability</li>
+          </ul>
+        </div>
+        <div class="tip"><strong>Pergunta:</strong> Qual dos 4Ds e mais dificil no seu contexto hoje?</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 04 -->
+  <div class="slide" id="s4">
+    <div class="bg-grid"></div>
+    <div class="slide-num">04 / 15</div>
+    <div class="tag tag-blue">Bloco 01 · 15 min</div>
+    <h2>Assistentes e Context Management</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1;">
+      <div class="card blue-border">
+        <div class="card-label">Modelo mental</div>
+        <ul class="bullets">
+          <li>Voce <strong>dirige</strong>, IA executa e propõe</li>
+          <li>Contexto relevante = melhor resposta</li>
+          <li>Conversa longa sem controle = ruído</li>
+        </ul>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div class="card">
+          <div class="card-label">Comandos praticos</div>
+          <ul class="bullets">
+            <li><code>/compact</code> para preservar aprendizado essencial</li>
+            <li><code>/clear</code> para trocar de tarefa sem poluicao</li>
+            <li>Use tokens como recurso finito de foco</li>
+          </ul>
+        </div>
+        <div class="warn"><strong>Regra pratica:</strong> mude de assunto? limpe o contexto.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 05 -->
+  <div class="slide" id="s5">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-blue"></div>
+    <div class="slide-num">05 / 15</div>
+    <div class="tag tag-blue">Bloco 02 · 10 min</div>
+    <h2>MCP: o protocolo de conexao</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1;">
+      <div class="card blue-border">
+        <div class="card-label">O que e MCP</div>
+        <ul class="bullets">
+          <li>Padrao para IA conversar com ferramentas</li>
+          <li>Conecta modelo a recursos externos</li>
+          <li>Permite automacao com contexto real</li>
+        </ul>
+      </div>
+      <div class="codeblock">
+        <pre>Usuario -> Assistente -> MCP Server -> Ferramenta
+                     <- Resposta com contexto real
+
+Sem MCP:
+- Modelo responde so com contexto atual
+
+Com MCP:
+- Modelo acessa dados/ferramentas
+- Fluxo fica mais acionavel</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 06 -->
+  <div class="slide" id="s6">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-green"></div>
+    <div class="slide-num">06 / 15</div>
+    <div class="tag tag-green">Recap divertido</div>
+    <h2>MCP vs CLI vs Agents: quem é quem?</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-3" style="flex:1;">
+      <div class="card green-border">
+        <div style="font-size:48px; margin-bottom:8px;">🎮</div>
+        <div class="card-label">Playwright MCP</div>
+        <div style="font-weight:700; margin-bottom:8px;">O controle remoto da IA</div>
+        <ul class="bullets">
+          <li>IA <strong>pilota</strong> o navegador ao vivo</li>
+          <li>Snapshot → ação → snapshot</li>
+          <li>Ótimo para explorar e investigar</li>
+        </ul>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--muted); margin-top:12px;">"Clica ali pra mim, por favor"</div>
+      </div>
+      <div class="card blue-border">
+        <div style="font-size:48px; margin-bottom:8px;">⚡</div>
+        <div class="card-label">Playwright CLI</div>
+        <div style="font-weight:700; margin-bottom:8px;">A bancada do mecânico</div>
+        <ul class="bullets">
+          <li>Você <strong>roda</strong>, debuga, analisa trace</li>
+          <li>Determinístico e reprodutível</li>
+          <li>Base do dia a dia de QA</li>
+        </ul>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--muted); margin-top:12px;">npx playwright test --headed</div>
+      </div>
+      <div class="card green-border">
+        <div style="font-size:48px; margin-bottom:8px;">🤖</div>
+        <div class="card-label">Playwright Agents</div>
+        <div style="font-weight:700; margin-bottom:8px;">O estagiário autônomo</div>
+        <ul class="bullets">
+          <li>Recebe objetivo e <strong>executa sozinho</strong></li>
+          <li>Planeja, tenta, valida, repete</li>
+          <li>Brilha em fluxos repetitivos</li>
+        </ul>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--muted); margin-top:12px;">"Garante que o checkout funciona"</div>
+      </div>
+    </div>
+    <div class="tip"><strong>Resumão:</strong> MCP é mãos, CLI é músculo, Agents é cérebro. Os três juntos = time completo.</div>
+  </div>
+
+  <!-- SLIDE 07 -->
+  <div class="slide" id="s7">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-green"></div>
+    <div class="slide-num">07 / 15</div>
+    <div class="tag tag-green">Bloco 03 · 25 min [DEEP]</div>
+    <h2>Playwright MCP na pratica</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1; align-items:start;">
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div class="card green-border">
+          <div class="card-label">Fluxo de uso recomendado</div>
+          <ul class="bullets">
+            <li>Definir objetivo de teste</li>
+            <li>Capturar estado com snapshot</li>
+            <li>Executar acao focada</li>
+            <li>Validar resultado antes de seguir</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-label">Onde traz mais valor</div>
+          <ul class="bullets">
+            <li>Smoke guiado por IA</li>
+            <li>Investigacao de bug visual/fluxo</li>
+            <li>Reproducao rapida de cenarios</li>
+          </ul>
+        </div>
+      </div>
+      <div class="codeblock">
+        <pre>Checklist da demo:
+1) Abrir pagina alvo
+2) Snapshot da estrutura
+3) Escolher ref correta
+4) Interagir (click/fill)
+5) Snapshot de validacao
+6) Registrar evidencias
+
+Nao faca:
+- repetir a mesma acao sem nova evidencia
+- pular etapa de verificacao</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 08 -->
+  <div class="slide" id="s8">
+    <div class="bg-grid"></div>
+    <div class="slide-num">08 / 15</div>
+    <div class="tag tag-green">Bloco 04 · 25 min [DEEP]</div>
+    <h2>Playwright CLI: fluxo completo</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1;">
+      <div class="card green-border">
+        <div class="card-label">Narrativa da sessao CLI</div>
+        <ul class="bullets">
+          <li>Setup inicial e estrutura minima</li>
+          <li>Execucao por arquivo e por teste</li>
+          <li>Falha controlada para diagnostico</li>
+          <li>Report e trace para root cause</li>
+          <li>Reexecucao apos ajuste</li>
+        </ul>
+      </div>
+      <div class="codeblock">
+        <pre># Exemplo de fluxo de demo
+npx playwright test
+npx playwright test tests/login.spec.ts
+npx playwright test -g "checkout feliz"
+npx playwright test --headed
+npx playwright show-report
+npx playwright show-trace trace.zip
+
+Meta: mostrar produtividade de ponta a ponta</pre>
+      </div>
+    </div>
+    <div class="tip"><strong>Mensagem-chave:</strong> dominar CLI acelera debug mais do que qualquer "truque isolado".</div>
+  </div>
+
+  <!-- SLIDE 09 -->
+  <div class="slide" id="s9">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-green"></div>
+    <div class="slide-num">09 / 15</div>
+    <div class="tag tag-green">Bloco 05 · 15 min [DEEP]</div>
+    <h2>Playwright Agents</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1;">
+      <div class="card green-border">
+        <div class="card-label">Quando usar agente</div>
+        <ul class="bullets">
+          <li>Tarefa com objetivo claro e verificavel</li>
+          <li>Fluxos repetitivos com passos conhecidos</li>
+          <li>Exploracao guiada para descobrir comportamento</li>
+        </ul>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div class="card">
+          <div class="card-label">Boas praticas de prompt agentico</div>
+          <ul class="bullets">
+            <li>Defina sucesso e restricoes</li>
+            <li>Peça evidencias a cada etapa</li>
+            <li>Interrompa apos tentativa sem progresso</li>
+          </ul>
+        </div>
+        <div class="warn"><strong>Cuidado:</strong> agente sem criterio de sucesso gera trabalho sem direcao.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 10 -->
+  <div class="slide" id="s10">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-blue"></div>
+    <div class="slide-num">10 / 15</div>
+    <div class="tag tag-blue">Bloco 06 · 25 min [DEEP]</div>
+    <h2>Cursor Deep Dive</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1; align-items:start;">
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div class="card blue-border">
+          <div class="card-label">Cursor Rules</div>
+          <ul class="bullets">
+            <li>Padronizam comportamento do assistente</li>
+            <li>Reduzem retrabalho entre pessoas do time</li>
+            <li>Garantem consistencia de output</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-label">Cursor Skills</div>
+          <ul class="bullets">
+            <li>Reuso de playbooks recorrentes</li>
+            <li>Acelera tarefas operacionais de alto volume</li>
+            <li>Facilita onboarding de novos membros</li>
+          </ul>
+        </div>
+      </div>
+      <div class="codeblock">
+        <pre>Comparacao da demo:
+Sem rule:
+- resposta inconsistente
+- formato variavel
+
+Com rule + skill:
+- saida previsivel
+- qualidade mais estavel
+- tempo menor de revisao</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 11 -->
+  <div class="slide" id="s11">
+    <div class="bg-grid"></div>
+    <div class="slide-num">11 / 15</div>
+    <div class="tag tag-green">Bloco 07 · 10 min</div>
+    <h2>Claude Code no fluxo de trabalho</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-2" style="flex:1;">
+      <div class="card green-border">
+        <div class="card-label">Onde brilha</div>
+        <ul class="bullets">
+          <li>Refatoracao orientada por objetivo</li>
+          <li>Leitura/explicacao de base legada</li>
+          <li>Primeiro rascunho de implementacao</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">Comparativo pratico com Cursor</div>
+        <ul class="bullets">
+          <li>Escolha por contexto da tarefa</li>
+          <li>Nao existe "ferramenta unica perfeita"</li>
+          <li>Combinacao das duas costuma render melhor</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 12 -->
+  <div class="slide" id="s12">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-green"></div>
+    <div class="slide-num">12 / 15</div>
+    <div class="tag tag-green">Bloco 08 · 15 min</div>
+    <h2>Panorama de outras ferramentas</h2>
+    <div class="hdivider"></div>
+    <div class="cols cols-3" style="flex:1;">
+      <div class="card green-border">
+        <div class="card-label">AI coding</div>
+        <ul class="bullets">
+          <li>Codex</li>
+          <li>GitHub Copilot</li>
+          <li>Opus High</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">IDE/ecossistema</div>
+        <ul class="bullets">
+          <li>VSCode</li>
+          <li>Cursor</li>
+          <li>Integrações MCP</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-label">Fluxo de equipe</div>
+        <ul class="bullets">
+          <li>GitHub (codigo e PR)</li>
+          <li>Jira (planejamento)</li>
+          <li>Grafana (observabilidade)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tip"><strong>Ponto principal:</strong> stack combinada por objetivo, nao por moda.</div>
+  </div>
+
+  <!-- SLIDE 13 -->
+  <div class="slide" id="s13">
+    <div class="bg-grid"></div>
+    <div class="slide-num">13 / 15</div>
+    <div class="tag tag-blue">Blueprint</div>
+    <h2>Stack minima recomendada</h2>
+    <div class="hdivider"></div>
+    <div class="codeblock" style="flex:1;">
+      <pre>Camada 1 (edicao e assistencia)
+- Cursor + Rules + Skills
+
+Camada 2 (web testing e diagnostico)
+- Playwright CLI + Playwright MCP + Trace/Report
+
+Camada 3 (gestao e colaboracao)
+- GitHub + Jira + observabilidade (Grafana)
+
+Camada 4 (governanca)
+- boas praticas de prompt
+- revisao humana
+- seguranca e diligencia</pre>
+    </div>
+    <div class="warn"><strong>Sem governanca:</strong> velocidade sobe, mas qualidade cai.</div>
+  </div>
+
+  <!-- SLIDE 14 -->
+  <div class="slide" id="s14">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-blue"></div>
+    <div class="slide-num">14 / 15</div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; gap:24px;">
+      <div style="font-size:72px;">🙋</div>
+      <div class="tag tag-blue">Q&A · 15 min</div>
+      <h1>Perguntas e <span class="hl">Respostas</span></h1>
+      <p class="subtitle" style="text-align:center; margin:0 auto;">Traz seu caso real e vamos mapear juntos o melhor fluxo.</p>
+      <div style="display:flex; gap:20px; margin-top:8px; flex-wrap:wrap; justify-content:center;">
+        <div style="background:rgba(79,130,155,0.08); border:1px solid rgba(79,130,155,0.25); border-radius:10px; padding:16px 24px; font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--teal);">Delegar melhor</div>
+        <div style="background:rgba(114,75,99,0.08); border:1px solid rgba(114,75,99,0.25); border-radius:10px; padding:16px 24px; font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--plum);">Automatizar com criterio</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 15 -->
+  <div class="slide" id="s15">
+    <div class="bg-grid"></div>
+    <div class="bg-glow-green"></div>
+    <div class="slide-num">15 / 15</div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center; position:relative; z-index:1;">
+      <div class="tag tag-green">Obrigado pela participacao!</div>
+      <h1>AI PARTY <span class="hl">concluida</span></h1>
+      <p class="subtitle">Proximo passo: praticar com projeto real e iterar com os 4Ds.</p>
+      <div style="margin-top:48px; display:flex; gap:24px; flex-wrap:wrap;">
+        <div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:4px;">Material</div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:14px; color:var(--teal);">ebook aluno + ebook instrutora</div>
+        </div>
+        <div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:4px;">Pratica</div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:14px; color:var(--teal);">Playwright MCP + CLI + Agents</div>
+        </div>
+        <div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:4px;">Escala de time</div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:14px; color:var(--teal);">Cursor Rules + Skills</div>
+        </div>
+      </div>
+    </div>
+    <div style="position:relative; z-index:1; align-self:flex-end; margin-top:auto;"><a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:6px; text-decoration:none; opacity:0.45;"><img src="img/icone_branco.png" alt="" style="height:18px; width:18px;" class="logo-light"><img src="img/icone_escuro.png" alt="" style="height:18px; width:18px;" class="logo-dark"><span style="font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--muted);">testingwithrenata.com</span></a></div>
+  </div>
+
+</div>
+
+<div class="nav">
+  <button onclick="prev()">← Prev</button>
+  <div class="progress-bar">
+    <div class="progress-fill" id="progress"></div>
+  </div>
+  <div class="counter" id="counter">1 / 15</div>
+  <button onclick="next()">Next →</button>
+  <button class="theme-toggle-btn"
+          aria-label="Ativar modo claro"
+          aria-pressed="false"
+          title="Modo escuro ativo — clique para claro">
+    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
+</div>
+
+<script>
+  const TOTAL = 15;
+  let current = 1;
+
+  function showSlide(n) {
+    document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+    document.getElementById('s' + n).classList.add('active');
+    document.getElementById('counter').textContent = n + ' / ' + TOTAL;
+    document.getElementById('progress').style.width = (n / TOTAL * 100) + '%';
+    current = n;
+  }
+
+  function next() { if (current < TOTAL) showSlide(current + 1); }
+  function prev() { if (current > 1) showSlide(current - 1); }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); next(); }
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp') { e.preventDefault(); prev(); }
+    if (e.key === 'Home') showSlide(1);
+    if (e.key === 'End')  showSlide(TOTAL);
+  });
+
+  let startX = 0;
+  document.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+  document.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    if (dx < -50) next();
+    if (dx > 50) prev();
+  });
+</script>
+<script src="js/theme-toggle.js"></script>
+</body>
+</html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI PARTY Workshop - Guia da Instrutora - testingwithrenata.com</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/ebook.css">
+<script>/* Anti-FOUC */
+(function(){try{var t=localStorage.getItem('twr-docs-theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');if(t==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}})();
+</script>
+<style>
+  .timeline-section {
+    background: var(--bg2);
+    padding: 80px 0;
+    border-top: 1px solid rgba(79,130,155,0.2);
+  }
+  .timeline { position: relative; padding-left: 32px; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--teal), rgba(79,130,155,0.1));
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -36px; top: 50%;
+    transform: translateY(-50%);
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--teal);
+    background: var(--bg2);
+  }
+  .timeline-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--teal);
+    min-width: 60px;
+    padding-top: 14px;
+    text-align: right;
+  }
+  .timeline-card {
+    flex: 1;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: border-color 0.2s;
+  }
+  .timeline-card:hover { border-color: rgba(79,130,155,0.4); }
+  .timeline-card.special { border-color: rgba(79,130,155,0.35); background: var(--teal-m); }
+  .timeline-card.special-end { border-color: rgba(114,75,99,0.35); background: var(--plum-m); }
+  .timeline-card-name { font-weight: 600; font-size: 15px; color: var(--text); }
+  .timeline-card-desc { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .timeline-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; font-weight: 700;
+    padding: 4px 12px; border-radius: 20px; white-space: nowrap;
+  }
+  .summary-table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+  .summary-table th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--muted); text-align: left;
+    padding: 8px 12px; border-bottom: 1px solid var(--border);
+    text-transform: uppercase; letter-spacing: 1px;
+  }
+  .summary-table td {
+    font-size: 14px; color: var(--text2);
+    padding: 10px 12px; border-bottom: 1px solid rgba(72,54,56,0.4);
+    vertical-align: top;
+  }
+  .summary-table tr:last-child td { border-bottom: none; }
+  .summary-table tr:hover td { background: rgba(79,130,155,0.04); }
+  .bar-wrap {
+    background: rgba(72,54,56,0.6);
+    border-radius: 4px; height: 6px; width: 120px;
+    display: inline-block; vertical-align: middle;
+  }
+  .bar-fill {
+    height: 100%; border-radius: 4px;
+    background: linear-gradient(to right, var(--teal), var(--plum));
+  }
+  .checklist { display: flex; flex-direction: column; gap: 10px; }
+  .check-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: var(--text2); }
+  .check-box {
+    width: 18px; height: 18px;
+    border: 2px solid rgba(79,130,155,0.5);
+    border-radius: 4px; flex-shrink: 0; margin-top: 2px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .footer {
+    background: var(--bg2);
+    padding: 48px 0;
+    border-top: 1px solid rgba(79,130,155,0.15);
+    text-align: center;
+  }
+  .footer p { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); }
+  .footer .green { color: var(--teal); }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="cover-grid"></div>
+  <div style="position:relative; z-index:1;">
+    <a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="display:inline-block; margin-bottom:24px;"><img src="img/logo_branca_menor.webp" alt="Testing with Renata" style="height:72px;" class="logo-light"><img src="img/Logo_escura.png" alt="Testing with Renata" style="height:72px;" class="logo-dark"></a>
+    <div class="cover-badge">Guia da Instrutora · AI PARTY</div>
+    <h1>AI PARTY<br><span>Workshop</span></h1>
+    <p class="cover-sub">Roteiro pedagogico com cronograma, demos e pontos de conducao para a aula de 3 horas.</p>
+    <div class="cover-meta">
+      <div class="cover-meta-item"><span class="cover-meta-label">Duracao total</span><span class="cover-meta-value">3 horas</span></div>
+      <div class="cover-meta-item"><span class="cover-meta-label">Publico</span><span class="cover-meta-value">Misto</span></div>
+      <div class="cover-meta-item"><span class="cover-meta-label">Topicos deep</span><span class="cover-meta-value">4 blocos</span></div>
+      <div class="cover-meta-item"><span class="cover-meta-label">Formato</span><span class="cover-meta-value">Teoria + Demo</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="timeline-section">
+  <div class="container">
+    <p class="section-label">Cronograma</p>
+    <h2 class="section-title">Distribuicao de Tempo · 180 minutos</h2>
+
+    <div class="full-card" style="margin-bottom: 40px;">
+      <div class="card-title">Visao geral</div>
+      <table class="summary-table">
+        <thead>
+          <tr><th>#</th><th>Bloco</th><th>Tempo</th><th>Proporcao</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span class="mono">00</span></td><td>Abertura + The 4Ds</td><td><span class="meta-chip chip-time">15 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:8%"></div></div></td></tr>
+          <tr><td><span class="mono">01</span></td><td>Assistentes + Context Management</td><td><span class="meta-chip chip-time">15 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:8%"></div></div></td></tr>
+          <tr><td><span class="mono">02</span></td><td>MCP</td><td><span class="meta-chip chip-time">10 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:6%"></div></div></td></tr>
+          <tr><td><span class="mono">03</span></td><td>Playwright MCP [DEEP]</td><td><span class="meta-chip chip-time">25 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:14%"></div></div></td></tr>
+          <tr><td><span class="mono">04</span></td><td>Playwright CLI [DEEP]</td><td><span class="meta-chip chip-time">25 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:14%"></div></div></td></tr>
+          <tr><td><span class="mono">05</span></td><td>Playwright Agents [DEEP]</td><td><span class="meta-chip chip-time">15 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:8%"></div></div></td></tr>
+          <tr><td><span class="mono">06</span></td><td>Cursor Deep Dive [DEEP]</td><td><span class="meta-chip chip-time">25 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:14%"></div></div></td></tr>
+          <tr><td><span class="mono">07</span></td><td>Claude Code</td><td><span class="meta-chip chip-time">10 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:6%"></div></div></td></tr>
+          <tr><td><span class="mono">08</span></td><td>Panorama de Ferramentas</td><td><span class="meta-chip chip-time">15 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:8%"></div></div></td></tr>
+          <tr><td><span class="mono">09</span></td><td>Q&A + Encerramento</td><td><span class="meta-chip chip-time">15 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:8%"></div></div></td></tr>
+          <tr><td><span class="mono">--</span></td><td>Buffer distribuido</td><td><span class="meta-chip chip-time">10 min</span></td><td><div class="bar-wrap"><div class="bar-fill" style="width:6%"></div></div></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item"><div class="timeline-time">00:00</div><div class="timeline-card special"><div><div class="timeline-card-name">Abertura + The 4Ds</div><div class="timeline-card-desc">Contexto, objetivo da aula e framework de fluencia em IA</div></div><span class="timeline-badge badge-green">15 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">00:15</div><div class="timeline-card"><div><div class="timeline-card-name">Assistentes + Context Management</div><div class="timeline-card-desc">Tokens, /compact, /clear e higiene de contexto</div></div><span class="timeline-badge badge-green">15 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">00:30</div><div class="timeline-card"><div><div class="timeline-card-name">MCP</div><div class="timeline-card-desc">Protocolo, arquitetura e base de integracao</div></div><span class="timeline-badge badge-green">10 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">00:40</div><div class="timeline-card"><div><div class="timeline-card-name">Playwright MCP [DEEP]</div><div class="timeline-card-desc">Fluxo snapshot -> acao -> validacao</div></div><span class="timeline-badge badge-orange">25 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">01:05</div><div class="timeline-card"><div><div class="timeline-card-name">Playwright CLI [DEEP]</div><div class="timeline-card-desc">Executar, falhar, diagnosticar, corrigir</div></div><span class="timeline-badge badge-orange">25 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">01:30</div><div class="timeline-card"><div><div class="timeline-card-name">Playwright Agents [DEEP]</div><div class="timeline-card-desc">Objetivo, criterio de sucesso e guardrails</div></div><span class="timeline-badge badge-green">15 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">01:45</div><div class="timeline-card"><div><div class="timeline-card-name">Cursor Deep Dive [DEEP]</div><div class="timeline-card-desc">Rules e Skills para escala de time</div></div><span class="timeline-badge badge-orange">25 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">02:10</div><div class="timeline-card"><div><div class="timeline-card-name">Claude Code</div><div class="timeline-card-desc">Posicionamento pratico no stack</div></div><span class="timeline-badge badge-green">10 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">02:20</div><div class="timeline-card"><div><div class="timeline-card-name">Panorama de Ferramentas</div><div class="timeline-card-desc">Codex, Copilot, VSCode, Grafana, Jira e GitHub</div></div><span class="timeline-badge badge-green">15 min</span></div></div>
+      <div class="timeline-item"><div class="timeline-time">02:35</div><div class="timeline-card special-end"><div><div class="timeline-card-name">Q&A + Encerramento</div><div class="timeline-card-desc">Duvidas, recap e proximos passos</div></div><span class="timeline-badge badge-blue">15 min</span></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="content-section">
+  <div class="container">
+    <p class="section-label">Antes da aula</p>
+    <h2 class="section-title">Checklist de Preparacao</h2>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Setup tecnico</div>
+        <div class="checklist">
+          <div class="check-item"><div class="check-box"></div>Arquivo de plano revisado: <code>temp/aula-ai-party-plan.txt</code></div>
+          <div class="check-item"><div class="check-box"></div>Slides abertos e testados: <code>temp/slides-ai-party.html</code></div>
+          <div class="check-item"><div class="check-box"></div>Demos de Playwright MCP preparadas com rota alternativa</div>
+          <div class="check-item"><div class="check-box"></div>Projeto de exemplo para CLI pronto (com 1 falha controlada)</div>
+          <div class="check-item"><div class="check-box"></div>Links de referencia testados (YouTube/GitHub/docs)</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Preparacao didatica</div>
+        <div class="checklist">
+          <div class="check-item"><div class="check-box"></div>Pergunta de aquecimento preparada para The 4Ds</div>
+          <div class="check-item"><div class="check-box"></div>2 exemplos reais de contexto ruim vs contexto bom</div>
+          <div class="check-item"><div class="check-box"></div>Mensagem-chave de cada bloco anotada em bullets</div>
+          <div class="check-item"><div class="check-box"></div>Plano B de demo por screenshot/fluxo narrado</div>
+          <div class="check-item"><div class="check-box"></div>Definir como coletar perguntas para Q&A final</div>
+        </div>
+      </div>
+    </div>
+    <div class="tip-box">
+      <div class="tip-box-title">Dica de conducao</div>
+      <p>Em publico misto, sempre explique primeiro o "por que", depois o "como". Isso mantem quem e menos tecnico engajado sem perder profundidade para quem e mais avancado.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">00-02</div>
+    <div class="section-header">
+      <div class="section-icon">🧠</div>
+      <div class="section-heading">
+        <h2>Abertura + Contexto + MCP</h2>
+        <div class="meta"><span class="meta-chip chip-time">40 minutos</span><span class="meta-chip chip-level">Fundacao</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Roteiro sugerido</div>
+        <ul>
+          <li><strong>Min 0-5:</strong> enquadramento e objetivos da aula</li>
+          <li><strong>Min 5-15:</strong> The 4Ds com exemplos de tarefas reais</li>
+          <li><strong>Min 15-30:</strong> contexto, tokens, /compact e /clear</li>
+          <li><strong>Min 30-40:</strong> MCP como ponte IA <-> ferramentas</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Perguntas de engajamento</div>
+        <ul>
+          <li>"Qual etapa do seu fluxo mais consome tempo hoje?"</li>
+          <li>"Quando a IA mais te ajuda: gerar, revisar ou investigar?"</li>
+          <li>"Qual foi seu ultimo problema de contexto em conversa longa?"</li>
+        </ul>
+      </div>
+    </div>
+    <div class="warn-box">
+      <div class="warn-box-title">Risco comum</div>
+      <p>Comecar direto em ferramenta sem base conceitual. Isso gera uso superficial e confusao em blocos deep.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">03-05</div>
+    <div class="section-header">
+      <div class="section-icon">🧪</div>
+      <div class="section-heading">
+        <h2>Playwright Deep Blocks</h2>
+        <div class="meta"><span class="meta-chip chip-time">65 minutos</span><span class="meta-chip chip-level">Demo pesada</span></div>
+      </div>
+    </div>
+
+    <div class="full-card">
+      <div class="card-title">03 · Playwright MCP (25 min)</div>
+      <ul style="margin:0;">
+        <li>Mostre fluxo: objetivo -> snapshot -> acao -> validacao</li>
+        <li>Evite automacao "cego". Sempre validar estado apos cada acao</li>
+        <li>Se der erro de seletor/ref, use como exemplo didatico de depuracao</li>
+      </ul>
+    </div>
+
+    <div class="full-card" style="margin-top:16px;">
+      <div class="card-title">04 · Playwright CLI (25 min)</div>
+      <ul style="margin:0;">
+        <li>Estruture como historia operacional: executar, falhar, entender, corrigir</li>
+        <li>Priorize comandos que o publico realmente vai usar no dia seguinte</li>
+        <li>Se sobrar tempo, compare fluxo local vs CI em alto nivel</li>
+      </ul>
+    </div>
+
+    <div class="full-card" style="margin-top:16px;">
+      <div class="card-title">05 · Playwright Agents (15 min)</div>
+      <ul style="margin:0;">
+        <li>Conectar com Delegation dos 4Ds</li>
+        <li>Explicar "criterio de sucesso" como componente obrigatorio</li>
+        <li>Mostrar 1 exemplo de objetivo bem escrito e 1 mal escrito</li>
+      </ul>
+    </div>
+
+    <div class="code-block" style="margin-top:16px;">
+      <pre>Script curto de demo CLI:
+1) npx playwright test
+2) npx playwright test -g "nome do teste"
+3) npx playwright show-report
+4) npx playwright show-trace trace.zip
+5) ajustar e reexecutar</pre>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">06-08</div>
+    <div class="section-header">
+      <div class="section-icon">⚙️</div>
+      <div class="section-heading">
+        <h2>Cursor + Claude + Panorama</h2>
+        <div class="meta"><span class="meta-chip chip-time">50 minutos</span><span class="meta-chip chip-level">Comparativo pratico</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">06 · Cursor Deep Dive (25 min)</div>
+        <ul>
+          <li>Rules: mostrar beneficio de consistencia de output</li>
+          <li>Skills: mostrar ganho em tarefas recorrentes</li>
+          <li>Fechar com recomendacao de rollout em time pequeno</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">07 · Claude Code (10 min)</div>
+        <ul>
+          <li>Posicione sem comparacao dogmatica</li>
+          <li>Mostre casos bons de uso e limites</li>
+          <li>Conectar com Discernment + Diligence</li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">08 · Panorama (15 min)</div>
+        <ul>
+          <li>Codex, VSCode, Copilot, Opus High (visao geral)</li>
+          <li>GitHub + Jira + Grafana como parte do fluxo real</li>
+          <li>Mensagem: stack por objetivo, nao por hype</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Se faltar tempo</div>
+        <ul>
+          <li>Reduzir bloco 08 para 8 min</li>
+          <li>Levar comparativos detalhados para material async</li>
+          <li>Preservar bloco 06 completo (mais valor pratico)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tip-box">
+      <div class="tip-box-title">Transicao para Q&A</div>
+      <p>Feche com uma frase de consolidacao: "Agora voces tem base para decidir melhor, pedir melhor e validar melhor no uso de IA no trabalho real."</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="content-section">
+  <div class="container">
+    <p class="section-label">Encerramento</p>
+    <h2 class="section-title">Q&A, Recap e Proximos Passos</h2>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">09 · Estrutura recomendada (15 min)</div>
+        <ul>
+          <li><strong>10 min:</strong> perguntas abertas do publico</li>
+          <li><strong>3 min:</strong> recap dos 5 principais aprendizados</li>
+          <li><strong>2 min:</strong> call to action com exercicio pratico</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Recap final (script de 60s)</div>
+        <ul>
+          <li>Use The 4Ds para guiar decisoes com IA</li>
+          <li>Gerencie contexto para manter qualidade</li>
+          <li>Use MCP para conectar IA a ferramentas reais</li>
+          <li>Domine fluxo Playwright MCP/CLI/Agents</li>
+          <li>Escale com Cursor Rules/Skills e validacao humana</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info-box">
+      <div class="info-box-title">Pos-aula</div>
+      <p>Compartilhe os tres arquivos com a turma: slides, ebook do aluno e links de referencia. Sugira um mini-desafio de 30 minutos para consolidar o aprendizado no mesmo dia.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p class="green" style="font-size:20px; margin-bottom:8px;">AI PARTY</p>
+    <p>Guia da Instrutora</p>
+    <p style="margin-top:8px;"><a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="color:var(--teal); text-decoration:none;">testingwithrenata.com</a> · 3h · roteiro hands-on</p>
+  </div>
+</footer>
+
+<button class="theme-toggle-btn theme-toggle-btn--fixed"
+        aria-label="Ativar modo claro"
+        aria-pressed="false"
+        title="Modo escuro ativo — clique para claro">
+  <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+    <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+  </svg>
+  <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+  </svg>
+</button>
+
+<script src="js/theme-toggle.js"></script>
+</body>
+</html>

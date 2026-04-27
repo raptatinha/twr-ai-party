@@ -1,0 +1,4247 @@
+WEBVTT
+
+0da9be75-4983-4785-a5f1-e39f66316319/981-0
+00:00:11.507 --> 00:00:14.528
+<v Rui Barbosa>Então,
+ele não só vai te sugerir e fazer o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/981-1
+00:00:14.528 --> 00:00:17.970
+<v Rui Barbosa>código,
+mas ele pode também executar e verificar</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/981-2
+00:00:17.970 --> 00:00:22.184
+<v Rui Barbosa>se passou automaticamente.
+Essa é a ideia ali do do Healer.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/981-3
+00:00:22.184 --> 00:00:25.907
+<v Rui Barbosa>É realmente corrigir baseado num erro que
+aconteceu.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/980-0
+00:00:22.747 --> 00:00:23.107
+<v Renata Andrade>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/984-0
+00:00:26.947 --> 00:00:30.489
+<v Renata Andrade>Entendi.
+Então ele de fato faz uma investigação</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/984-1
+00:00:30.489 --> 00:00:35.434
+<v Renata Andrade>assim para entender se foi um livro da
+aplicação ou não. É, mas é,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/982-0
+00:00:31.107 --> 00:00:31.987
+<v Rui Barbosa>Exact.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/983-0
+00:00:33.827 --> 00:00:34.467
+<v Rui Barbosa>Nishi</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/984-2
+00:00:35.434 --> 00:00:38.828
+<v Renata Andrade>eu entendi o que você falou,
+mas ainda assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/984-3
+00:00:38.828 --> 00:00:44.067
+<v Renata Andrade>de todas as experiências que eu tive,
+sempre a fixo foi fixar o teste.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/985-0
+00:00:44.307 --> 00:00:48.519
+<v Renata Andrade>Foi corrigir o teste, sabe?
+Nunca teve um bug na aplicação. É,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/985-1
+00:00:48.519 --> 00:00:52.797
+<v Renata Andrade>mas enfim, eu de novo,
+eu tive pouquíssimas experiências. E aí,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/985-2
+00:00:52.797 --> 00:00:57.676
+<v Renata Andrade>obrigado por ter mencionado, Rui.
+Isso é uma coisa que realmente a gente</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/985-3
+00:00:57.676 --> 00:00:59.347
+<v Renata Andrade>usa bastante. Aí é esses.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/986-0
+00:00:59.747 --> 00:01:05.168
+<v Renata Andrade>Testes Aqui foram escritos praticamente
+manualmente né não foi nem com a gente</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/986-1
+00:01:05.168 --> 00:01:10.795
+<v Renata Andrade>nem com skill nem com nada já são testes
+mais antigos mas ainda assim hoje em dia</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/986-2
+00:01:10.795 --> 00:01:16.147
+<v Renata Andrade>eu utilizo as skills como eu falei eu
+reviso muito eu sou muito específica no</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/987-0
+00:01:16.187 --> 00:01:20.608
+<v Renata Andrade>Plano e depois eu executo mais do que
+usar esses agentes aqui.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/987-1
+00:01:20.608 --> 00:01:24.747
+<v Renata Andrade>E quando dá um erro,
+geralmente esse copy prompt aqui, Oh,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/987-2
+00:01:24.747 --> 00:01:29.027
+<v Renata Andrade>e colar lá no contexto e falar,
+está dando um erro, é check.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/988-0
+00:01:30.307 --> 00:01:35.357
+<v Renata Andrade>De following alguma coisa assim,
+following issue e aí você cola aqui é sem</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/988-1
+00:01:35.357 --> 00:01:40.677
+<v Renata Andrade>ser generation, não é? Pode ser o agente,
+por exemplo. E aí você dá um buscar.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/988-2
+00:01:40.677 --> 00:01:45.861
+<v Renata Andrade>Ele geralmente te dá uma resposta bem
+legal aqui do que realmente pode ser o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/988-3
+00:01:45.861 --> 00:01:46.467
+<v Renata Andrade>problema.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/989-0
+00:01:46.867 --> 00:01:50.744
+<v Renata Andrade>É isso realmente é uma coisa que a gente
+está utilizando.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/989-1
+00:01:50.744 --> 00:01:56.024
+<v Renata Andrade>Inclusive a gente criou uma skill que faz
+esse copy prompt aqui automático e a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/989-2
+00:01:56.024 --> 00:02:00.970
+<v Renata Andrade>gente meio que só reutiliza ela, sabe?
+É já dentro de um contexto, não é?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/989-3
+00:02:00.970 --> 00:02:02.707
+<v Renata Andrade>Então assim, realmente eu.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/991-0
+00:02:02.947 --> 00:02:07.524
+<v Renata Andrade>Ono pra gente esse copy prompt aqui está
+sendo uma das maiores ajudas para</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/991-1
+00:02:07.524 --> 00:02:11.673
+<v Renata Andrade>identificar e resolver erro,
+enquanto que do Healer eu pessoalmente</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/991-2
+00:02:11.673 --> 00:02:15.090
+<v Renata Andrade>ainda não vi muita efetividade nisso,
+então é, não sei,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/991-3
+00:02:15.090 --> 00:02:18.507
+<v Renata Andrade>talvez pode ser a forma com que eu estou
+usando também.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/992-0
+00:02:18.867 --> 00:02:22.147
+<v Renata Andrade>Que não está muito legal, mas é isso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/993-0
+00:02:23.187 --> 00:02:25.880
+<v Rui Barbosa>Tem um caso que sempre acontece,
+por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/993-1
+00:02:25.880 --> 00:02:30.036
+<v Rui Barbosa>aconteceu um problema por conta da massa
+de dados, da massa de testes.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/993-2
+00:02:30.036 --> 00:02:34.368
+<v Rui Barbosa>É natural muitas vezes a gente não ter
+ali um ambiente muito controlado e</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/993-3
+00:02:34.368 --> 00:02:38.114
+<v Rui Barbosa>acontece esse problema.
+Ele fica tentando resolver o problema e</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/993-4
+00:02:38.114 --> 00:02:39.987
+<v Rui Barbosa>não levando em consideração que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/995-0
+00:02:40.067 --> 00:02:44.690
+<v Rui Barbosa>Pode ser a massa de dados especificamente,
+ele tenta encontrar alternativas para</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/995-1
+00:02:44.690 --> 00:02:49.027
+<v Rui Barbosa>contornar, sendo que, na verdade,
+você só está com a massa de dados errada.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/996-0
+00:02:50.147 --> 00:02:54.391
+<v Renata Andrade>Isso é, enfim, mas querendo ou não, gente,
+é de novo, é,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/996-1
+00:02:54.391 --> 00:02:59.826
+<v Renata Andrade>a gente não deve esperar que a
+inteligência artificial vai fazer 100% do</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/996-2
+00:02:59.826 --> 00:03:03.400
+<v Renata Andrade>trabalho.
+Eu acho que tem muita gente ainda com</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/996-3
+00:03:03.400 --> 00:03:07.867
+<v Renata Andrade>essa cabeça. Nossa,
+eu vou só falar aqui é outro dia um os.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/997-0
+00:03:07.987 --> 00:03:11.807
+<v Renata Andrade>Um dos vice-presidente do nosso org falou
+assim, não,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/997-1
+00:03:11.807 --> 00:03:17.112
+<v Renata Andrade>o que a gente quer que vocês falem lá,
+vocês falam lá no chat, façam isso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/997-2
+00:03:17.112 --> 00:03:21.002
+<v Renata Andrade>E aí o chat fica vibe coding,
+você vai andar de barco,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/997-3
+00:03:21.002 --> 00:03:25.812
+<v Renata Andrade>quando você volta, tá pronto.
+Eu falei assim, que mundo que é esse?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/997-4
+00:03:25.812 --> 00:03:26.307
+<v Renata Andrade>Porque.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/998-0
+00:03:26.787 --> 00:03:30.072
+<v Renata Andrade>Na minha realidade, assim,
+está muito longe.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/998-1
+00:03:30.072 --> 00:03:35.620
+<v Renata Andrade>Eu preciso interagir demais com o chat.
+Eu preciso ser muito minuciosa para</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/998-2
+00:03:35.620 --> 00:03:39.197
+<v Renata Andrade>conseguir assim, é mais rápido.
+Mas não é assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/998-3
+00:03:39.197 --> 00:03:42.627
+<v Renata Andrade>mágica de deixa ele lá fazendo e vou
+embora e.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/999-0
+00:03:43.027 --> 00:03:47.831
+<v Renata Andrade>e quando eu volto tá pronto não muito
+pelo contrário e até tem muitas pessoas</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/999-1
+00:03:47.831 --> 00:03:52.327
+<v Renata Andrade>que gostam de ativar o não pedir
+permissão né Eu gosto de deixar o pedir</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/999-2
+00:03:52.327 --> 00:03:57.254
+<v Renata Andrade>permissão porque eu gosto de saber cada
+coisa que ele tá falando fazendo porque</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/999-3
+00:03:57.254 --> 00:04:02.243
+<v Renata Andrade>cada vez assim diariamente eu encontro
+tarefas que estão indo por um caminho que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/999-4
+00:04:02.243 --> 00:04:02.427
+<v Renata Andrade>não</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1001-0
+00:04:02.507 --> 00:04:05.167
+<v Renata Andrade>Não é o caminho que eu gostaria, sabe?
+Então assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1001-1
+00:04:05.167 --> 00:04:08.390
+<v Renata Andrade>para mim ainda é bem importante manter as
+pedir permissões lá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1001-2
+00:04:08.390 --> 00:04:11.510
+<v Renata Andrade>Claro que tem uma tarefa ou outra que às
+vezes, por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1001-3
+00:04:11.510 --> 00:04:13.966
+<v Renata Andrade>quando eu estava desenvolvendo essa
+plataforma,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1001-4
+00:04:13.966 --> 00:04:17.751
+<v Renata Andrade>eu não tenho muita experiência,
+eu meio que anão essa funcionalidade aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1001-5
+00:04:17.751 --> 00:04:18.467
+<v Renata Andrade>eu vou deixar.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1002-0
+00:04:18.707 --> 00:04:24.071
+<v Renata Andrade>E outra coisa também é diminuir muito a
+expectativa. Eu não ouvi ele falar,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1002-1
+00:04:24.071 --> 00:04:27.389
+<v Renata Andrade>crie um sistema assim, assim, assado.
+Eu falo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1002-2
+00:04:27.389 --> 00:04:32.541
+<v Renata Andrade>crie uma funcionalidade exportar para CVS
+dentro dessa página, CSV, CSV.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1002-3
+00:04:32.541 --> 00:04:38.187
+<v Renata Andrade>Então assim, eu tento também diminuir,
+sabe, as tarefas, não passar muita coisa</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1003-0
+00:04:38.187 --> 00:04:44.740
+<v Renata Andrade>ao mesmo tempo para que o modelo consiga
+realmente é fazer o que o trabalho né.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1003-1
+00:04:44.740 --> 00:04:50.474
+<v Renata Andrade>E aí gente olha só o resultado aqui ó
+mostrou bem legal e se a visual</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1003-2
+00:04:50.474 --> 00:04:54.078
+<v Renata Andrade>regression failure com a root cause,
+enfim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1003-3
+00:04:54.078 --> 00:04:57.027
+<v Renata Andrade>não sei se está verdadeiro tá porque</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1004-0
+00:04:57.427 --> 00:05:01.581
+<v Renata Andrade>Eu copiei um contexto completamente
+diferente do contexto que a gente está</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1004-1
+00:05:01.581 --> 00:05:04.683
+<v Renata Andrade>usando aqui.
+Então isso também é uma coisa recomendada.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1004-2
+00:05:04.683 --> 00:05:08.615
+<v Renata Andrade>É, eu não costumo, por exemplo,
+a esse erro que eu copiei aqui é de um</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1004-3
+00:05:08.615 --> 00:05:11.827
+<v Renata Andrade>projeto do meu projeto da Adobe.
+E aqui a gente está num.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1005-0
+00:05:12.147 --> 00:05:16.271
+<v Renata Andrade>No meu projeto da plataforma de estudos,
+então assim é,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1005-1
+00:05:16.271 --> 00:05:22.014
+<v Renata Andrade>os resultados costumam ser muito ruins
+quando a gente tem esse tipo de coisa,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1005-2
+00:05:22.014 --> 00:05:26.947
+<v Renata Andrade>então idealmente a gente é mantém os
+contextos próximos assim, se.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1006-0
+00:05:27.147 --> 00:05:30.613
+<v Renata Andrade>Se você vai copiar um prompt e vai
+abrindo um chat limpo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1006-1
+00:05:30.613 --> 00:05:34.318
+<v Renata Andrade>então abre um projeto limpo do visual
+code e cola lá no chat.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1006-2
+00:05:34.318 --> 00:05:37.844
+<v Renata Andrade>Não use isso em outros projetos que não
+tenham nada a ver,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1006-3
+00:05:37.844 --> 00:05:41.907
+<v Renata Andrade>porque realmente cria uma confusão mental
+aí nos nossos modelos. É.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1007-0
+00:05:43.107 --> 00:05:46.847
+<v Renata Andrade>E é isso gente,
+alguém quer fazer mais alguma pergunta ou</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1007-1
+00:05:46.847 --> 00:05:50.199
+<v Renata Andrade>comentário?
+Eu sei que não conseguimos cobrir tudo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1007-2
+00:05:50.199 --> 00:05:52.971
+<v Renata Andrade>tudo,
+mas eu acho que foi bem interessante</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1007-3
+00:05:52.971 --> 00:05:54.067
+<v Renata Andrade>assim nosso papo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1008-0
+00:05:58.067 --> 00:06:01.681
+<v Renata Andrade>Só de curiosidade,
+não sei se você precisa fazer ou se sou</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1008-1
+00:06:01.681 --> 00:06:04.926
+<v Renata Andrade>empresária,
+mas como você mediria a produtividade da</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1008-2
+00:06:04.926 --> 00:06:09.458
+<v Renata Andrade>IA? Não fizemos ainda, Letícia,
+e até uma a minha chefe Letícia perguntou</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1008-3
+00:06:09.458 --> 00:06:11.847
+<v Renata Andrade>assim,
+como que a gente está medindo a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1008-4
+00:06:11.847 --> 00:06:15.827
+<v Renata Andrade>produtividade da IA? É,
+não tem uma métrica muito precisa, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1010-0
+00:06:15.987 --> 00:06:22.096
+<v Renata Andrade>É, eu percebo que está sendo mais rápido,
+mas eu não consigo ainda mensurar quão</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1010-1
+00:06:22.096 --> 00:06:25.866
+<v Renata Andrade>mais rápido.
+Minha empresa não está fazendo isso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1010-2
+00:06:25.866 --> 00:06:31.069
+<v Renata Andrade>É hoje a gente tem um dos motivos.
+É porque a gente ainda está muito</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1010-3
+00:06:31.069 --> 00:06:34.387
+<v Renata Andrade>explorando as coisas,
+então eles falam que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1011-0
+00:06:34.707 --> 00:06:39.115
+<v Renata Andrade>Muitos do às vezes do do trabalho é
+explorar, eu vou usar esse modelo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1011-1
+00:06:39.115 --> 00:06:43.149
+<v Renata Andrade>eu vou usar aquele modelo.
+Então às vezes você repete a tarefa 3</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1011-2
+00:06:43.149 --> 00:06:47.371
+<v Renata Andrade>vezes em modelos diferentes,
+porque o que a gente quer é muito mais</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1011-3
+00:06:47.371 --> 00:06:49.667
+<v Renata Andrade>ter um resultado satisfatório do que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1012-0
+00:06:49.987 --> 00:06:55.858
+<v Renata Andrade>Tem um tempo no tempo satisfatório.
+Então na Adobe hoje, na minha Org,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1012-1
+00:06:55.858 --> 00:07:00.903
+<v Renata Andrade>a gente não está muito preocupado em
+produtividade. É assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1012-2
+00:07:00.903 --> 00:07:07.187
+<v Renata Andrade>salvos algumas pessoas assim pontuais,
+mas a gente está mais preocupado em.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1013-0
+00:07:07.347 --> 00:07:10.230
+<v Renata Andrade>Em qualidade mesmo assim,
+sabe onde que isso está?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1013-1
+00:07:10.230 --> 00:07:13.339
+<v Renata Andrade>Isso está funcionando de verdade,
+está valendo a pena.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1013-2
+00:07:13.339 --> 00:07:17.917
+<v Renata Andrade>E eu acho que é por isso que a gente tem
+tantas skills aqui no nosso repositório</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1013-3
+00:07:17.917 --> 00:07:22.383
+<v Renata Andrade>que hoje eu inclusive fui ver lá e falei,
+gente, como assim tanto de skill? É,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1013-4
+00:07:22.383 --> 00:07:24.587
+<v Renata Andrade>a gente viu aqui mais cedo, não é? Mas.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1014-0
+00:07:24.707 --> 00:07:24.907
+<v Renata Andrade>No.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1015-0
+00:07:27.027 --> 00:07:30.560
+<v Renata Andrade>Aqui, por exemplo, tem muita skill, sabe?
+É isso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1015-1
+00:07:30.560 --> 00:07:33.810
+<v Renata Andrade>São pessoas criando skills diariamente
+assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1015-2
+00:07:33.810 --> 00:07:38.897
+<v Renata Andrade>e aí cada uma está configurando para o
+seu estilo, para o seu contexto,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1015-3
+00:07:38.897 --> 00:07:42.147
+<v Renata Andrade>porque às vezes, por exemplo,
+a eu preciso é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1016-0
+00:07:42.267 --> 00:07:45.629
+<v Renata Andrade>Por exemplo,
+fazer um desenvolvimento de uma tarefa</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1016-1
+00:07:45.629 --> 00:07:49.442
+<v Renata Andrade>dentro do meu time,
+que é completamente de desenvolver uma</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1016-2
+00:07:49.442 --> 00:07:53.062
+<v Renata Andrade>tarefa diferente,
+de desenvolver uma tarefa no time do,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1016-3
+00:07:53.062 --> 00:07:57.587
+<v Renata Andrade>sei lá, Edu, por exemplo, sabe?
+Então eles têm aqui, eu tinha aquele.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1017-0
+00:07:57.747 --> 00:08:01.767
+<v Renata Andrade>Micro agents ali que criou, pegou o Jira,
+gerou um documento,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1017-1
+00:08:01.767 --> 00:08:05.981
+<v Renata Andrade>fez a implementação e tudo mais.
+O Edu tem outros aqui ó que são</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1017-2
+00:08:05.981 --> 00:08:11.427
+<v Renata Andrade>diferentes, então assim é para os times,
+né? As dinâmicas dos times são diferentes,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1017-3
+00:08:11.427 --> 00:08:13.307
+<v Renata Andrade>tal, acho que tá muito muito.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1018-0
+00:08:13.507 --> 00:08:18.313
+<v Renata Andrade>Todo mundo bem preocupado em fazer algo
+que seja útil de verdade, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1018-1
+00:08:18.313 --> 00:08:22.719
+<v Renata Andrade>Mais do que hype assim.
+Mas em algum momento a gente vai precisar</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1018-2
+00:08:22.719 --> 00:08:24.387
+<v Renata Andrade>começar a mensurar mesmo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1019-0
+00:08:25.667 --> 00:08:29.038
+<v Renata Andrade>Obrigada, Jéssica.
+Que bom que vocês gostaram. É,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1019-1
+00:08:29.038 --> 00:08:32.947
+<v Renata Andrade>mas alguém quer fazer algum comentário ou
+fazer pergunta?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1020-0
+00:08:36.867 --> 00:08:39.027
+<v Renata Andrade>Show pessoal, pode?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1022-0
+00:08:37.427 --> 00:08:42.032
+<v Rui Barbosa>Eu vou te vou te parabenizar Re,
+parabenizar, ficou muito bacana.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1021-0
+00:08:40.707 --> 00:08:41.507
+<v Renata Andrade>Oh, obrigada!</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1022-1
+00:08:42.032 --> 00:08:46.498
+<v Rui Barbosa>Tive vários insights aqui.
+Essa questão é própria dos skills de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1022-2
+00:08:46.498 --> 00:08:51.940
+<v Rui Barbosa>compartilhamento do skill. Eu acho muito,
+muito interessante como vocês estão</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1022-3
+00:08:51.940 --> 00:08:52.707
+<v Rui Barbosa>utilizando.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1023-0
+00:08:53.027 --> 00:08:56.986
+<v Rui Barbosa>E eu trabalho numa multinacional também,
+e saber, por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1023-1
+00:08:56.986 --> 00:09:00.316
+<v Rui Barbosa>que a Adobe tem esse approach de ter as
+ferramentas,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1023-2
+00:09:00.316 --> 00:09:04.903
+<v Rui Barbosa>experimentar e não ter essa cobrança tão
+grande, talvez com performance,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1023-3
+00:09:04.903 --> 00:09:09.427
+<v Rui Barbosa>que realmente é difícil a gente medir.
+Você tem que ter um baseline bem</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1024-0
+00:09:09.707 --> 00:09:13.261
+<v Rui Barbosa>Bem definida para você conseguir
+comprovar isso, né?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1024-1
+00:09:13.261 --> 00:09:18.492
+<v Rui Barbosa>E foi bem bacana os insights que você
+trouxe aqui, como está sendo utilizado,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1024-2
+00:09:18.492 --> 00:09:23.320
+<v Rui Barbosa>como é possível realmente integrar todo o
+ciclo de desenvolvimento ali,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1024-3
+00:09:23.320 --> 00:09:25.667
+<v Rui Barbosa>desde a de quem escreve a história.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1025-0
+00:09:25.787 --> 00:09:28.755
+<v Rui Barbosa>Achei muito, muito bacana.
+Parabéns pela iniciativa.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1029-0
+00:09:28.227 --> 00:09:31.657
+<v Renata Andrade>Asano, valeu,
+obrigada pelas contribuições. Ah,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1025-1
+00:09:28.755 --> 00:09:30.547
+<v Rui Barbosa>Eu estou esperando a próxima já.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1029-1
+00:09:31.657 --> 00:09:36.088
+<v Renata Andrade>vamos fazer a Eyay Party 2.
+Aí a gente vai trazer uns drinks,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1026-0
+00:09:32.147 --> 00:09:32.507
+<v Rui Barbosa>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1029-2
+00:09:36.088 --> 00:09:40.733
+<v Renata Andrade>umas bebidinhas, umas comidinhas,
+mas que bom, que bom. Fechado,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1027-0
+00:09:37.507 --> 00:09:37.747
+<v Rui Barbosa>Items.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1028-0
+00:09:39.667 --> 00:09:39.907
+<v Rui Barbosa>O.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1029-3
+00:09:40.733 --> 00:09:43.877
+<v Renata Andrade>então obrigada viu Rui pelas
+contribuições,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1029-4
+00:09:43.877 --> 00:09:47.307
+<v Renata Andrade>obrigada a todo mundo mesmo gente,
+é muito para</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1031-0
+00:09:47.347 --> 00:09:51.933
+<v Renata Andrade>A mim também, que está aqui apresentando,
+é muito bom quando vocês participam,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1031-1
+00:09:51.933 --> 00:09:54.951
+<v Renata Andrade>porque eu acho que é bem sobre a troca
+mesmo, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1031-2
+00:09:54.951 --> 00:09:58.201
+<v Renata Andrade>E acho que as perguntas ajudam a gente a
+pensar também,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1031-3
+00:09:58.201 --> 00:10:01.335
+<v Renata Andrade>às vezes num cenário que a gente não
+estava pensando,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1031-4
+00:10:01.335 --> 00:10:03.947
+<v Renata Andrade>e eu acho que nesse momento a gente
+precisa.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1032-0
+00:10:04.067 --> 00:10:09.527
+<v Renata Andrade>disso né se apoiar tá junto e tal e valeu
+mesmo a gente continua aí a sobre o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1032-1
+00:10:09.527 --> 00:10:15.057
+<v Renata Andrade>grafana eu vou falar rapidinho sobre o
+grafana quem quiser ficar fica quem não</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1032-2
+00:10:15.057 --> 00:10:20.307
+<v Renata Andrade>quiser pode ver a gravação depois mas é
+basicamente o uso de skills também</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1035-0
+00:10:20.707 --> 00:10:23.856
+<v Renata Andrade>É,
+deixa eu pegar meu projeto aqui do</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1035-1
+00:10:23.856 --> 00:10:29.987
+<v Renata Andrade>grafana e vou mostrar para vocês.
+Está uma bagunça, está? Mas a gente vê.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1036-0
+00:10:32.147 --> 00:10:32.387
+<v Renata Andrade>and</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1037-0
+00:10:33.867 --> 00:10:36.294
+<v Renata Andrade>Obrigada gente.
+Quem precisar sair sentam-se à vontade.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1037-1
+00:10:36.294 --> 00:10:38.547
+<v Renata Andrade>Eu sei que a gente já passou um pouquinho
+do tempo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1040-0
+00:10:39.667 --> 00:10:49.186
+<v Renata Andrade>Bom, é grafando, deixa eu, AI Jesus,
+as tokens, depois eu tiro do da gravação,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1040-1
+00:10:49.186 --> 00:10:49.427
+<v Renata Andrade>é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1044-0
+00:10:51.227 --> 00:10:58.089
+<v Renata Andrade>O que eu fiz? Deixa eu relembrar aqui, tá?
+A gente, eu tenho uma skill do clickhouse.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1044-1
+00:10:58.089 --> 00:11:04.153
+<v Renata Andrade>Dentro do nosso grafana a gente utiliza
+muito o clickhouse e a gente tem os</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1044-2
+00:11:04.153 --> 00:11:06.227
+<v Renata Andrade>dashboards, todos em JSON.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1045-0
+00:11:06.467 --> 00:11:10.054
+<v Renata Andrade>Num repositório,
+de forma que a gente faz num repositório,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1045-1
+00:11:10.054 --> 00:11:13.336
+<v Renata Andrade>faz o deploy,
+o time de observability que configurou,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1045-2
+00:11:13.336 --> 00:11:18.138
+<v Renata Andrade>então eu não sei detalhes de como que
+eles estão fazendo o deploy e tudo mais,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1045-3
+00:11:18.138 --> 00:11:21.907
+<v Renata Andrade>mas talvez se a gente olhar aqui,
+a gente consegue descobrir.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1046-0
+00:11:22.707 --> 00:11:27.242
+<v Renata Andrade>Mas enfim,
+eu tenho uma skill que é uma skill de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1046-1
+00:11:27.242 --> 00:11:34.554
+<v Renata Andrade>deixa eu ver que que ela é. Ela acessa,
+tem pesquisa no banco de dados, enfim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1046-2
+00:11:34.554 --> 00:11:36.867
+<v Renata Andrade>mas tudo via click house.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1048-0
+00:11:37.267 --> 00:11:42.087
+<v Renata Andrade>Tem algumas funcionalidades que são via
+API, outras são via MCP,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1048-1
+00:11:42.087 --> 00:11:47.055
+<v Renata Andrade>outras são nem sei como,
+porque eu literalmente gerei essas skills</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1048-2
+00:11:47.055 --> 00:11:52.245
+<v Renata Andrade>aqui puramente no no chat,
+então eu vou aumentar um pouquinho a tela,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1048-3
+00:11:52.245 --> 00:11:52.467
+<v Renata Andrade>né?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1049-0
+00:11:52.787 --> 00:11:58.969
+<v Renata Andrade>Então eu não passei nenhum comando assim,
+muito detalhado de vou só trocar aqui a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1049-1
+00:11:58.969 --> 00:12:04.246
+<v Renata Andrade>tela muito detalhado de cria uma skill
+assim, assim, assada, blá blá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1049-2
+00:12:04.246 --> 00:12:08.467
+<v Renata Andrade>Eu literalmente falei,
+preciso de uma skill que acessa.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1051-0
+00:12:08.707 --> 00:12:14.937
+<v Renata Andrade>O click House é blá blá blá.
+Preciso de acessar essa base de dados.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1051-1
+00:12:14.937 --> 00:12:20.067
+<v Renata Andrade>A gente tem algumas tabelas aqui. É,
+eu coloquei algum.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1052-0
+00:12:19.267 --> 00:12:22.747
+<v Rui Barbosa>Okay, I'll click house here.
+I don't just não conheço.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1055-0
+00:12:21.347 --> 00:12:26.252
+<v Renata Andrade>Clickhouse é um banco de dados otimizado
+para dashboards,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1055-1
+00:12:26.252 --> 00:12:30.987
+<v Renata Andrade>então ele consegue fazer operações muito
+rápidas e tal.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1053-0
+00:12:28.027 --> 00:12:28.467
+<v Rui Barbosa>I think.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1055-2
+00:12:30.987 --> 00:12:34.707
+<v Renata Andrade>Se não me engano ele é um NoSQL
+Clickhouse.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1057-0
+00:12:42.227 --> 00:12:46.076
+<v Renata Andrade>Fast open source column-oriented database
+management. É,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1057-1
+00:12:46.076 --> 00:12:51.749
+<v Renata Andrade>então ele é orientado a columns. É, enfim,
+então ele é quando a gente está gravando</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1056-0
+00:12:46.707 --> 00:12:47.267
+<v Rui Barbosa>Well, yes.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1057-2
+00:12:51.749 --> 00:12:57.016
+<v Renata Andrade>dados lá para consumir isso via browser,
+porque imagina né, você grava muito,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1057-3
+00:12:57.016 --> 00:12:59.987
+<v Renata Andrade>muito,
+muito dado para gerar um gráfico né.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1058-0
+00:13:00.267 --> 00:13:03.027
+<v Renata Andrade>Então eu tenho,
+estou até com um gráfico aberto aqui.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1059-0
+00:13:04.067 --> 00:13:07.889
+<v Renata Andrade>É, esse aqui eu gerei via, via,
+via skill e foi assim, segundos.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1059-1
+00:13:07.889 --> 00:13:11.593
+<v Renata Andrade>Depois que eu gerei a minha skill,
+que conecta no Click House,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1059-2
+00:13:11.593 --> 00:13:16.002
+<v Renata Andrade>foi muito rápido gerar qualquer tipo de
+dashboard que eu precisava, tá? É,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1059-3
+00:13:16.002 --> 00:13:20.529
+<v Renata Andrade>eu já vou falar sobre o dashboard aqui,
+mas deixa eu falar um pouquinho mais</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1059-4
+00:13:20.529 --> 00:13:21.587
+<v Renata Andrade>sobre a skill, né?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1060-0
+00:13:21.867 --> 00:13:25.284
+<v Renata Andrade>Então, beleza,
+a gente tem um banco de dados lá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1060-1
+00:13:25.284 --> 00:13:30.863
+<v Renata Andrade>Eu sabia da estrutura do banco de dados,
+inclusive eu sabia assim, por alto, é,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1060-2
+00:13:30.863 --> 00:13:32.467
+<v Renata Andrade>eu pedi para ele gerar.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1061-0
+00:13:33.507 --> 00:13:38.990
+<v Renata Andrade>Eu tenho que ver onde é que está isso,
+porque já tem um tempinho que eu não mexo</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1061-1
+00:13:38.990 --> 00:13:42.307
+<v Renata Andrade>nisso, mas é,
+eu pedi para ele gerar diagrama de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1061-2
+00:13:42.307 --> 00:13:44.947
+<v Renata Andrade>entidade de relacionamento das tabelas.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1062-0
+00:13:47.067 --> 00:13:47.347
+<v Renata Andrade>Um</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1063-0
+00:13:54.067 --> 00:13:58.256
+<v Renata Andrade>Aqui,
+talvez deixa eu abrace the key review and</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1063-1
+00:13:58.256 --> 00:13:58.867
+<v Renata Andrade>finder.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1064-0
+00:14:02.027 --> 00:14:06.705
+<v Renata Andrade>Bom, esse é um exemplo, tá?
+Eu sabia que tinha um data source assim</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1064-1
+00:14:06.705 --> 00:14:12.138
+<v Renata Andrade>que chamava RS Engiflow, por exemplo,
+mas eu não sabia o que que tinha em cada</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1064-2
+00:14:12.138 --> 00:14:16.403
+<v Renata Andrade>tabela. E aí antes da AI,
+eu ia lá no Grafana fazer um select</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1064-3
+00:14:16.403 --> 00:14:20.667
+<v Renata Andrade>asterisco all na tabela,
+ia lá no explorar para ver o que que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1065-0
+00:14:20.667 --> 00:14:25.370
+<v Renata Andrade>tinha e tal e era time consuming né eu
+gastava muito tempo fazendo isso para</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1065-1
+00:14:25.370 --> 00:14:30.256
+<v Renata Andrade>cada tabela até tem um lugar lá que você
+consegue ver o mapa mas é meio ruim no</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1065-2
+00:14:30.256 --> 00:14:35.326
+<v Renata Andrade>grafana e tal então eu literalmente falei
+olha conecta aí com o click house e gera</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1065-3
+00:14:35.326 --> 00:14:36.547
+<v Renata Andrade>um diagrama para mim</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1066-0
+00:14:36.627 --> 00:14:41.362
+<v Renata Andrade>Então ele gerou aqui com todas as colunas,
+os tipos das colunas. Então fica a dica.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1066-1
+00:14:41.362 --> 00:14:46.041
+<v Renata Andrade>Às vezes você tiver trabalhando num banco
+de dados novo que você não sabe como que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1066-2
+00:14:46.041 --> 00:14:49.254
+<v Renata Andrade>ele se relaciona,
+que tipo de dado que tem disponível no</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1066-3
+00:14:49.254 --> 00:14:52.467
+<v Renata Andrade>banco de dados,
+até para você fazer um tipo de consulta.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1067-0
+00:14:52.947 --> 00:14:55.335
+<v Renata Andrade>É,
+você pode criar uma skill que vai</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1067-1
+00:14:55.335 --> 00:15:00.564
+<v Renata Andrade>conectar lá no banco de dados e você pede
+para ele gerar um diagrama entidade de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1067-2
+00:15:00.564 --> 00:15:04.953
+<v Renata Andrade>relacionamento simples assim.
+E isso aqui foi literalmente simples.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1067-3
+00:15:04.953 --> 00:15:08.374
+<v Renata Andrade>Eu não pedi mais nada assim.
+Dúvida alguém, Liliana,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1067-4
+00:15:08.374 --> 00:15:09.987
+<v Renata Andrade>está com a mão levantada?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1068-0
+00:15:14.387 --> 00:15:18.446
+<v Renata Andrade>Beleza, se quiser pode falar, beleza.
+Então gerou aqui para mim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1068-1
+00:15:18.446 --> 00:15:21.568
+<v Renata Andrade>aí gerou inclusive,
+acho que trouxe alguns dados,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1068-2
+00:15:21.568 --> 00:15:26.001
+<v Renata Andrade>aí depois eu fui melhorando,
+me traz os últimos dados às vezes para eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1068-3
+00:15:26.001 --> 00:15:29.747
+<v Renata Andrade>ver como que o dado é armazenado,
+alguma coisa assim e tal.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1069-0
+00:15:30.147 --> 00:15:35.410
+<v Renata Andrade>então show gerou isso aqui para mim
+segundos né Foi bem isso aí eu tenho a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1069-1
+00:15:35.410 --> 00:15:41.164
+<v Renata Andrade>skill ele gerou o diagrama para mim E aí
+uma vez que eu tenho o diagrama deixa eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1069-2
+00:15:41.164 --> 00:15:42.707
+<v Renata Andrade>voltar aqui é aqui não</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1070-0
+00:15:44.187 --> 00:15:47.064
+<v Renata Andrade>Gente,
+vou fechar um bocado de coisa porque está</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1070-1
+00:15:47.064 --> 00:15:47.827
+<v Renata Andrade>terrível, né?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1071-0
+00:15:49.427 --> 00:15:53.395
+<v Renata Andrade>Tá, voltei aqui, depois eu fecho.
+Então gerando a skill,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1071-1
+00:15:53.395 --> 00:15:58.825
+<v Renata Andrade>a skill basicamente conecta tá com o
+click house e faz qualquer tipo de query</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1071-2
+00:15:58.825 --> 00:16:03.071
+<v Renata Andrade>em qualquer banco,
+em qualquer tabela que eu precisar. E aí,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1071-3
+00:16:03.071 --> 00:16:05.507
+<v Renata Andrade>que tipo de interação que eu fazia?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1072-0
+00:16:05.827 --> 00:16:09.987
+<v Renata Andrade>Eu ia lá no chat,
+deixa eu ver se eu tenho alguns aqui, é?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1073-0
+00:16:12.307 --> 00:16:13.027
+<v Renata Andrade>Vamos ver.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1074-0
+00:16:16.427 --> 00:16:16.787
+<v Renata Andrade>Hmm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1075-0
+00:16:18.467 --> 00:16:22.165
+<v Rui Barbosa>O Rê,
+o Click House é só um client que conecta</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1075-1
+00:16:22.165 --> 00:16:27.907
+<v Rui Barbosa>num banco MySQL ou seus dados realmente
+da empresa estão no Click House?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1076-0
+00:16:28.467 --> 00:16:29.587
+<v Renata Andrade>Os dados.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1081-0
+00:16:31.347 --> 00:16:34.758
+<v Renata Andrade>Que a gente precisa para gerar os
+gráficos do Grafana,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1077-0
+00:16:34.467 --> 00:16:35.187
+<v Rui Barbosa>A the</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1081-1
+00:16:34.758 --> 00:16:39.036
+<v Renata Andrade>porque a gente criou uma funcionalidade
+específica no nossos testes,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1081-2
+00:16:39.036 --> 00:16:43.687
+<v Renata Andrade>que depois lembra que eu falei que o
+honeydoo a gente tem um um wrapper no</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1081-3
+00:16:43.687 --> 00:16:47.035
+<v Renata Andrade>playwright?
+Então depois que os testes são executados</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1078-0
+00:16:43.827 --> 00:16:43.987
+<v Rui Barbosa>Right.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1079-0
+00:16:45.787 --> 00:16:46.147
+<v Rui Barbosa>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1081-4
+00:16:47.035 --> 00:16:50.507
+<v Renata Andrade>a gente grava uma série de dados no Click
+House a gente</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1082-0
+00:16:50.587 --> 00:16:56.747
+<v Renata Andrade>grava é quanto tempo o teste durou quais
+foram é se foi flake ou não n dados</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1080-0
+00:16:51.027 --> 00:16:51.307
+<v Rui Barbosa>I know.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1082-1
+00:16:56.747 --> 00:17:02.827
+<v Renata Andrade>milhões e aí para isso a gente utiliza
+esses dados no grafana para gerar os</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1082-2
+00:17:02.827 --> 00:17:09.067
+<v Renata Andrade>insights para gente então a gente tem é
+vou mostrar mais alguns gráficos aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1083-0
+00:17:09.587 --> 00:17:12.147
+<v Renata Andrade>É, cadê meu grafana, querido?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1084-0
+00:17:14.867 --> 00:17:19.494
+<v Renata Andrade>Aqui a gente tem vários gráficos,
+por exemplo, test automation,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1084-1
+00:17:19.494 --> 00:17:22.747
+<v Renata Andrade>aí eu tenho um aqui que eu fiz
+recentemente,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1084-2
+00:17:22.747 --> 00:17:26.867
+<v Renata Andrade>que eu estou super amando ele,
+que também foi com skill.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1085-0
+00:17:27.987 --> 00:17:30.885
+<v Renata Andrade>É que eu tenho um dashboard aqui,
+por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1085-1
+00:17:30.885 --> 00:17:34.275
+<v Renata Andrade>de todos de como que cada projeto está
+indo. Eu tenho.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1085-2
+00:17:34.275 --> 00:17:38.282
+<v Renata Andrade>A gente tem esse tanto de projeto aqui
+rodando os nossos testes,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1085-3
+00:17:38.282 --> 00:17:42.227
+<v Renata Andrade>então a cada meia hora ele pega todos os
+testes que rodaram. É.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1086-0
+00:17:43.467 --> 00:17:49.722
+<v Renata Andrade>Por branch assim, e soma. Então,
+por exemplo, de 2 a 2:30 tiveram 27 runs.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1086-1
+00:17:49.722 --> 00:17:54.808
+<v Renata Andrade>E aí a gente tem um conceito de runs,
+de teste, por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1086-2
+00:17:54.808 --> 00:17:58.227
+<v Renata Andrade>se eu mandam por request, é uma test run.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1087-0
+00:17:58.867 --> 00:18:04.195
+<v Renata Andrade>Se eu rodo esse pull request de novo,
+por algum motivo, é outra test run.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1087-1
+00:18:04.195 --> 00:18:09.523
+<v Renata Andrade>E aí uma test run pode ter n casos de
+teste, n arquivos, n várias coisas.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1087-2
+00:18:09.523 --> 00:18:13.555
+<v Renata Andrade>Então a gente monitora isso daqui no
+nossos dashboards.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1087-3
+00:18:13.555 --> 00:18:16.147
+<v Renata Andrade>Esse daqui fala para a gente, então.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1088-0
+00:18:16.427 --> 00:18:21.613
+<v Renata Andrade>rodaram 27 nenhuma falhou é de 2:30 as 3
+mesma é mesma coisa não né rodaram 16</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1088-1
+00:18:21.613 --> 00:18:26.734
+<v Renata Andrade>então ele vai juntando todos os pour
+requests que estão rodando lá por a cada</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1088-2
+00:18:26.734 --> 00:18:31.722
+<v Renata Andrade>30 minutos e dá um relatório aqui para
+gente ele é um relatório atrasado né</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1088-3
+00:18:31.722 --> 00:18:35.267
+<v Renata Andrade>vamos dizer assim que é tem que esperar o
+top da hora</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1089-0
+00:18:35.347 --> 00:18:41.123
+<v Renata Andrade>o top dos 30 minutos para ele atualizar
+mas de qualquer forma já ajuda bastante</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1089-1
+00:18:41.123 --> 00:18:46.971
+<v Renata Andrade>porque em alguns momentos eu acho que no
+dia 8 deixa eu selecionar aqui é para a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1089-2
+00:18:46.971 --> 00:18:52.602
+<v Renata Andrade>gente ver do dia 7 ao dia 10 a gente te
+nós tivemos alguns spikes de problema</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1089-3
+00:18:52.602 --> 00:18:53.107
+<v Renata Andrade>olha só</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1090-0
+00:18:53.587 --> 00:18:57.029
+<v Renata Andrade>Aqui ficou com problema,
+teve um problema de manhã,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1090-1
+00:18:57.029 --> 00:19:00.935
+<v Renata Andrade>teve outro depois 10 e meia,
+depois teve outro 7 da noite.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1090-2
+00:19:00.935 --> 00:19:06.363
+<v Renata Andrade>Então a gente teve 3 problemas no dia,
+claramente que duraram mais de 30 minutos.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1090-3
+00:19:06.363 --> 00:19:08.547
+<v Renata Andrade>Então esse dashboard aqui nos dá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1091-0
+00:19:08.787 --> 00:19:11.934
+<v Renata Andrade>Informação de quando algum teste está
+quebrado,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1091-1
+00:19:11.934 --> 00:19:16.063
+<v Renata Andrade>bloqueando os requests de serem mediados,
+alguns ou todos, né?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1091-2
+00:19:16.063 --> 00:19:21.176
+<v Renata Andrade>Por algum motivo que pode ser, sei lá,
+algum servidor que está fora. Não sei,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1091-3
+00:19:21.176 --> 00:19:23.667
+<v Renata Andrade>pode ser bug mesmo, pode ser N coisas.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1092-0
+00:19:24.107 --> 00:19:28.170
+<v Renata Andrade>Então a gente criou um alerta para que
+ele nos alerte,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1092-1
+00:19:28.170 --> 00:19:33.785
+<v Renata Andrade>mande uma mensagem lá no Slack quando é a
+gente tem um threshold aqui de é,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1092-2
+00:19:33.785 --> 00:19:39.547
+<v Renata Andrade>cadê o threshold? Não ia que fala,
+é quando a failure rate está acima de 25%.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1093-0
+00:19:39.947 --> 00:19:44.773
+<v Renata Andrade>O percentual de falha está acima de 25% e
+as braints tem mais de 5 braints falhando,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1093-1
+00:19:44.773 --> 00:19:48.236
+<v Renata Andrade>porque às vezes tem um percentual de 100%,
+mas é uma braint,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1093-2
+00:19:48.236 --> 00:19:53.004
+<v Renata Andrade>alguém que come toga uma porcaria mesmo.
+E é normal que isso aqui é antes de merge,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1093-3
+00:19:53.004 --> 00:19:54.707
+<v Renata Andrade>tá? Isso é por request, então.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1094-0
+00:19:55.107 --> 00:20:00.558
+<v Renata Andrade>É aí tem esse outro gráfico aqui,
+tem os testes que estão mais falhando,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1094-1
+00:20:00.558 --> 00:20:05.710
+<v Renata Andrade>aí tem outras informações,
+então tudo isso são dados do Click House.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1094-2
+00:20:05.710 --> 00:20:10.787
+<v Renata Andrade>Então você imagina se cada 30 minutos eu
+tenho 20 runs com mais de.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1095-0
+00:20:10.867 --> 00:20:16.069
+<v Renata Andrade>30 specs rodando e erro e dado,
+já é muito dado para gerenciar,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1095-1
+00:20:16.069 --> 00:20:22.491
+<v Renata Andrade>então a gente precisa de um banco de
+dados que seja otimizado para dashboards,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1095-2
+00:20:22.491 --> 00:20:26.067
+<v Renata Andrade>por isso que a gente usa o Click House,
+tá?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1096-0
+00:20:26.707 --> 00:20:31.193
+<v Renata Andrade>É, e aí a gente,
+eu precisava criar esse dashboard aqui.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1096-1
+00:20:31.193 --> 00:20:37.253
+<v Renata Andrade>Eu tinha uma ideia de ter algum gráfico
+assim, mais ou menos um outro assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1096-2
+00:20:37.253 --> 00:20:41.267
+<v Renata Andrade>um outro assim. É, e aí, na verdade,
+antes, não é?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1097-0
+00:20:41.587 --> 00:20:44.736
+<v Renata Andrade>Enfim,
+eu vou falar 2 casos de uso assim que a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1097-1
+00:20:44.736 --> 00:20:48.822
+<v Renata Andrade>gente tem bem comuns,
+então é o de um é de criar o dashboard</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1097-2
+00:20:48.822 --> 00:20:52.172
+<v Renata Andrade>mesmo.
+Então deixa eu ver se eu tenho algum aqui.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1097-3
+00:20:52.172 --> 00:20:57.531
+<v Renata Andrade>Dashboard for premerge é let's implement
+dashboard for premerge em graphana blá</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1097-4
+00:20:57.531 --> 00:20:58.067
+<v Renata Andrade>blá blá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1100-0
+00:20:58.547 --> 00:21:03.999
+<v Renata Andrade>Se usa as skills como referência,
+nós não vamos deployar as mudanças,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1100-1
+00:21:03.999 --> 00:21:08.672
+<v Renata Andrade>porque na minha skill eu já falei para
+deployar de uma vez,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1100-2
+00:21:08.672 --> 00:21:13.267
+<v Renata Andrade>e aí eu tenho integração com o grafana,
+aqui eu tenho uma.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1101-0
+00:21:14.147 --> 00:21:22.553
+<v Renata Andrade>Uma API aqui para o grafana que já
+conecta automaticamente lá e faz o é</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1101-1
+00:21:22.553 --> 00:21:28.507
+<v Renata Andrade>atualiza o documento é via API e tenho
+também API.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1102-0
+00:21:28.707 --> 00:21:32.893
+<v Renata Andrade>API do Click House a gente não está
+usando MCP aqui, se não me engano.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1102-1
+00:21:32.893 --> 00:21:35.663
+<v Renata Andrade>Então beleza,
+eu pedi para ele fazer um plano.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1102-2
+00:21:35.663 --> 00:21:38.375
+<v Renata Andrade>Ele fez o plano aqui para mim, blá, blá,
+blá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1102-3
+00:21:38.375 --> 00:21:42.914
+<v Renata Andrade>Aí eu provavelmente é nesse caso aqui,
+eu gostei do plano ou talvez eu mudei</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1102-4
+00:21:42.914 --> 00:21:44.387
+<v Renata Andrade>alguma coisa, não lembro.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1103-0
+00:21:44.547 --> 00:21:50.071
+<v Renata Andrade>Falei, joia, pode rodar.
+É aí ele implementou para mim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1103-1
+00:21:50.071 --> 00:21:51.747
+<v Renata Andrade>gerou lá o Jason.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1104-0
+00:21:52.627 --> 00:21:53.827
+<v Renata Andrade>E aí eu?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1105-0
+00:21:55.507 --> 00:21:59.823
+<v Renata Andrade>É, provavelmente, deixa eu ver,
+já tem muito tempo, tá?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1105-1
+00:21:59.823 --> 00:22:05.526
+<v Renata Andrade>Por isso que eu não estou lembrando. É,
+ele me falou aqui que aqui mudou,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1105-2
+00:22:05.526 --> 00:22:10.227
+<v Renata Andrade>pá e tal. É, aí eu falei,
+vamos aplicar os novos dashboards.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1106-0
+00:22:10.627 --> 00:22:15.817
+<v Renata Andrade>No grafana tal Ah tá, que eu mudei aqui,
+que eu queria um draft e quero publicar</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1106-1
+00:22:15.817 --> 00:22:19.853
+<v Renata Andrade>para eu poder ver visualmente como é que
+estava. Aí eu fui lá,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1106-2
+00:22:19.853 --> 00:22:24.722
+<v Renata Andrade>não estava carregando, eu falei,
+não tem dado. Tirei um screenshot e falei,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1106-3
+00:22:24.722 --> 00:22:25.747
+<v Renata Andrade>literalmente, ó.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1108-0
+00:22:26.147 --> 00:22:31.761
+<v Renata Andrade>ele a achei a Ito aí foi lá e arrumou
+para mim e aí pronto aí provavelmente meu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1108-1
+00:22:31.761 --> 00:22:37.445
+<v Renata Andrade>contexto estava quase cheio olha aqui 79%
+eu falei tá então já vou mudar para um</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1108-2
+00:22:37.445 --> 00:22:42.707
+<v Renata Andrade>contexto novo então minha rotina de
+trabalho né Ela é bem assim mesmo tá é</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1109-0
+00:22:42.947 --> 00:22:47.992
+<v Renata Andrade>é real então provavelmente depois desse
+dashboard é devia ter algum erro e tal e</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1109-1
+00:22:47.992 --> 00:22:52.913
+<v Renata Andrade>aí eu fui melhorando eu não vou saber
+aqui exatamente qual que é o chat que eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1109-2
+00:22:52.913 --> 00:22:57.833
+<v Renata Andrade>peguei depois disso mas eu geralmente vou
+arrumando ah é às vezes eu vou lá no</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1109-3
+00:22:57.833 --> 00:23:00.947
+<v Renata Andrade>grafana mesmo e mudo ah não gostei dessa
+cor aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1110-0
+00:23:01.187 --> 00:23:06.278
+<v Renata Andrade>Aí eu venho lá no Edit,
+é mudo aqui os parâmetros, porque eu sei,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1110-1
+00:23:06.278 --> 00:23:10.134
+<v Renata Andrade>né? Estudei um pouco de grafando,
+então eu tenho,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1110-2
+00:23:10.134 --> 00:23:16.227
+<v Renata Andrade>eu entendo como que isso aqui foi gerado.
+Então eu fui lá, arrumei, é sei que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1111-0
+00:23:16.467 --> 00:23:22.223
+<v Renata Andrade>Nem sempre é 100% esses essas barras aqui
+de threshold estavam erradas no início,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1111-1
+00:23:22.223 --> 00:23:27.627
+<v Renata Andrade>então eu tive que ajustar o referencial
+delas para que elas ficassem certas,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1111-2
+00:23:27.627 --> 00:23:31.347
+<v Renata Andrade>porque são 2 métricas diferentes,
+mas elas precisam.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1113-0
+00:23:32.307 --> 00:23:36.237
+<v Renata Andrade>As 2 no gráfico assim,
+então algumas coisinhas eu ajustei</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1113-1
+00:23:36.237 --> 00:23:41.860
+<v Renata Andrade>manualmente e aí depois que eu ajustava,
+eu vinha aqui na settings, pegava o JSON,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1113-2
+00:23:41.860 --> 00:23:45.789
+<v Renata Andrade>copiava e colava lá no meu JSON do
+grafana. Aí eu falava,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1113-3
+00:23:45.789 --> 00:23:50.667
+<v Renata Andrade>atualizei aí algumas coisas,
+agora a gente precisa fazer isso e assado.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1114-0
+00:23:51.027 --> 00:23:56.191
+<v Renata Andrade>Então eu ia fazendo essas interações é
+para poder gerar esses dashboards para a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1114-1
+00:23:56.191 --> 00:24:01.483
+<v Renata Andrade>gente. Então foi muito simples mesmo. É,
+eu posso colocar essa skill. Na verdade,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1114-2
+00:24:01.483 --> 00:24:05.420
+<v Renata Andrade>ela vai ser bem inútil,
+porque ela é muito específica do meu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1114-3
+00:24:05.420 --> 00:24:09.099
+<v Renata Andrade>projeto. Assim,
+tem as queries que são bem específicas e</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1114-4
+00:24:09.099 --> 00:24:10.067
+<v Renata Andrade>tudo mais, mas.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1116-0
+00:24:10.387 --> 00:24:14.929
+<v Renata Andrade>Eu literalmente fiz no chat, eu falei,
+faça uma skill que conecta com click</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1116-1
+00:24:14.929 --> 00:24:18.216
+<v Renata Andrade>House e ponto.
+E aí eu fui melhorando ela à medida que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1116-2
+00:24:18.216 --> 00:24:22.041
+<v Renata Andrade>eu fui usando e tal,
+eu vi que algumas coisas estavam falhando,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1116-3
+00:24:22.041 --> 00:24:25.387
+<v Renata Andrade>não estavam sendo do jeitinho que eu
+queria, então uma.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1117-0
+00:24:25.507 --> 00:24:30.649
+<v Renata Andrade>Em algum momento ela ficou ótima.
+E aí um segundo caso de uso que eu tenho,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1117-1
+00:24:30.649 --> 00:24:34.776
+<v Renata Andrade>que não é para fazer gráfico,
+é para fazer análise. Então é,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1117-2
+00:24:34.776 --> 00:24:37.347
+<v Renata Andrade>eu tenho aqui, por exemplo, vamos ver.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1118-0
+00:24:38.627 --> 00:24:38.987
+<v Renata Andrade>E.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1119-0
+00:24:40.627 --> 00:24:40.667
+<v Renata Andrade>O.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1120-0
+00:24:42.867 --> 00:24:46.405
+<v Renata Andrade>Eu queria saber, é,
+looks like we use testing.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1120-1
+00:24:46.405 --> 00:24:52.427
+<v Renata Andrade>Às vezes eu preciso para, não sei assim,
+tem alguma coisa acontecendo estranha.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1120-2
+00:24:52.427 --> 00:24:56.115
+<v Renata Andrade>Eu olha no nos dashboards,
+no database de Bazel,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1120-3
+00:24:56.115 --> 00:24:59.427
+<v Renata Andrade>é se esses dados tem algum dado recente
+lá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1121-0
+00:24:59.747 --> 00:25:04.483
+<v Renata Andrade>Para isso, aí ele me fala,
+esses aqui são os dados recentes.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1121-1
+00:25:04.483 --> 00:25:09.762
+<v Renata Andrade>Aí eu me gera uma grafando URL para eu
+poder fazer a query by date.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1121-2
+00:25:09.762 --> 00:25:15.507
+<v Renata Andrade>Então ele me gera uma URL lá no ambiente
+que eu posso simplesmente abrir.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1122-0
+00:25:15.907 --> 00:25:20.828
+<v Renata Andrade>E mudar a query do jeito que eu quero.
+Aí eu nem sei porque que ele abriu o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1122-1
+00:25:20.828 --> 00:25:25.036
+<v Renata Andrade>relatório aqui já, mas enfim,
+é aí já falou dashboard está live,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1122-2
+00:25:25.036 --> 00:25:29.245
+<v Renata Andrade>mas eu nem queria dashboard. Enfim,
+então eu vou iterando, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1122-3
+00:25:29.245 --> 00:25:31.187
+<v Renata Andrade>Porque às vezes eu só preciso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1123-0
+00:25:31.667 --> 00:25:39.667
+<v Renata Andrade>É entender algum problema é que está
+acontecendo. É, deixa eu ver.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1124-0
+00:25:40.867 --> 00:25:43.934
+<v Renata Andrade>Aqui ó,
+a gente tem uns testes que chamam app</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1124-1
+00:25:43.934 --> 00:25:48.001
+<v Renata Andrade>alive que eles rodam fora das nossas
+suítes de pull request,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1124-2
+00:25:48.001 --> 00:25:51.001
+<v Renata Andrade>eles rodam dentro de um chrome job,
+ou seja,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1124-3
+00:25:51.001 --> 00:25:55.867
+<v Renata Andrade>a cada duas horas ele roda lá em play
+prode para ver se está dando algum</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1124-4
+00:25:55.867 --> 00:25:56.467
+<v Renata Andrade>problema.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1125-0
+00:25:57.027 --> 00:26:02.120
+<v Renata Andrade>E a gente não sabia em que banco de dados
+que ele estava armazenando os dados da</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1125-1
+00:26:02.120 --> 00:26:07.465
+<v Renata Andrade>execução, porque ele não é um teste comum,
+então ele não executa os mesmos passos de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1125-2
+00:26:07.465 --> 00:26:10.357
+<v Renata Andrade>um teste comum. E eu não sabia.
+Eu perguntei,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1125-3
+00:26:10.357 --> 00:26:14.067
+<v Renata Andrade>tem algum dado dessa aplicação aqui no
+Reporting Services?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1126-0
+00:26:14.387 --> 00:26:21.747
+<v Renata Andrade>Use click house skill aí ele usou blá blá
+blá blá é achou alguma coisinha aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1126-1
+00:26:21.747 --> 00:26:29.107
+<v Renata Andrade>demorou e me falou a tem isso daqui aí
+que eu é fiz só olhei aqui e falei a tá</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1127-0
+00:26:29.507 --> 00:26:33.420
+<v Renata Andrade>É, falei, gente,
+então tem esses dados aqui, mas tal, tal,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1127-1
+00:26:33.420 --> 00:26:37.200
+<v Renata Andrade>tal. Aí, pronto,
+a gente precisava isso para gerar algum</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1127-2
+00:26:37.200 --> 00:26:42.107
+<v Renata Andrade>tipo de dashboard também e tal.
+Mas era só saber se tinha ou se não tinha</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1127-3
+00:26:42.107 --> 00:26:44.627
+<v Renata Andrade>o dado no banco. É então assim, gente.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1128-0
+00:26:44.947 --> 00:26:48.069
+<v Renata Andrade>Tem muita,
+muita aplicação quando a gente tem as</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1128-1
+00:26:48.069 --> 00:26:51.508
+<v Renata Andrade>skills, né?
+É basicamente você criar skill para o que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1128-2
+00:26:51.508 --> 00:26:55.266
+<v Renata Andrade>você precisa mesmo.
+E aí você pode pedir para ele gerar os</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1128-3
+00:26:55.266 --> 00:27:00.299
+<v Renata Andrade>gráficos, fazer o deploy automaticamente,
+te perguntar sempre antes de fazer o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1128-4
+00:27:00.299 --> 00:27:01.827
+<v Renata Andrade>deploy, criar subagents.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1129-0
+00:27:02.227 --> 00:27:08.097
+<v Renata Andrade>é criar regras ajustar regras é mais um
+caso que assim é é bem variável</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1129-1
+00:27:08.097 --> 00:27:14.783
+<v Renata Andrade>dependendo do contexto do seu projeto né
+mas esses são os principais casos de uso</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1129-2
+00:27:14.783 --> 00:27:17.147
+<v Renata Andrade>assim que eu que eu faço para</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1130-0
+00:27:17.747 --> 00:27:21.650
+<v Renata Andrade>Para ter e assim nítida,
+isso daqui foi algo que assim eu diria</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1130-1
+00:27:21.650 --> 00:27:25.979
+<v Renata Andrade>que mudou de às vezes uma semana de
+trabalho para 4 horas de trabalho,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1130-2
+00:27:25.979 --> 00:27:29.516
+<v Renata Andrade>porque antes eu ficava uma semana
+ajustando cada gráfico,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1130-3
+00:27:29.516 --> 00:27:33.541
+<v Renata Andrade>buscando dado no banco,
+vendo qual que era o dado certo e não sei</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1130-4
+00:27:33.541 --> 00:27:35.187
+<v Renata Andrade>o que com isso daqui assim.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1131-0
+00:27:35.747 --> 00:27:38.339
+<v Renata Andrade>Nossa, muito rápido.
+E às vezes eu só falo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1131-1
+00:27:38.339 --> 00:27:43.109
+<v Renata Andrade>gera um dashboard para mim com tais tais
+números. Ele gera e aí eu falo, ah não,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1131-2
+00:27:43.109 --> 00:27:46.820
+<v Renata Andrade>isso aqui ficou ruim, isso aqui ficou bom,
+melhora isso daqui,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1131-3
+00:27:46.820 --> 00:27:49.470
+<v Renata Andrade>essa informação talvez seja mais
+importante.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1131-4
+00:27:49.470 --> 00:27:52.827
+<v Renata Andrade>E aí eu só valido mesmo se as informações
+fazem sentido.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1132-0
+00:27:53.427 --> 00:27:53.987
+<v Renata Andrade>E boa.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1133-0
+00:27:55.187 --> 00:27:56.067
+<v Renata Andrade>Fala comigo, Rui.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1134-0
+00:27:58.547 --> 00:28:01.470
+<v Rui Barbosa>Tá muito bom,
+eu estou impressionado aqui com a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1134-1
+00:28:01.470 --> 00:28:04.394
+<v Rui Barbosa>quantidade de possibilidades que dá para
+fazer.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1134-2
+00:28:04.394 --> 00:28:08.352
+<v Rui Barbosa>Eu não sei se o pessoal tem alguma dúvida
+específica do Grafana,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1134-3
+00:28:08.352 --> 00:28:13.407
+<v Rui Barbosa>mas eu queria até fazer uma pergunta para
+fechar aqui se for o inimigo do fim, tá?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1134-4
+00:28:13.407 --> 00:28:16.147
+<v Rui Barbosa>Se você me deixar perguntar,
+eu sou curioso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1135-0
+00:28:14.947 --> 00:28:17.387
+<v Renata Andrade>Slack. One.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1137-0
+00:28:16.787 --> 00:28:21.353
+<v Rui Barbosa>É esse, essa dinâmica que você tem,
+esse workflow que você,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1137-1
+00:28:21.353 --> 00:28:26.375
+<v Rui Barbosa>que você está atuando agora.
+Ela vem desde esse quanto tempo faz?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1137-2
+00:28:26.375 --> 00:28:31.777
+<v Rui Barbosa>3 vezes você falou que tem a skin,
+então é nesse período que tudo isso</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1137-3
+00:28:31.777 --> 00:28:33.907
+<v Rui Barbosa>aconteceu e foi modificando.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1138-0
+00:28:34.067 --> 00:28:39.696
+<v Rui Barbosa>E a segunda pergunta é,
+isso é específico o workflow seu ou</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1138-1
+00:28:39.696 --> 00:28:46.638
+<v Rui Barbosa>existiu algum tipo de, sei lá,
+onboard ou questão de adoção desse estilo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1138-2
+00:28:46.638 --> 00:28:49.827
+<v Rui Barbosa>desse workflow para os teus pares?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1139-0
+00:28:49.987 --> 00:28:54.094
+<v Rui Barbosa>Se é uma coisa muito específica,
+ou se outras pessoas na empresa também é</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1139-1
+00:28:54.094 --> 00:28:58.422
+<v Rui Barbosa>estão trabalhando dessa forma ou não,
+não é olhado a cada um acaba fazendo de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1139-2
+00:28:58.422 --> 00:29:00.919
+<v Rui Barbosa>uma forma.
+Eu queria entender um pouco mais,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1139-3
+00:29:00.919 --> 00:29:03.027
+<v Rui Barbosa>porque eu vou passar por esse desafio.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1141-0
+00:29:01.347 --> 00:29:05.281
+<v Leticia Silv&#233;rio>Nossa, eu estava com a mesma dúvida.
+Eu fiquei, meu, de onde que veio?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1141-1
+00:29:05.281 --> 00:29:08.107
+<v Leticia Silv&#233;rio>Será que tem um padrão?
+Da onde surgiu essa ideia?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1140-0
+00:29:06.867 --> 00:29:06.947
+<v Renata Andrade>And.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1142-0
+00:29:09.467 --> 00:29:12.803
+<v Renata Andrade>Muito boas perguntas. Bom,
+deixa eu responder.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1142-1
+00:29:12.803 --> 00:29:18.056
+<v Renata Andrade>Skills começou tem menos tempo né?
+Então assim é essa facilidade de criar</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1142-2
+00:29:18.056 --> 00:29:24.018
+<v Renata Andrade>dashboard no Grafana por exemplo tem três
+ou menos que eu tenho feito dessa forma e</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1142-3
+00:29:24.018 --> 00:29:28.347
+<v Renata Andrade>é por isso que eu falei assim que mudou
+de semana para horas</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1143-0
+00:29:28.387 --> 00:29:33.930
+<v Renata Andrade>porque até dezembro do ano passado eu
+ficava assim até mais do que uma semana</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1143-1
+00:29:33.930 --> 00:29:39.686
+<v Renata Andrade>para conseguir gerar um dashboard esse
+aqui que eu mostrei para vocês é deixa eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1143-2
+00:29:39.686 --> 00:29:40.467
+<v Renata Andrade>voltar aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1144-0
+00:29:41.587 --> 00:29:47.370
+<v Renata Andrade>que é o do primord que tem todos os é os
+projetos aqui eu fiz para um e gastei</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1144-1
+00:29:47.370 --> 00:29:53.154
+<v Renata Andrade>assim provavelmente umas duas semanas
+fazer para um aí eu fui lá e peguei e eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1144-2
+00:29:53.154 --> 00:29:56.667
+<v Renata Andrade>já tava assim nossa depois como é que eu
+vou me</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1145-0
+00:29:56.787 --> 00:30:02.157
+<v Renata Andrade>É fazer isso para cada um e não sei o que,
+não conseguia pensar. Aí eu falei, chefe,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1145-1
+00:30:02.157 --> 00:30:05.758
+<v Renata Andrade>depois eu faço,
+porque a gente tinha um mais importante,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1145-2
+00:30:05.758 --> 00:30:09.359
+<v Renata Andrade>ela pediu, né,
+faça um dashboard para monitorar os erros</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1145-3
+00:30:09.359 --> 00:30:12.833
+<v Renata Andrade>do premerge.
+E aí eu tive que inventar aqui como é que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1145-4
+00:30:12.833 --> 00:30:13.907
+<v Renata Andrade>eu ia fazer isso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1146-0
+00:30:13.987 --> 00:30:17.355
+<v Renata Andrade>Não tinha nada criado.
+Realmente eu fui do zero,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1146-1
+00:30:17.355 --> 00:30:22.785
+<v Renata Andrade>criei o dashboard do zero e saiu algo
+nesse nesse formato aqui. É, e aí, Joia,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1146-2
+00:30:22.785 --> 00:30:26.840
+<v Renata Andrade>então só tinha,
+não tinha todos os isso daqui não existia,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1146-3
+00:30:26.840 --> 00:30:28.627
+<v Renata Andrade>tá? Só existia isso daqui.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1147-0
+00:30:29.187 --> 00:30:34.698
+<v Renata Andrade>quando eu quando a gente começou a ter as
+skills eu falei gente show então consigo</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1147-1
+00:30:34.698 --> 00:30:40.142
+<v Renata Andrade>criar os outros projetos muito rápido e
+aí que que eu fiz fui lá na skill e falei</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1147-2
+00:30:40.142 --> 00:30:45.187
+<v Renata Andrade>gera um dashboard com todos os projetos é
+e já coloca um resumão do que que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1148-0
+00:30:45.267 --> 00:30:49.838
+<v Renata Andrade>a gente tá on fire assim né que que tá
+pegando porque a gente tinha esse daqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1148-1
+00:30:49.838 --> 00:30:54.119
+<v Renata Andrade>mas esses outros não tinham E aí foi
+ótimo porque eu tô assim Nossa podia</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1148-2
+00:30:54.119 --> 00:30:58.632
+<v Renata Andrade>conseguir clicar e já ir para o detalhe
+né porque eu vou ter que eu tinha que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1148-3
+00:30:58.632 --> 00:31:03.203
+<v Renata Andrade>ficar vindo aqui e selecionar vamos supor
+que sei lá em bed tá com problema eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1148-4
+00:31:03.203 --> 00:31:04.707
+<v Renata Andrade>tinha que vir aqui caçar o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1149-0
+00:31:05.147 --> 00:31:09.203
+<v Renata Andrade>De clicar no embed,
+de clicar no Project X E aí ficava muito</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1149-1
+00:31:09.203 --> 00:31:13.126
+<v Renata Andrade>manual. Aí eu falei, ah,
+vou pedir para a skill. Eu falei,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1149-2
+00:31:13.126 --> 00:31:17.980
+<v Renata Andrade>coloca um clique no WhatsApp Fire de cada
+projeto. E aí você clica aqui,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1149-3
+00:31:17.980 --> 00:31:20.307
+<v Renata Andrade>já vai para o dashboard do projeto.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1151-0
+00:31:20.387 --> 00:31:24.601
+<v Renata Andrade>Seleciona aqui,
+isso aí eu não sei como é que ele fez,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1151-1
+00:31:24.601 --> 00:31:29.352
+<v Renata Andrade>gente, não sei, fez, funcionou, tá lindo,
+magia. Então assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1150-0
+00:31:26.227 --> 00:31:27.107
+<v Rui Barbosa>A magia.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1151-2
+00:31:29.352 --> 00:31:34.792
+<v Renata Andrade>isso foi assim e foi horas.
+Ele botou esses, esses, é, cliquei errado,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1151-3
+00:31:34.792 --> 00:31:36.707
+<v Renata Andrade>ele botou todos esses, é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1152-0
+00:31:37.667 --> 00:31:41.042
+<v Renata Andrade>Gráficos ali para mim é,
+e aí eu danei a fazer gráfico.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1152-1
+00:31:41.042 --> 00:31:45.561
+<v Renata Andrade>Esse notch and aqui, mesma coisa.
+A partir do momento que eu entendia qual</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1152-2
+00:31:45.561 --> 00:31:50.080
+<v Renata Andrade>que era o modelo do banco de dados,
+eu sabia que tipo de informação que eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1152-3
+00:31:50.080 --> 00:31:51.827
+<v Renata Andrade>precisava, sabe? Então assim.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1153-0
+00:31:52.227 --> 00:31:56.133
+<v Renata Andrade>Quando começou a ter skills,
+o meu trabalho de criar dashboard ou de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1153-1
+00:31:56.133 --> 00:31:58.794
+<v Renata Andrade>editar dashboard ou de melhorar os
+dashboards,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1153-2
+00:31:58.794 --> 00:32:03.266
+<v Renata Andrade>que às vezes estavam muitos cliques.
+Eu precisava clicar aqui para clicar ali,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1153-3
+00:32:03.266 --> 00:32:07.907
+<v Renata Andrade>para clicar lá, para achar a resposta.
+Eu fui trazendo tudo para um dashboard só.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1154-0
+00:32:08.227 --> 00:32:14.019
+<v Renata Andrade>com todas as informações ali então isso
+skill pura ano passado eu ficava semanas</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1154-1
+00:32:14.019 --> 00:32:19.382
+<v Renata Andrade>fazendo manualmente é e de onde que
+surgiu essas demandas assim né é o meu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1154-2
+00:32:19.382 --> 00:32:24.601
+<v Renata Andrade>time já tinha historicamente essa
+observabilidade observability Então já</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1154-3
+00:32:24.601 --> 00:32:27.747
+<v Renata Andrade>tinha alguns gráficos para algumas
+demandas</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1155-0
+00:32:28.067 --> 00:32:32.247
+<v Renata Andrade>Que alguém foi lá e criou manualmente.
+A gente tem até um time de observability</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1155-1
+00:32:32.247 --> 00:32:35.748
+<v Renata Andrade>que pareou muito com a gente.
+Tem um pessoal super pró de grafando</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1155-2
+00:32:35.748 --> 00:32:39.824
+<v Renata Andrade>assim que fez os primeiros gráficos.
+Aí deu que meio que ensinou para a gente</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1155-3
+00:32:39.824 --> 00:32:42.227
+<v Renata Andrade>algumas práticas.
+Então a gente meio que foi.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1157-0
+00:32:43.267 --> 00:32:48.275
+<v Renata Andrade>fazendo o que dava assim no nosso tempo
+para poder garantir que os nossos</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1157-1
+00:32:48.275 --> 00:32:53.418
+<v Renata Andrade>produtos estavam funcionando né então
+assim foi meio que para esse fim e na</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1157-2
+00:32:53.418 --> 00:32:58.764
+<v Renata Andrade>minha Org da Adobe da Adobe Express a
+gente tem muita independência assim cada</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1157-3
+00:32:58.764 --> 00:33:02.147
+<v Renata Andrade>mini time tem as suas observabilities tem
+os seus</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1158-0
+00:33:02.787 --> 00:33:06.486
+<v Renata Andrade>Não vou falar pipeline,
+porque a pipeline é bem universal assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1158-1
+00:33:06.486 --> 00:33:11.038
+<v Renata Andrade>mas a gente tem muita autonomia dentro do
+nosso time para fazer as coisas que a</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1158-2
+00:33:11.038 --> 00:33:14.395
+<v Renata Andrade>gente precisa assim para monitorar as
+nossas coisas, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1158-3
+00:33:14.395 --> 00:33:18.947
+<v Renata Andrade>É tudo um repositório só, uma pipeline só,
+mas assim a gente tem uma autonomia.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1159-0
+00:33:19.267 --> 00:33:21.968
+<v Renata Andrade>E a gente tem também interação com outros
+times,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1159-1
+00:33:21.968 --> 00:33:25.165
+<v Renata Andrade>então a gente vai fazendo o que dá ali.
+Então, no início,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1159-2
+00:33:25.165 --> 00:33:29.078
+<v Renata Andrade>tinha alguns experts que passaram
+conhecimento para algumas pessoas do</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1159-3
+00:33:29.078 --> 00:33:31.779
+<v Renata Andrade>nosso time,
+e aí a gente conseguiu fazer algumas</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1159-4
+00:33:31.779 --> 00:33:35.527
+<v Renata Andrade>coisas. Quando eu entrei,
+AO objetivo da minha chefe era ter alguém</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1159-5
+00:33:35.527 --> 00:33:35.747
+<v Renata Andrade>que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1160-0
+00:33:35.907 --> 00:33:38.805
+<v Renata Andrade>Pudesse ser mais especialista em
+observability,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1160-1
+00:33:38.805 --> 00:33:43.393
+<v Renata Andrade>porque o time estava muito ocupado em
+desenvolver as funcionalidades novas,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1160-2
+00:33:43.393 --> 00:33:47.619
+<v Renata Andrade>mas a gente estava pecando ou faltando os
+monitoramentos e tudo mais.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1160-3
+00:33:47.619 --> 00:33:52.267
+<v Renata Andrade>Então ela me pediu, foi minha principal.
+O meu principal objetivo foi mexer.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1161-0
+00:33:52.547 --> 00:33:58.074
+<v Renata Andrade>com grafana, click House, hotel e tal.
+Até comecei a ler os livros para poder</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1161-1
+00:33:58.074 --> 00:34:02.963
+<v Renata Andrade>tirar certificação e acabou mudando de
+contexto muito rápido, enfim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1161-2
+00:34:02.963 --> 00:34:07.427
+<v Renata Andrade>mas é veio essa demanda para mim,
+mas outros times tem também.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1162-0
+00:34:07.587 --> 00:34:11.377
+<v Renata Andrade>Umas pequenas demandas, pouco diferentes,
+mas tem. Então assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1162-1
+00:34:11.377 --> 00:34:16.114
+<v Renata Andrade>é a primeira skill surgiu talvez comigo,
+porque eu precisava fazer esse tipo de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1162-2
+00:34:16.114 --> 00:34:18.719
+<v Renata Andrade>coisa,
+mas rapidamente a gente criou outras</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1162-3
+00:34:18.719 --> 00:34:22.627
+<v Renata Andrade>skills semelhantes para outros times e
+agora está meio que assim.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1164-0
+00:34:22.787 --> 00:34:26.852
+<v Renata Andrade>Muita gente está utilizando,
+mas eles personalizam, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1164-1
+00:34:26.852 --> 00:34:31.547
+<v Renata Andrade>Então veio disso assim, eu acho,
+não sei se eu consegui responder.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1163-0
+00:34:29.907 --> 00:34:30.307
+<v Rui Barbosa>And you.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1166-0
+00:34:32.227 --> 00:34:37.507
+<v Rui Barbosa>E a adoção da IA em si também veio dessa
+questão do.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1167-0
+00:34:38.147 --> 00:34:39.747
+<v Renata Andrade>Não, a bo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1168-0
+00:34:38.707 --> 00:34:40.787
+<v Rui Barbosa>Da empresa ou de cada pessoa?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1169-0
+00:34:41.107 --> 00:34:45.609
+<v Renata Andrade>A tá veio da empresa assim,
+desde o dia um já tinha. É,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1169-1
+00:34:45.609 --> 00:34:51.961
+<v Renata Andrade>deixa eu ver se meu Slack está aberto
+aqui. Vou mostrar para vocês. Tem tanta.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1169-2
+00:34:51.961 --> 00:34:57.347
+<v Renata Andrade>É coisa de inteligência artificial. É,
+eu tenho isso aqui e nem é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1170-0
+00:34:57.507 --> 00:35:02.307
+<v Renata Andrade>Tudo, AI coding assistance user,
+AI community of communities.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1170-1
+00:35:02.307 --> 00:35:06.643
+<v Renata Andrade>Isso aqui é Adobe top assim,
+nem é do meu da minha org.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1170-2
+00:35:06.643 --> 00:35:11.675
+<v Renata Andrade>Aí HZ já é da minha org.
+Aí tem outros aqui, enfim, então assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1170-3
+00:35:11.675 --> 00:35:15.391
+<v Renata Andrade>tem muita.
+Provavelmente teve alguma pessoa que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1170-4
+00:35:15.391 --> 00:35:16.707
+<v Renata Andrade>começou com isso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1172-0
+00:35:17.187 --> 00:35:21.695
+<v Renata Andrade>Alguma pessoa, talvez até lá em cima.
+E quando a Adobe, ela tem muita.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1172-1
+00:35:21.695 --> 00:35:24.996
+<v Renata Andrade>É um espaço de muita criatividade e
+inovação, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1172-2
+00:35:24.996 --> 00:35:29.757
+<v Renata Andrade>Então isso é muito natural ali dentro.
+Sempre que surge alguma coisa nova,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1172-3
+00:35:29.757 --> 00:35:32.867
+<v Renata Andrade>rapidinho já tem adoção,
+rapidinho já tem gente.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1173-0
+00:35:33.107 --> 00:35:35.638
+<v Renata Andrade>Testando, já tem POC,
+já tem não sei o quê.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1173-1
+00:35:35.638 --> 00:35:39.663
+<v Renata Andrade>E uma coisa que eu descobri esse ano
+também, na verdade, ano passado,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1173-2
+00:35:39.663 --> 00:35:43.114
+<v Renata Andrade>quando eu entrei,
+eu tem pouco tempo que eu estou na Adobe.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1173-3
+00:35:43.114 --> 00:35:46.622
+<v Renata Andrade>Eu entrei em julho do ano passado,
+ainda não tem nenhum ano,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1173-4
+00:35:46.622 --> 00:35:49.267
+<v Renata Andrade>mas tem um incubadora dentro da Adobe,
+então.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1174-0
+00:35:49.667 --> 00:35:54.602
+<v Renata Andrade>Tem vários microempresas fazendo projetos
+de inovação e a Adobe botando dinheiro</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1174-1
+00:35:54.602 --> 00:35:58.745
+<v Renata Andrade>dentro delas, sabe? Então, assim,
+eu não sei de onde surgiu mesmo o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1174-2
+00:35:58.745 --> 00:36:03.254
+<v Renata Andrade>primeiro incentivo de uso de AI,
+mas desde que eu entrei a gente já tinha</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1174-3
+00:36:03.254 --> 00:36:06.117
+<v Renata Andrade>o cursor,
+já tinha cota para usar inteligência</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1174-4
+00:36:06.117 --> 00:36:06.787
+<v Renata Andrade>artificial.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1175-0
+00:36:07.187 --> 00:36:09.811
+<v Renata Andrade>E a medida que foi desenvolvendo,
+crescendo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1175-1
+00:36:09.811 --> 00:36:13.251
+<v Renata Andrade>aí já veio cloud code entrando junto.
+Tem a aumented code,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1175-2
+00:36:13.251 --> 00:36:17.099
+<v Renata Andrade>que é um outro software também que eu nem
+brinquei com ele ainda,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1175-3
+00:36:17.099 --> 00:36:20.947
+<v Renata Andrade>mas outro dia teve palestra.
+Semanalmente tem o povo do cursor lá</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1175-4
+00:36:20.947 --> 00:36:24.387
+<v Renata Andrade>falando sobre as novas releases,
+as novas funcionalidades.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1176-0
+00:36:25.107 --> 00:36:30.037
+<v Renata Andrade>Tem pelo menos umas 45 toques por semana
+de gente falando de coisa que está</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1176-1
+00:36:30.037 --> 00:36:35.161
+<v Renata Andrade>fazendo com a inteligência artificial.
+Então assim é dissemina muito rápido lá</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1176-2
+00:36:35.161 --> 00:36:38.340
+<v Renata Andrade>dentro, sabe? Então assim, graças a Deus,
+não é?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1176-3
+00:36:38.340 --> 00:36:41.907
+<v Renata Andrade>Eu acho que não é realidade de muitos
+lugares, mas eu.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1177-0
+00:36:42.067 --> 00:36:46.640
+<v Renata Andrade>Dei muita sorte nesse aspecto porque isso
+é muito incentivado e assim é muito</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1177-1
+00:36:46.640 --> 00:36:51.270
+<v Renata Andrade>engraçado porque os líderes falam assim
+eu não quero saber que que vocês estão</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1177-2
+00:36:51.270 --> 00:36:56.019
+<v Renata Andrade>fazendo mas é usei ai então é e tanto que
+eu tenho mil dólares de cota no cursor</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1177-3
+00:36:56.019 --> 00:37:00.708
+<v Renata Andrade>mais uns mil no cloud code que eu nem
+tava usando que aí hoje que eu botei aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1177-4
+00:37:00.708 --> 00:37:01.587
+<v Renata Andrade>para eu começar</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1179-0
+00:37:01.747 --> 00:37:04.478
+<v Renata Andrade>Assim,
+eu usava com a minha cota pessoal que eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1179-1
+00:37:04.478 --> 00:37:07.550
+<v Renata Andrade>tenho também.
+Eu pago mensal assim para fazer os meus</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1179-2
+00:37:07.550 --> 00:37:11.020
+<v Renata Andrade>projetos pessoais.
+Então eu estava usando lá que nem é muito</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1178-0
+00:37:08.707 --> 00:37:09.307
+<v Rui Barbosa>Mm-hmm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1179-3
+00:37:11.020 --> 00:37:15.286
+<v Renata Andrade>assim. Eu estava usando super pouco, é,
+mas estava usando o cloud desktop,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1179-4
+00:37:15.286 --> 00:37:18.187
+<v Renata Andrade>não estava usando o do código mesmo.
+Eu só usei o.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1180-0
+00:37:18.307 --> 00:37:22.710
+<v Renata Andrade>O cloud code terminal,
+quando eu fiz os cursos da antropic,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1180-1
+00:37:22.710 --> 00:37:26.820
+<v Renata Andrade>que foi no início do ano,
+nem tinha agent skills ainda.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1180-2
+00:37:26.820 --> 00:37:32.690
+<v Renata Andrade>Agent skills eu fiz mais recentemente.
+E GitHub copilot eu usei no ano passado,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1180-3
+00:37:32.690 --> 00:37:37.827
+<v Renata Andrade>quando eu dei uma palestra sobre agents
+do playwright, logo que saiu.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1181-0
+00:37:38.147 --> 00:37:42.940
+<v Renata Andrade>Assim, então é, enfim,
+outubro do ano passado já estava</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1181-1
+00:37:42.940 --> 00:37:48.932
+<v Renata Andrade>disponível para a gente usar,
+mas ainda bem, não é bem básico. Enfim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1181-2
+00:37:48.932 --> 00:37:54.067
+<v Renata Andrade>então é essa que está sendo a minha
+rotina de dia a dia lá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1182-0
+00:37:54.307 --> 00:37:55.107
+<v Renata Andrade>Nadoby.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1183-0
+00:37:56.147 --> 00:37:56.747
+<v Renata Andrade>Mm-hmm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1185-0
+00:37:56.227 --> 00:37:59.756
+<v Rui Barbosa>Legal, obrigado.
+Eu estou com um ano tentando colocar na</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1185-1
+00:37:59.756 --> 00:38:02.604
+<v Rui Barbosa>empresa, no projeto de Itool,
+que é Services,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1185-2
+00:38:02.604 --> 00:38:07.557
+<v Rui Barbosa>então fica muito mais difícil porque eu
+preciso da aprovação do cliente também.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1185-3
+00:38:07.557 --> 00:38:10.467
+<v Rui Barbosa>Agora que a gente vai começar a utilizar
+algo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1184-0
+00:38:08.467 --> 00:38:09.187
+<v Renata Andrade>It</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1187-0
+00:38:11.907 --> 00:38:17.476
+<v Rui Barbosa>Só que em paralelo a gente não pode parar,
+então eu tenho feito o side project</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1187-1
+00:38:17.476 --> 00:38:21.001
+<v Rui Barbosa>também para tentar,
+quando chegar a oportunidade,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1187-2
+00:38:21.001 --> 00:38:26.147
+<v Rui Barbosa>eu estar um pouco mais, enfim,
+com a experiência ali. Mas obrigado pela.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1186-0
+00:38:21.507 --> 00:38:21.987
+<v Leticia Silv&#233;rio>Items.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1188-0
+00:38:26.267 --> 00:38:27.467
+<v Rui Barbosa>Experiência e compartilhar.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1191-0
+00:38:26.307 --> 00:38:29.734
+<v Leticia Silv&#233;rio>É tudo junto!
+As demandas do cliente junto com inovação</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1190-0
+00:38:28.147 --> 00:38:28.747
+<v Renata Andrade>Services.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1191-1
+00:38:29.734 --> 00:38:33.467
+<v Leticia Silv&#233;rio>de AI, junto com edição de produtividade,
+estão uma loucura!</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1192-0
+00:38:34.627 --> 00:38:38.529
+<v Renata Andrade>É, eu vou falar, gente,
+que tá muito assim até na Adobe, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1192-1
+00:38:38.529 --> 00:38:43.422
+<v Renata Andrade>É assim, semanalmente, por exemplo,
+há 2 semanas atrás, cursor era o top, top.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1192-2
+00:38:43.422 --> 00:38:48.191
+<v Renata Andrade>Então a gente tava fazendo tudo no cursor,
+skill para cursor, não sei o que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1192-3
+00:38:48.191 --> 00:38:51.474
+<v Renata Andrade>De repente,
+falaram que ia cancelar a assinatura com</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1192-4
+00:38:51.474 --> 00:38:51.907
+<v Renata Andrade>cursor.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1193-0
+00:38:51.987 --> 00:38:55.786
+<v Renata Andrade>Aí todo mundo mudou para claude.
+Aí agora está todo mundo no claude. Eu,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1193-1
+00:38:55.786 --> 00:38:58.700
+<v Renata Andrade>igual eu falei,
+eu nem tinha instalado ainda que falei,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1193-2
+00:38:58.700 --> 00:39:01.146
+<v Renata Andrade>gente,
+eu só vou parar de usar o cursor no dia</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1193-3
+00:39:01.146 --> 00:39:05.309
+<v Renata Andrade>que falar assim, não vai ter mais cursor,
+porque para mim é muito produtivo. É.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1193-4
+00:39:05.309 --> 00:39:08.067
+<v Renata Andrade>E aí agora já tem igual.
+O cara fez esse agents que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1194-0
+00:39:08.187 --> 00:39:12.692
+<v Renata Andrade>Você faz checkout das skills independente
+da ferramenta que você usa, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1194-1
+00:39:12.692 --> 00:39:16.900
+<v Renata Andrade>Então já está lá no One Adobe,
+que é um repositório que a gente tem só</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1194-2
+00:39:16.900 --> 00:39:21.582
+<v Renata Andrade>de projetos de inteligência artificial,
+que todo dia tem um postando coisa lá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1194-3
+00:39:21.582 --> 00:39:25.434
+<v Renata Andrade>Aí já tem outro que é, nossa,
+o cara fez um projeto muito legal,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1194-4
+00:39:25.434 --> 00:39:27.627
+<v Renata Andrade>que eu não sei nem tinha tanta coisa.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1195-0
+00:39:27.707 --> 00:39:34.012
+<v Renata Andrade>no projeto dele ele configurava todo
+fazia o checkout do repositório fazer</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1195-1
+00:39:34.012 --> 00:39:40.149
+<v Renata Andrade>todo um onboard assim de cliques ele fez
+uma uma UI para fazer isso tudo</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1195-2
+00:39:40.149 --> 00:39:43.427
+<v Renata Andrade>automático sabe já vai no volte pega as</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1196-0
+00:39:43.667 --> 00:39:46.802
+<v Renata Andrade>As que já seta variável de ambiente,
+nossa, assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1196-1
+00:39:46.802 --> 00:39:51.412
+<v Renata Andrade>em segundos você configura e configurar
+ambiente na Adobe. Gente, é nossa,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1196-2
+00:39:51.412 --> 00:39:56.268
+<v Renata Andrade>é muita coisa que você precisa gastar
+assim dias também para fazer agora com o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1196-3
+00:39:56.268 --> 00:39:59.587
+<v Renata Andrade>negócio do cara, segundos. Então, assim,
+muito legal.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1197-0
+00:39:59.987 --> 00:40:05.437
+<v Renata Andrade>É então assim, está sendo muita coisa.
+E Letícia, não se sinta,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1197-1
+00:40:05.437 --> 00:40:11.823
+<v Renata Andrade>porque acho que até igual eu falei,
+até na Adobe que tem todo o é o apoio,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1197-2
+00:40:11.823 --> 00:40:14.547
+<v Renata Andrade>fica, sabe? Tem hora hoje mesmo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1198-0
+00:40:14.867 --> 00:40:17.714
+<v Renata Andrade>Fechei meu olho assim um determinado
+momento,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1198-1
+00:40:17.714 --> 00:40:22.108
+<v Renata Andrade>nem sei mais o que foi que aconteceu,
+que eu falei assim, nossa gente,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1198-2
+00:40:22.108 --> 00:40:25.697
+<v Renata Andrade>eu não sei mais o que eu faço,
+porque assim, não aguento,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1198-3
+00:40:25.697 --> 00:40:29.534
+<v Renata Andrade>mas toda hora muda, sabe? E até o opus7,
+igual eu falei, 4.7,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1198-4
+00:40:29.534 --> 00:40:34.547
+<v Renata Andrade>eu não usei ainda porque não dá tempo,
+não li, nem li ainda o que que tem, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1199-0
+00:40:34.747 --> 00:40:39.205
+<v Renata Andrade>Então, assim, eu sei que é muito,
+mas não se sobrecarreguem,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1199-1
+00:40:39.205 --> 00:40:43.956
+<v Renata Andrade>tentem um pouquinho, né?
+Igual acho que essa palestra foi legal,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1199-2
+00:40:43.956 --> 00:40:47.902
+<v Renata Andrade>mas assim,
+acho que está todo mundo nesse sentimento,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1199-3
+00:40:47.902 --> 00:40:50.387
+<v Renata Andrade>infelizmente. Augusto, quer falar?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1200-0
+00:40:54.107 --> 00:40:55.907
+<v Renata Andrade>Foi sem querer também que levantou.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1202-0
+00:40:55.907 --> 00:40:59.520
+<v AUGUSTO Tadeu (External)>Não, vamos lá,
+voltando um pouquinho só antes,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1201-0
+00:40:57.587 --> 00:40:57.827
+<v Renata Andrade>Yeah.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1202-1
+00:40:59.520 --> 00:41:05.053
+<v AUGUSTO Tadeu (External)>eu queria entender como que vocês jogam
+esses dados para o click house,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1202-2
+00:41:05.053 --> 00:41:09.357
+<v AUGUSTO Tadeu (External)>que se é tipo assim,
+se executou o certo do playwright,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1202-3
+00:41:09.357 --> 00:41:13.507
+<v AUGUSTO Tadeu (External)>aí vai lá,
+lê o report do playwright e joga os dados.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1203-0
+00:41:13.747 --> 00:41:19.027
+<v AUGUSTO Tadeu (External)>Ou é tipo, é em tempo de execução,
+ali vai clicando e já vai mandando.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1206-0
+00:41:19.507 --> 00:41:25.264
+<v Renata Andrade>É, depende assim, sabe?
+Porque não é uma tabela só, tem n tabelas,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1206-1
+00:41:25.264 --> 00:41:28.787
+<v Renata Andrade>aí tem and flow, que é uma ferramenta de.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1204-0
+00:41:25.507 --> 00:41:25.667
+<v AUGUSTO Tadeu (External)>It's.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1207-0
+00:41:29.987 --> 00:41:37.744
+<v Renata Andrade>Nem sei de que é exatamente,
+mas é que monitora é a infraestrutura da</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1207-1
+00:41:37.744 --> 00:41:39.627
+<v Renata Andrade>máquina and flow.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1209-0
+00:41:41.827 --> 00:41:46.382
+<v AUGUSTO Tadeu (External)>Certo,
+mas não é assim baseado no arquivo de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1209-1
+00:41:46.382 --> 00:41:50.227
+<v AUGUSTO Tadeu (External)>test results lá do playwright somente.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1208-0
+00:41:48.027 --> 00:41:48.387
+<v Renata Andrade>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1211-0
+00:41:49.747 --> 00:41:52.763
+<v Renata Andrade>Sim e não assim.
+Então tem se for se a gente tiver falando</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1211-1
+00:41:52.763 --> 00:41:55.370
+<v Renata Andrade>só da parte,
+porque assim tem coisas que acontecem</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1211-2
+00:41:55.370 --> 00:41:58.232
+<v Renata Andrade>antes do teste,
+tem coisa que acontece durante o teste,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1210-0
+00:41:57.347 --> 00:41:57.427
+<v AUGUSTO Tadeu (External)>Uh-huh.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1211-3
+00:41:58.232 --> 00:42:00.941
+<v Renata Andrade>tem coisa que acontece depois do teste.
+Então assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1211-4
+00:42:00.941 --> 00:42:04.467
+<v Renata Andrade>isso tudo é armazenado nos bancos do
+click House. A gente tem dados.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1212-0
+00:42:04.707 --> 00:42:08.943
+<v Renata Andrade>É do Circle CI.
+Aí o Circle CI faz uma integração com o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1212-1
+00:42:08.943 --> 00:42:14.389
+<v Renata Andrade>Click House automático e já salva dado lá.
+No caso dos testes mesmo, é,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1212-2
+00:42:14.389 --> 00:42:17.792
+<v Renata Andrade>eu vou dizer que quase 100% é mais no
+final.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1212-3
+00:42:17.792 --> 00:42:21.347
+<v Renata Andrade>A gente sim pega alguns dados do
+relatório, é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1213-0
+00:42:33.507 --> 00:42:33.747
+<v AUGUSTO Tadeu (External)>T</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1214-0
+00:42:33.827 --> 00:42:36.707
+<v Renata Andrade>É, tem coisa que às vezes é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1216-0
+00:42:37.667 --> 00:42:41.831
+<v Renata Andrade>Processa antes, então assim,
+na hora que chamou o executar teste,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1216-1
+00:42:41.831 --> 00:42:46.942
+<v Renata Andrade>já salva um registro no banco de dados,
+porque a gente tem que saber que o teste</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1216-2
+00:42:46.942 --> 00:42:50.475
+<v Renata Andrade>começou a ser executado. Então assim,
+tem vários dados.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1216-3
+00:42:50.475 --> 00:42:55.459
+<v Renata Andrade>Eu não participei dessa definição de
+arquitetura de quais dados que são salvos</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1216-4
+00:42:55.459 --> 00:42:56.027
+<v Renata Andrade>e porque.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1217-0
+00:42:56.147 --> 00:42:59.612
+<v Renata Andrade>O que e tal,
+isso já vem de bastante tempo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1217-1
+00:42:59.612 --> 00:43:05.282
+<v Renata Andrade>mas são em vários momentos assim.
+Então depende do que que a gente quer</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1217-2
+00:43:05.282 --> 00:43:09.691
+<v Renata Andrade>monitorar, mas tem no início,
+tem no meio e tem no fim.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1218-0
+00:43:09.027 --> 00:43:12.627
+<v AUGUSTO Tadeu (External)>Tá de deixa eu só fazer um</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1217-3
+00:43:09.691 --> 00:43:11.187
+<v Renata Andrade>Então tem bastante.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1222-0
+00:43:13.667 --> 00:43:19.571
+<v AUGUSTO Tadeu (External)>Uma comparação aqui com algo que a gente
+fez lá no meu último projeto que eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1222-1
+00:43:19.571 --> 00:43:24.247
+<v AUGUSTO Tadeu (External)>estava trabalhando.
+A gente usava o Elastic Search, no caso,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1220-0
+00:43:19.667 --> 00:43:20.267
+<v Renata Andrade>Mm-hmm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1222-2
+00:43:24.247 --> 00:43:30.227
+<v AUGUSTO Tadeu (External)>que é para gerar dashboard também.
+E daí o Elastic, ele tem o Elastic Search.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1221-0
+00:43:24.307 --> 00:43:24.667
+<v Renata Andrade>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1225-0
+00:43:30.467 --> 00:43:35.933
+<v AUGUSTO Tadeu (External)>Que é o como se fosse um banco de dados,
+que daí eu fazendo a analogia com você,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1225-1
+00:43:35.933 --> 00:43:39.847
+<v AUGUSTO Tadeu (External)>seria o click House,
+que é para onde a gente vai jogar as</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1223-0
+00:43:36.267 --> 00:43:36.627
+<v Renata Andrade>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1225-2
+00:43:39.847 --> 00:43:45.245
+<v AUGUSTO Tadeu (External)>informações, e daí o kibana, que é usado,
+que seria o comparando com o grafana.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1224-0
+00:43:44.067 --> 00:43:44.667
+<v Renata Andrade>Mm-hmm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1225-3
+00:43:45.245 --> 00:43:45.987
+<v AUGUSTO Tadeu (External)>Aí a ideia.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1227-0
+00:43:46.147 --> 00:43:50.551
+<v AUGUSTO Tadeu (External)>Que a gente começou a fazer,
+que era mais focado, a aplicação em si,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1227-1
+00:43:50.551 --> 00:43:54.061
+<v AUGUSTO Tadeu (External)>ela já jogava dados para o Elastic. Então,
+tipo assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1227-2
+00:43:54.061 --> 00:43:58.783
+<v AUGUSTO Tadeu (External)>o Elastic é uma ferramenta padrão. Assim,
+todas as aplicações da empresa,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1227-3
+00:43:58.783 --> 00:44:02.868
+<v AUGUSTO Tadeu (External)>elas jogam dados para lá.
+E a gente não jogava dados dos testes</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1226-0
+00:44:00.987 --> 00:44:01.347
+<v Renata Andrade>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1227-4
+00:44:02.868 --> 00:44:05.867
+<v AUGUSTO Tadeu (External)>automatizados.
+E daí veio do meu chefe também.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1230-0
+00:44:05.947 --> 00:44:11.124
+<v AUGUSTO Tadeu (External)>também falou assim não a gente podia
+jogar isso daí para lá porque daí não</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1228-0
+00:44:10.867 --> 00:44:11.027
+<v Renata Andrade>Okay.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1230-1
+00:44:11.124 --> 00:44:16.438
+<v AUGUSTO Tadeu (External)>fica dependendo de licença da do cata não
+que a gente usava para ficar vendo</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1230-2
+00:44:16.438 --> 00:44:22.166
+<v AUGUSTO Tadeu (External)>dashboard já vê fica tudo concentrado no
+kibana aí a gente pegava é eu fiz esquema</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1229-0
+00:44:18.427 --> 00:44:18.787
+<v Renata Andrade>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1230-3
+00:44:22.166 --> 00:44:22.787
+<v AUGUSTO Tadeu (External)>lá que eu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1231-0
+00:44:23.267 --> 00:44:29.217
+<v AUGUSTO Tadeu (External)>E aí nesse outro ponto que eu queria
+chegar também o que eu fiz foi tipo</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1231-1
+00:44:29.217 --> 00:44:34.841
+<v AUGUSTO Tadeu (External)>extrair o como se fosse o teste
+resultados ali do catalão via E aí e</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1231-2
+00:44:34.841 --> 00:44:41.280
+<v AUGUSTO Tadeu (External)>jogar via E aí para o elastic o a gente
+conseguir então tipo trocar essa essas</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1231-3
+00:44:41.280 --> 00:44:42.747
+<v AUGUSTO Tadeu (External)>consultas e envios</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1232-0
+00:44:43.027 --> 00:44:48.547
+<v AUGUSTO Tadeu (External)>Por API, por skill, no caso, tipo por.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1233-0
+00:44:50.227 --> 00:44:54.714
+<v AUGUSTO Tadeu (External)>Não MCP,
+mas como que é feito isso na nessa parte</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1233-1
+00:44:54.714 --> 00:44:56.867
+<v AUGUSTO Tadeu (External)>que você falou, tipo de?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1234-0
+00:44:57.747 --> 00:45:02.542
+<v Renata Andrade>A gente tem função no código mesmo,
+nem entra IA nessa parte de armazenamento</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1234-1
+00:45:02.542 --> 00:45:03.587
+<v Renata Andrade>de dados. É isso?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1235-0
+00:45:04.627 --> 00:45:08.867
+<v AUGUSTO Tadeu (External)>É, eu acho que eu me perdi um pouco,
+mas é mais ou menos o.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1236-0
+00:45:10.467 --> 00:45:12.227
+<v AUGUSTO Tadeu (External)>A parte de.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1237-0
+00:45:16.787 --> 00:45:22.563
+<v AUGUSTO Tadeu (External)>não é que daí tipo como que eu trocaria
+essa chamada é de API para tipo extrair</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1237-1
+00:45:22.563 --> 00:45:25.667
+<v AUGUSTO Tadeu (External)>os dados daqui e mandar para lá é isso
+daí</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1238-0
+00:45:27.187 --> 00:45:28.307
+<v AUGUSTO Tadeu (External)>Continuaria ou não?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1239-0
+00:45:27.507 --> 00:45:27.987
+<v Renata Andrade>Rasheed.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1240-0
+00:45:29.987 --> 00:45:33.027
+<v Renata Andrade>Está aí os dados da API e que eu tô aqui,
+tô ouvindo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1242-0
+00:45:33.587 --> 00:45:37.280
+<v AUGUSTO Tadeu (External)>É,
+não é porque eu acho que a parte do da</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1242-1
+00:45:37.280 --> 00:45:43.347
+<v AUGUSTO Tadeu (External)>skill que você usa é para tipo,
+pedir para gerar um gráfico, é isso?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1241-0
+00:45:39.987 --> 00:45:40.587
+<v Renata Andrade>Mm-hmm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1244-0
+00:45:43.907 --> 00:45:49.600
+<v Renata Andrade>Está, eu tenho tudo lá. Na verdade,
+deixa eu abrir aqui de novo para a gente</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1243-0
+00:45:47.147 --> 00:45:47.507
+<v AUGUSTO Tadeu (External)>Mhm.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1244-1
+00:45:49.600 --> 00:45:52.853
+<v Renata Andrade>olhar. Tem é,
+tem a parte de gerar gráfico,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1244-2
+00:45:52.853 --> 00:45:58.841
+<v Renata Andrade>tem a parte de consultar o banco de dados
+diretamente e tem a parte de publicar.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1244-3
+00:45:58.841 --> 00:46:00.467
+<v Renata Andrade>Então eu tenho aqui é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1245-0
+00:46:01.267 --> 00:46:05.486
+<v Renata Andrade>Skill,
+deixa eu ver se essa skill aqui Click</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1245-1
+00:46:05.486 --> 00:46:07.267
+<v Renata Andrade>House RS na verdade</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1246-0
+00:46:09.507 --> 00:46:19.667
+<v Renata Andrade>É essa daqui, Oh, então eu tenho, é, Oh,
+quando espera aí, espera aí, and the</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1247-0
+00:46:24.067 --> 00:46:28.020
+<v Renata Andrade>Ah, tá, é. São várias skills, na verdade,
+que eu tenho.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1247-1
+00:46:28.020 --> 00:46:32.678
+<v Renata Andrade>E esse daqui é depois que o dado já está
+armazenado no banco, tá?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1247-2
+00:46:32.678 --> 00:46:37.195
+<v Renata Andrade>Isso daqui é depois mesmo.
+A parte de salvar os dados no banco,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1247-3
+00:46:37.195 --> 00:46:40.301
+<v Renata Andrade>isso acontece lá no meu framework de
+teste.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1247-4
+00:46:40.301 --> 00:46:43.547
+<v Renata Andrade>Então eu tenho umas funções lá no meu
+código.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1248-0
+00:46:43.987 --> 00:46:48.901
+<v Renata Andrade>É,
+a gente tem aqui testes and to and run do</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1248-1
+00:46:48.901 --> 00:46:55.781
+<v Renata Andrade>core e a gente tem várias funções aqui.
+Services, por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1248-2
+00:46:55.781 --> 00:46:58.947
+<v Renata Andrade>tem o runner que aí eu tenho.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1249-0
+00:46:59.387 --> 00:47:05.478
+<v Renata Andrade>Results reports é isso aqui salva em
+algumas tabelas. É, enfim, outage manager,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1249-1
+00:47:05.478 --> 00:47:11.796
+<v Renata Andrade>metadata collection, lifecycle management.
+Então isso tudo roda antes ou depois ou</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1249-2
+00:47:11.796 --> 00:47:15.907
+<v Renata Andrade>durante os testes para salvar os dados no
+clickhouse.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1250-0
+00:47:16.307 --> 00:47:19.506
+<v Renata Andrade>Tá,
+então isso acontece dessa forma aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1250-1
+00:47:19.506 --> 00:47:23.563
+<v Renata Andrade>dentro do código,
+então quando o teste é executado,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1250-2
+00:47:23.563 --> 00:47:27.308
+<v Renata Andrade>a galera não chama npx playwright,
+por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1250-3
+00:47:27.308 --> 00:47:30.818
+<v Renata Andrade>ela chama uma função do meu do meu honey
+do,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1250-4
+00:47:30.818 --> 00:47:35.187
+<v Renata Andrade>que é o framework no topo do playwright
+em cima do que.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1251-0
+00:47:35.427 --> 00:47:42.055
+<v Renata Andrade>Engloba o playwright e aí esse framework
+é que vai é fazer tudo o que precisa ser</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1251-1
+00:47:42.055 --> 00:47:46.663
+<v Renata Andrade>feito em termos de salvar os dados no
+banco e tudo mais.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1251-2
+00:47:46.663 --> 00:47:51.027
+<v Renata Andrade>Então é essa parte é uma que fica lá na
+minha no meu.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1252-0
+00:47:51.107 --> 00:47:56.593
+<v Renata Andrade>monolito né dentro do código-fonte já
+junto com o código-fonte do Adobe Express</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1252-1
+00:47:56.593 --> 00:47:57.827
+<v Renata Andrade>beleza os dados já</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1253-0
+00:47:56.707 --> 00:47:59.667
+<v Leticia Silv&#233;rio>Esse foi você que construiu também é ou
+esse já existia?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1254-0
+00:48:00.387 --> 00:48:03.327
+<v Renata Andrade>Isso já existia,
+mas a gente dá manutenção, assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1254-1
+00:48:03.327 --> 00:48:05.747
+<v Renata Andrade>o meu time é responsável por esse honeydo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1256-0
+00:48:07.507 --> 00:48:12.255
+<v Renata Andrade>Então, eventualmente, o wrapper, isso,
+então beleza.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1255-0
+00:48:07.667 --> 00:48:12.467
+<v AUGUSTO Tadeu (External)>Que é o rapper lá que você comentou, né?
+No começo, tá.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1256-1
+00:48:12.255 --> 00:48:18.168
+<v Renata Andrade>Então uma coisa é executar os testes e
+salvar dados no banco, tá?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1256-2
+00:48:18.168 --> 00:48:22.557
+<v Renata Andrade>Então a gente tem como se fosse um
+playwright 2.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1257-0
+00:48:22.627 --> 00:48:28.407
+<v Renata Andrade>Assim que ao invés de executar NPX
+playwright, a gente executa NPX honeydoo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1257-1
+00:48:28.407 --> 00:48:32.234
+<v Renata Andrade>por exemplo. E aí esse honeydoo fala,
+então vamos,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1257-2
+00:48:32.234 --> 00:48:35.987
+<v Renata Andrade>a gente já vai executar um teste,
+então vamos, é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1258-0
+00:48:37.187 --> 00:48:40.468
+<v Renata Andrade>Planejar aqui qual que é o ciclo de vida
+desse teste.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1258-1
+00:48:40.468 --> 00:48:44.660
+<v Renata Andrade>Esse teste está ativo ou está inativo? Ah,
+está ativo, então beleza,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1258-2
+00:48:44.660 --> 00:48:49.216
+<v Renata Andrade>então a gente pode executar. Ah,
+qual que é o time do Slack que esse teste</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1258-3
+00:48:49.216 --> 00:48:53.955
+<v Renata Andrade>pertence? Porque cada teste nosso é,
+deixa eu ver se eu consigo abrir um aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1258-4
+00:48:53.955 --> 00:48:54.987
+<v Renata Andrade>para vocês verem.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1259-0
+00:48:55.267 --> 00:48:58.364
+<v Renata Andrade>Cada teste nosso tem algum time que é
+responsável.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1259-1
+00:48:58.364 --> 00:49:01.460
+<v Renata Andrade>Então quando o time dá quando o teste dá
+problema,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1259-2
+00:49:01.460 --> 00:49:06.013
+<v Renata Andrade>o time tem que ser notificado via Slack.
+Essas notificações está dentro do</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1259-3
+00:49:06.013 --> 00:49:08.927
+<v Renata Andrade>honeydoo.
+Então a gente tem uma função lá que é</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1259-4
+00:49:08.927 --> 00:49:10.627
+<v Renata Andrade>notificar time, por exemplo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1260-0
+00:49:11.107 --> 00:49:18.051
+<v Renata Andrade>é enfim então tem várias funcionalidades
+dentro do contexto da Adobe que são</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1260-1
+00:49:18.051 --> 00:49:24.905
+<v Renata Andrade>relevantes para esse hanido então é
+quando os testes executam eles executam</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1260-2
+00:49:24.905 --> 00:49:25.987
+<v Renata Andrade>Esse comando</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1261-0
+00:49:26.067 --> 00:49:31.089
+<v Renata Andrade>Que aí, depois de executar várias coisas,
+um comando lá do honeydoo vai chamar o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1261-1
+00:49:31.089 --> 00:49:35.057
+<v Renata Andrade>playwright e aí sim vai executar os
+testes. Então, por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1261-2
+00:49:35.057 --> 00:49:39.397
+<v Renata Andrade>quando eu falo de metadata,
+aqui a gente tem o Slack channel do time,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1261-3
+00:49:39.397 --> 00:49:43.427
+<v Renata Andrade>o ID, quem que é o owner,
+que geralmente é o mesmo nome do time.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1262-0
+00:49:43.667 --> 00:49:48.007
+<v Renata Andrade>O Jira projeto, porque se der bug,
+já abre um ticket para o time,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1262-1
+00:49:48.007 --> 00:49:52.215
+<v Renata Andrade>o componente, enfim. Então,
+quando um teste falha, por exemplo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1262-2
+00:49:52.215 --> 00:49:55.765
+<v Renata Andrade>já abre um bug automático,
+quem faz isso é o honeydo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1262-3
+00:49:55.765 --> 00:49:59.907
+<v Renata Andrade>que é esse wrapper que roda junto com os
+testes do playwright.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1263-0
+00:50:00.307 --> 00:50:04.039
+<v Renata Andrade>Alguns acontecem antes,
+uns acontecem durante e outro acontece</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1263-1
+00:50:04.039 --> 00:50:07.179
+<v Renata Andrade>depois. É bem complexo,
+não é um projetinho simples,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1263-2
+00:50:07.179 --> 00:50:10.792
+<v Renata Andrade>não é muita coisa mesmo.
+E demorou anos para ser construído.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1263-3
+00:50:10.792 --> 00:50:15.827
+<v Renata Andrade>Não foi assim também do dia para a noite,
+não é? Então uma beleza, executou o teste.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1264-0
+00:50:16.627 --> 00:50:22.109
+<v Renata Andrade>É salvou os resultados no click House,
+que seria o Elastic Search, por exemplo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1264-1
+00:50:22.109 --> 00:50:25.741
+<v Renata Andrade>No caso do Augusto, é Augusto,
+mas é Augusto. Então,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1264-2
+00:50:25.741 --> 00:50:29.510
+<v Renata Andrade>depois que salvou os dados,
+aí eu tenho a fotografana,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1264-3
+00:50:29.510 --> 00:50:33.827
+<v Renata Andrade>que aí os dados já estão salvos no click
+House. Eu só preciso.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1265-0
+00:50:34.467 --> 00:50:39.001
+<v Renata Andrade>Esse vile é dado mesmo,
+então eu tenho várias skills.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1265-1
+00:50:39.001 --> 00:50:45.633
+<v Renata Andrade>Eu tenho a skill que é quando uma pessoa
+pergunta quais são os testes failures</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1265-2
+00:50:45.633 --> 00:50:48.907
+<v Renata Andrade>rate, sei lá do premerge, ele consegue.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1266-0
+00:50:49.187 --> 00:50:52.981
+<v Renata Andrade>É transformar isso em query,
+olhar para esses bancos de dados aqui,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1266-1
+00:50:52.981 --> 00:50:55.436
+<v Renata Andrade>que são os bancos de dados do meu
+contexto,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1266-2
+00:50:55.436 --> 00:50:57.667
+<v Renata Andrade>que são importantes para o meu contexto.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1267-0
+00:50:59.107 --> 00:51:01.700
+<v Renata Andrade>É aí,
+deixa eu só fechar isso daqui para ficar</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1267-1
+00:51:01.700 --> 00:51:02.307
+<v Renata Andrade>mais claro.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1268-0
+00:51:04.067 --> 00:51:08.334
+<v Renata Andrade>Andrade, gente, nossa,
+esse curso está me tirando do Sério,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1268-1
+00:51:08.334 --> 00:51:13.027
+<v Renata Andrade>porque ele muda todo dia.
+Eu não sei mais como é que faz os trem.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1268-2
+00:51:13.027 --> 00:51:18.787
+<v Renata Andrade>Outro dia mesmo estava aqui as coisas de
+tirar e colocar. Agora eu não sei mais.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1269-0
+00:51:19.587 --> 00:51:23.528
+<v Renata Andrade>E nem viu. Enfim,
+deixa eu fechar all aqui.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1269-1
+00:51:23.528 --> 00:51:25.587
+<v Renata Andrade>Deixa eu ver close all.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1270-0
+00:51:26.787 --> 00:51:31.843
+<v Renata Andrade>Beleza, então beleza.
+Aí eu tenho a skill que consegue executar</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1270-1
+00:51:31.843 --> 00:51:38.004
+<v Renata Andrade>a query automática lá no meu banco. E aí,
+ela tem vários scripts aqui que ela</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1270-2
+00:51:38.004 --> 00:51:44.086
+<v Renata Andrade>utiliza de Python, que ela que criou.
+Então a generate SQL query é um script</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1270-3
+00:51:44.086 --> 00:51:45.587
+<v Renata Andrade>Python que executa.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1271-0
+00:51:46.027 --> 00:51:51.858
+<v Renata Andrade>Então quando eu falei crie um script para
+mim que eu consigo pesquisar quais são os</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1271-1
+00:51:51.858 --> 00:51:57.412
+<v Renata Andrade>testes failures rates blá blá blá fui
+interagindo ele foi criando nem nem nunca</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1271-2
+00:51:57.412 --> 00:52:01.507
+<v Renata Andrade>vi claro que eu revisei né mas assim
+testei funcionou show</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1272-0
+00:52:01.747 --> 00:52:08.547
+<v Renata Andrade>Sabe, isso aqui eu não fico mexendo,
+não é? Tem outra skill que é para.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1273-0
+00:52:09.507 --> 00:52:13.745
+<v Renata Andrade>É conectar,
+complicar os Asano que a gente estava,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1273-1
+00:52:13.745 --> 00:52:18.980
+<v Renata Andrade>nem sei mais skill, beleza, então tá,
+então já tem essa daqui,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1273-2
+00:52:18.980 --> 00:52:25.544
+<v Renata Andrade>tem outra skill que é para importar
+dashboard do grafana, então tá aqui a URL,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1273-3
+00:52:25.544 --> 00:52:26.707
+<v Renata Andrade>o data source,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1274-0
+00:52:27.027 --> 00:52:33.784
+<v Renata Andrade>E tudo mais, foi a mesma coisa,
+cria uma skill que carrega a API key lá</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1274-1
+00:52:33.784 --> 00:52:39.977
+<v Renata Andrade>da minha.env, chama a API,
+então a gente deve ter aqui um comando</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1274-2
+00:52:39.977 --> 00:52:44.387
+<v Renata Andrade>validate o Json file,
+que é o Json do grafana.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1275-0
+00:52:44.667 --> 00:52:47.907
+<v Renata Andrade>Verifica se o dashboard já existe, aí ó,
+ele faz um.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1277-0
+00:52:50.067 --> 00:52:52.907
+<v Renata Andrade>Python, sei, nem sei o que que é isso,
+gente,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1277-1
+00:52:52.907 --> 00:52:55.747
+<v Renata Andrade>deve deve utilizar os mesmos scripts aqui
+do.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1278-0
+00:52:58.227 --> 00:53:07.450
+<v Renata Andrade>É do click house scripts, não sei, enfim,
+eu literalmente mandei ele criar,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1278-1
+00:53:07.450 --> 00:53:09.027
+<v Renata Andrade>ele criou, é.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1279-0
+00:53:10.307 --> 00:53:18.000
+<v Renata Andrade>descobre qual que é a pasta destino e faz
+o push então através desses scripts aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1279-1
+00:53:18.000 --> 00:53:25.507
+<v Renata Andrade>ele faz tudo isso e aí lá no script é que
+ele fala como é que ele vai fazer isso</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1280-0
+00:53:25.587 --> 00:53:28.867
+<v Renata Andrade>E aí, se é via, que que é?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1281-0
+00:53:29.907 --> 00:53:34.670
+<v Renata Andrade>Então import dashboard, blá blá blá.
+Então são funções que poderiam ser em</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1281-1
+00:53:34.670 --> 00:53:39.624
+<v Renata Andrade>Java em qualquer coisa né mas geralmente
+a As funcionam muito bem com Python,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1281-2
+00:53:39.624 --> 00:53:44.704
+<v Renata Andrade>escreveu tudo em Python para mim e assim
+muito provavelmente esses códigos aqui</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1281-3
+00:53:44.704 --> 00:53:49.467
+<v Renata Andrade>não são muito reutilizáveis não deve
+estar seguindo os melhores padrões de</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1282-0
+00:53:49.587 --> 00:53:53.408
+<v Renata Andrade>desenvolvimento e tal,
+mas só eu que uso essa skill aqui,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1282-1
+00:53:53.408 --> 00:53:57.823
+<v Renata Andrade>até tiveram outras que foram criadas
+depois, tipo essa hotel aqui,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1282-2
+00:53:57.823 --> 00:54:02.566
+<v Renata Andrade>esse teste deira que eu não sei,
+talvez fui eu, nem lembro mais, enfim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1282-3
+00:54:02.566 --> 00:54:07.507
+<v Renata Andrade>então você vai criando as skills de
+acordo com as suas necessidades, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1283-0
+00:54:07.907 --> 00:54:09.907
+<v Renata Andrade>É, não tem muito como.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1284-0
+00:54:10.867 --> 00:54:14.916
+<v Renata Andrade>Determinar assim, essa é uma boa prática,
+faça isso que vai dar certo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1284-1
+00:54:14.916 --> 00:54:17.767
+<v Renata Andrade>Depende muito do que você precisa.
+A minha chefe,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1284-2
+00:54:17.767 --> 00:54:22.100
+<v Renata Andrade>que é essa que criou o Jira ticket lá
+para mim e fica passando as demandas.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1284-3
+00:54:22.100 --> 00:54:26.149
+<v Renata Andrade>Ela tem o conjunto de skills que funciona
+para o dia a dia dela, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1284-4
+00:54:26.149 --> 00:54:26.947
+<v Renata Andrade>Então ela tem.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1286-0
+00:54:27.267 --> 00:54:32.842
+<v Renata Andrade>A skill que vai lá e lê as threads do
+Slack e faz um resumão para ela e conecta</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1286-1
+00:54:32.842 --> 00:54:36.953
+<v Renata Andrade>com o Git, enfim.
+Então acho que realmente depende de cada</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1286-2
+00:54:36.953 --> 00:54:40.368
+<v Renata Andrade>demanda.
+Mas espero que talvez tenha dado alguns</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1286-3
+00:54:40.368 --> 00:54:42.667
+<v Renata Andrade>insights aí também nesse aspecto.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1287-0
+00:54:42.867 --> 00:54:45.427
+<v Renata Andrade>Deu para clarear um pouquinho, Augusto.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1288-0
+00:54:46.787 --> 00:54:48.387
+<v Renata Andrade>e todo mundo né que tá aí ainda</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1289-0
+00:54:50.107 --> 00:54:51.827
+<v AUGUSTO Tadeu (External)>Deu, deu sim. Obrigado por.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1292-0
+00:54:52.467 --> 00:54:55.227
+<v Renata Andrade>É, mas é muita coisa mesmo,
+a gente precisava de.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1290-0
+00:54:53.427 --> 00:54:55.147
+<v AUGUSTO Tadeu (External)>I think that Ito.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1291-0
+00:54:54.467 --> 00:54:55.747
+<v Leticia Silv&#233;rio>Oh, hey, tell the some aí.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1293-0
+00:54:56.947 --> 00:55:01.987
+<v Renata Andrade>7 da noite deve estar nossa,
+2 horas da manhã aí já, gente.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1295-0
+00:55:02.747 --> 00:55:04.467
+<v Leticia Silv&#233;rio>Nada 11 Tag</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1294-0
+00:55:03.427 --> 00:55:04.147
+<v Rui Barbosa>11 horas.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1296-0
+00:55:04.547 --> 00:55:05.907
+<v Renata Andrade>Ono, meu Deus.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1299-0
+00:55:05.507 --> 00:55:10.707
+<v Rui Barbosa>Uma observação sobre as skills,
+eu não sei se tem no curso,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1299-1
+00:55:10.707 --> 00:55:17.294
+<v Rui Barbosa>mas em geral você consegue utilizar
+skills globalmente por workspace ou por</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1299-2
+00:55:17.294 --> 00:55:21.107
+<v Rui Barbosa>contexto específico.
+Eu não sei se dá para.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1298-0
+00:55:20.787 --> 00:55:20.907
+<v Renata Andrade>Right.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1301-0
+00:55:21.427 --> 00:55:24.846
+<v Rui Barbosa>É organizar isso.
+Então tem algumas coisas que talvez você</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1301-1
+00:55:24.846 --> 00:55:28.903
+<v Rui Barbosa>queira utilizar em tudo ou só específico
+naquele ou ter só o seu, né?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1300-0
+00:55:27.987 --> 00:55:28.547
+<v Renata Andrade>É.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1301-2
+00:55:28.903 --> 00:55:30.467
+<v Rui Barbosa>Dá para fazer, né? Imagina.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1302-0
+00:55:29.907 --> 00:55:32.547
+<v Renata Andrade>É, está, a gente ainda está bem.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1303-0
+00:55:34.147 --> 00:55:36.966
+<v Renata Andrade>Confuso em relação a isso,
+porque às vezes assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1303-1
+00:55:36.966 --> 00:55:40.349
+<v Renata Andrade>eu preciso só de um pedaço da skill, sabe?
+Aí eu customizo,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1303-2
+00:55:40.349 --> 00:55:44.069
+<v Renata Andrade>aí eu às vezes eu acho que vai ser bom
+para o time, aí eu comito,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1303-3
+00:55:44.069 --> 00:55:48.636
+<v Renata Andrade>às vezes eu não acho e está no meu local.
+Tem um Monte de skill que está tudo no</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1303-4
+00:55:48.636 --> 00:55:50.947
+<v Renata Andrade>meu local aqui, nem publiquei, até assim.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1304-0
+00:55:51.027 --> 00:55:54.956
+<v Renata Andrade>Correndo riscos de vida.
+Mas eu acho que é, tem sim, né?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1304-1
+00:55:54.956 --> 00:55:58.747
+<v Renata Andrade>Por contexto,
+eu acho que em algum momento a gente vai</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1304-2
+00:55:58.747 --> 00:56:02.193
+<v Renata Andrade>dar uma pausa e vai dar uma ajustada
+nisso, sabe?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1304-3
+00:56:02.193 --> 00:56:07.707
+<v Renata Andrade>Mas por hora tá meio que tudo para todo
+mundo, assim, uma vez que você instala.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1305-0
+00:56:06.787 --> 00:56:10.635
+<v Rui Barbosa>É um problema bom, é um problema bom,
+porque tipo, beleza,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1305-1
+00:56:10.635 --> 00:56:14.547
+<v Rui Barbosa>estão usando e tá funcionando,
+depois otimiza, mas isso aí.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1306-0
+00:56:13.187 --> 00:56:15.969
+<v Renata Andrade>É, é,
+mas tem muita gente assim tendo esses</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1306-1
+00:56:15.969 --> 00:56:19.447
+<v Renata Andrade>cuidados, né?
+Igual eu falei que tem esse cara que fez</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1306-2
+00:56:19.447 --> 00:56:22.608
+<v Renata Andrade>o agent,
+que você faz o checkout e o check-in e o</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1306-3
+00:56:22.608 --> 00:56:26.465
+<v Renata Andrade>release, né? Vamos dizer assim.
+Então é no repositório dele,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1306-4
+00:56:26.465 --> 00:56:30.701
+<v Renata Andrade>ele tem as skills lá que ele quer e aí
+quando ele abre um projeto,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1306-5
+00:56:30.701 --> 00:56:32.787
+<v Renata Andrade>ele faz o checkout só das skills.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1307-0
+00:56:32.827 --> 00:56:37.633
+<v Renata Andrade>que fazem sentido para aquele projeto e
+assim vai e aí eu quero ele mostrou isso</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1307-1
+00:56:37.633 --> 00:56:42.618
+<v Renata Andrade>semana passada sexta-feira então eu quero
+tirar um tempinho para eu configurar isso</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1307-2
+00:56:42.618 --> 00:56:47.424
+<v Renata Andrade>também mas ainda não deu tempo então tá
+tudo uma confusão aqui e aí eu tenho uns</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1307-3
+00:56:47.424 --> 00:56:52.289
+<v Renata Andrade>cinco pastas diferentes de repositório aí
+eu tenho que ficar lembrando que onde é</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1307-4
+00:56:52.289 --> 00:56:52.467
+<v Renata Andrade>que</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1308-0
+00:56:52.547 --> 00:56:55.754
+<v Renata Andrade>O que? Assim,
+eu realmente preciso melhorar o meu</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1308-1
+00:56:55.754 --> 00:56:59.024
+<v Renata Andrade>workflow,
+porque eu estou dando sorte que eu estou</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1308-2
+00:56:59.024 --> 00:57:03.641
+<v Renata Andrade>trabalhando só numa área do projeto agora,
+sabe? Então está mais fácil,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1308-3
+00:57:03.641 --> 00:57:08.707
+<v Renata Andrade>mas realmente a gente precisa fazer esse
+higiene da área de trabalho para não.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1309-0
+00:57:09.627 --> 00:57:12.539
+<v Renata Andrade>Pra N coisas, né?
+Pra gente ter mais produtividade,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1309-1
+00:57:12.539 --> 00:57:14.387
+<v Renata Andrade>mais sanidade mental e tudo mais.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1310-0
+00:57:16.307 --> 00:57:19.671
+<v Renata Andrade>Gente,
+agora eu vou de verdade que eu preciso</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1310-1
+00:57:19.671 --> 00:57:24.570
+<v Renata Andrade>comer, vocês também dormir. Mas enfim,
+eu vou pensar numa party 2.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1310-2
+00:57:24.570 --> 00:57:27.934
+<v Renata Andrade>De repente a gente faz algumas collabs
+assim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1310-3
+00:57:27.934 --> 00:57:32.467
+<v Renata Andrade>traz algumas pessoas para trazer algumas
+experiências também.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1311-0
+00:57:32.787 --> 00:57:37.187
+<v Renata Andrade>É, mas deixa passar mais uns,
+talvez um ou 2 meses aí para a gente ter</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1311-1
+00:57:37.187 --> 00:57:41.525
+<v Renata Andrade>mais novidade. E aí a gente vai.
+Talvez a gente faz um meetup também,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1311-2
+00:57:41.525 --> 00:57:45.305
+<v Renata Andrade>sei lá, uma vez por mês,
+só para trocar conhecimento. Enfim,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1311-3
+00:57:45.305 --> 00:57:47.907
+<v Renata Andrade>ideias tem. Vamos ver o que dá para fazer.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1312-0
+00:57:48.227 --> 00:57:53.164
+<v Renata Andrade>Mas obrigadão pela presença,
+eu tô muito feliz mesmo, mas surtos,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1312-1
+00:57:53.164 --> 00:57:53.987
+<v Renata Andrade>exatamente!</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1313-0
+00:57:55.347 --> 00:58:00.696
+<v Renata Andrade>Mas mais IA não,
+menos IA não vai ter IA party 2 de jeito</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1313-1
+00:58:00.696 --> 00:58:01.987
+<v Renata Andrade>nenhum, enfim.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1315-0
+00:58:01.747 --> 00:58:05.347
+<v Rui Barbosa>a cabeça fervendo, né?
+Querendo aplicar tudo.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1314-0
+00:58:03.747 --> 00:58:04.467
+<v Renata Andrade>É.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1316-0
+00:58:05.827 --> 00:58:10.492
+<v Renata Andrade>Sim, mas então está pessoal, é a gravação.
+Eu coloco lá entre hoje e amanhã.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1316-1
+00:58:10.492 --> 00:58:15.036
+<v Renata Andrade>Tem que esperar o teams é processar aqui,
+mas os certificados daqui alguns</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1316-2
+00:58:15.036 --> 00:58:19.762
+<v Renata Andrade>minutinhos eu clico lá no completar da
+plataforma. Vocês já conseguem baixar,</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1317-0
+00:58:19.667 --> 00:58:22.383
+<v Leticia Silv&#233;rio>Ótimo,
+em 5 minutos ela vai ter 20 publicações</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1316-3
+00:58:19.762 --> 00:58:20.307
+<v Renata Andrade>está bom?</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1317-1
+00:58:22.383 --> 00:58:23.827
+<v Leticia Silv&#233;rio>no LinkedIn marcando ela.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1327-0
+00:58:23.827 --> 00:58:26.738
+<v Renata Andrade>E aí,
+que bom que aí traz mais gente para</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1327-1
+00:58:26.738 --> 00:58:30.134
+<v Renata Andrade>conversar com a gente.
+É sempre bom trocar mais.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1318-0
+00:58:29.387 --> 00:58:29.987
+<v Rui Barbosa>Muito bom.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1319-0
+00:58:29.667 --> 00:58:31.267
+<v Leticia Silv&#233;rio>Beleza, Ito-charge and.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1327-2
+00:58:30.134 --> 00:58:34.707
+<v Renata Andrade>Então está gente, obrigada, boa noite,
+bom Descanso, bons surtos.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1321-0
+00:58:31.667 --> 00:58:32.867
+<v Rui Barbosa>Rasheed Chachar.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1326-0
+00:58:33.307 --> 00:58:36.387
+<v Julissy Tocachelo>Gente, boa noite, até tchau.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1329-0
+00:58:36.947 --> 00:58:37.987
+<v AUGUSTO Tadeu (External)>Obrigado. Boa noite.</v>
+
+0da9be75-4983-4785-a5f1-e39f66316319/1333-0
+00:58:38.387 --> 00:58:40.387
+<v Renata Andrade>Obrigada, até mais, tchau, tchau.</v>

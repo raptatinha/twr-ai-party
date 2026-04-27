@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI PARTY Workshop v2 - Material do Aluno - testingwithrenata.com</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/ebook.css">
+<script>/* Anti-FOUC */
+(function(){try{var t=localStorage.getItem('twr-docs-theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');if(t==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}})();
+</script>
+<style>
+  .section-title { font-family: 'JetBrains Mono', monospace; font-weight: 700; }
+  .section-number { font-family: 'JetBrains Mono', monospace; font-weight: 700; }
+  .section-heading h2 { font-family: 'JetBrains Mono', monospace; }
+  .card-title { font-size: 12px; }
+  .cheat-section {
+    background: var(--bg2);
+    padding: 80px 0;
+    border-top: 1px solid rgba(79,130,155,0.2);
+  }
+  .cheat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .cheat-card {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .cheat-card-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .cheat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    font-size: 13px;
+  }
+  .cheat-row:last-child { border-bottom: none; }
+  .cheat-key { font-family: 'JetBrains Mono', monospace; color: var(--teal); font-size: 12px; flex-shrink: 0; }
+  .cheat-desc { color: var(--muted); text-align: right; font-size: 12px; }
+  .footer {
+    background: var(--bg2);
+    padding: 48px 0;
+    border-top: 1px solid rgba(79,130,155,0.15);
+    text-align: center;
+  }
+  .footer p { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); }
+  .footer .green { color: var(--teal); }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="cover-grid"></div>
+  <div style="position:relative; z-index:1;">
+    <a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="display:inline-block; margin-bottom:24px;"><img src="img/logo_branca_menor.webp" alt="Testing with Renata" style="height:72px;" class="logo-light"><img src="img/Logo_escura.png" alt="Testing with Renata" style="height:72px;" class="logo-dark"></a>
+    <div class="cover-badge">Material do Aluno · AI PARTY · v2</div>
+    <h1>AI PARTY<br><span>Workshop</span></h1>
+    <p class="cover-sub">Guia completo com os conceitos, fluxos práticos, boas práticas e casos reais para aplicar IA no dia a dia de desenvolvimento e QA.</p>
+    <div class="cover-meta">
+      <div class="cover-meta-item"><span class="cover-meta-label">Duração</span><span class="cover-meta-value">3 horas</span></div>
+      <div class="cover-meta-item"><span class="cover-meta-label">Formato</span><span class="cover-meta-value">Hands-on</span></div>
+      <div class="cover-meta-item"><span class="cover-meta-label">Nível</span><span class="cover-meta-value">Misto</span></div>
+      <div class="cover-meta-item"><span class="cover-meta-label">Inclui</span><span class="cover-meta-value">Cheat sheet</span></div>
+    </div>
+    <div style="text-align:right; margin-top:24px;"><a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:6px; text-decoration:none; opacity:0.5;"><img src="img/icone_branco.png" alt="" style="height:18px; width:18px;" class="logo-light"><img src="img/icone_escuro.png" alt="" style="height:18px; width:18px;" class="logo-dark"><span style="font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--muted);">testingwithrenata.com</span></a></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="content-section">
+  <div class="container">
+    <p class="section-label">Neste material</p>
+    <h2 class="section-title">O que você vai aprender</h2>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Conteúdo principal</div>
+        <ul>
+          <li>The 4Ds de AI Fluency para orientar decisão e execução</li>
+          <li>Escolha de modelos e gerenciamento de contexto/tokens</li>
+          <li>MCP como base de integração entre IA e ferramentas</li>
+          <li>Playwright MCP, CLI e Agents (Planner, Generator, Healer)</li>
+          <li>Cursor Rules, Skills e Agents — diferenças e aplicações</li>
+          <li>Claude Code, Codex, Copilot e Gemini no fluxo de trabalho</li>
+          <li>Dashboards automatizados com ClickHouse e Grafana</li>
+          <li>Cultura de adoção de IA e boas práticas de time</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Como aproveitar melhor</div>
+        <ul>
+          <li>Aplique cada bloco em um caso real do seu contexto</li>
+          <li>Use os checklists para repetir o fluxo depois da aula</li>
+          <li>Registre prompts e resultados em um caderno de aprendizado</li>
+          <li>Compare "antes e depois" em tempo e qualidade</li>
+          <li>Adapte Rules/Skills para seu time nas primeiras 2 semanas</li>
+          <li>Crie pelo menos uma skill personalizada para seu projeto</li>
+          <li>Compartilhe aprendizados com colegas — issó acelera adoção</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info-box">
+      <div class="info-box-title">Pré-requisito recomendado</div>
+      <p>Conhecimento básico de Git, terminal e fluxo de PR. Não precisa dominar Playwright para acompanhar, mas ajuda já ter visto conceitos de teste automatizado.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECAO 01 -->
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">01</div>
+    <div class="section-header">
+      <div class="section-icon">🧭</div>
+      <div class="section-heading">
+        <h2>The 4Ds + Modelos + Contexto</h2>
+        <div class="meta"><span class="meta-chip chip-green">Fundação</span><span class="meta-chip chip-purple">15 + 15 min</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">The 4Ds</div>
+        <ul>
+          <li><strong>Delegation:</strong> saber quais tarefas delegar e escolher o modelo adequado para cada tipo de tarefa (ex: Cloud 4.6 Opus High para raciocínio complexo, Sonnet para tarefas mais leves)</li>
+          <li><strong>Description:</strong> fornecer descrições claras com exemplos, arquivos e regras. O tamanho do contexto impacta diretamente o consumo de tokens</li>
+          <li><strong>Discernment:</strong> avaliar criticamente, validar com colegas, consultar documentação oficial. Não confiar cegamente nas respostas</li>
+          <li><strong>Diligence:</strong> usar variáveis de ambiente, evitar dados sensíveis, ser transparente sobre uso de IA em documentos e tickets (ex: marcar no Jira)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Escolha de modelos</div>
+        <ul>
+          <li>Cada modelo e treinado com foco diferente (código, dados, linguagem natural)</li>
+          <li>O mesmo prompt gera resultados diferentes entre modelos</li>
+          <li>Leia a documentação do modelo antes de julgar se e bom ou ruim</li>
+          <li>Compare modelo A vs modelo B para a mesma tarefa</li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Context management</div>
+        <ul>
+          <li>Conversa longa sem higiene reduz qualidade da IA</li>
+          <li>Use <code>/compact</code> para preservar contexto essencial</li>
+          <li>Use <code>/clear</code> para iniciar tarefa totalmente nova</li>
+          <li>Trate tokens como limite de foco e memória de trabalho</li>
+          <li>Salve informações importantes em arquivos para evitar alucinações e desperdício de tokens</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Assistentes comparados</div>
+        <ul>
+          <li><strong>Cursor:</strong> IDE com Rules/Skills, suporta multiplos modelos</li>
+          <li><strong>Claude Code:</strong> refatoração e leitura de base legada</li>
+          <li><strong>GitHub Copilot:</strong> autocompletar e sugestões inline</li>
+          <li><strong>Codex:</strong> tarefas de codificação autônomas</li>
+          <li><strong>Gemini:</strong> alternativa multi-modal</li>
+        </ul>
+      </div>
+    </div>
+    <div class="remember-box">
+      <div class="remember-box-title">Para lembrar</div>
+      <p>Boas respostas não comecam no prompt final. Elas comecam no gerenciamento de contexto ao longo da sessão e na escolha do modelo certo para a tarefa.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECAO 02 -->
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">02</div>
+    <div class="section-header">
+      <div class="section-icon">🔌</div>
+      <div class="section-heading">
+        <h2>MCP + Playwright MCP</h2>
+        <div class="meta"><span class="meta-chip chip-green">Integração</span><span class="meta-chip chip-purple">10 + 25 min</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">MCP em uma frase</div>
+        <ul>
+          <li>Padrão que conecta IA a ferramentas e dados externos</li>
+          <li>Permite ação real, não só texto gerado</li>
+          <li>Cria fluxo auditavel entre pedido e execução</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Integrações demonstradas</div>
+        <ul>
+          <li><strong>Jira:</strong> criação de tickets e comentários automáticos</li>
+          <li><strong>Slack:</strong> notificações para times responsaveis</li>
+          <li><strong>Playwright:</strong> automação de browser via MCP</li>
+          <li><strong>Figma:</strong> análise de design</li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Playwright MCP — como funciona</div>
+        <ul>
+          <li>Servidor MCP que dá ao LLM ferramentas de automação de browser</li>
+          <li>Opera via <strong>accessibility snapshots</strong> — não precisa de vision model</li>
+          <li>LLM lê a árvore de acessibilidade, identifica refs (ex: <code>ref=e5</code>) e executa ações</li>
+          <li>Ferramentas disponíveis: navegar, clicar, preencher, screenshot, tabs, network mocking</li>
+          <li><strong>browser_run_code:</strong> permite executar scripts Playwright completos quando necessário</li>
+          <li>Storage state: salvar/restaurar cookies e localStorage entre sessões</li>
+          <li>Modos: headed (padrão), headless, persistent, isolated, browser extension</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">MCP vs CLI vs Agents — comparativo real</div>
+        <ul>
+          <li><strong>Playwright MCP:</strong> servidor de protocolo para IDEs (Cursor, VS Code, Claude Desktop). Ideal para loops iterativos e exploração. Alto consumo de tokens por snapshot</li>
+          <li><strong>playwright-cli:</strong> CLI otimizada para coding agents (Claude Code, Copilot). Comandos concisos, token-eficiente, com skills instaláveis</li>
+          <li><strong>Playwright Test Agents:</strong> pipeline de 3 agentes (Planner → Generator → Healer) que geram suítes de teste completas a partir de um seed test</li>
+          <li>MCP e CLI controlam o mesmo browser — a escolha depende do ambiente (IDE vs terminal)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="code-block">
+      <pre>Configuração MCP (Cursor / VS Code / Claude Desktop):
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}
+
+Accessibility snapshot retornado pelo MCP:
+- heading "todos" [level=1]
+- textbox "What needs to be done?" [ref=e5]
+- listitem:
+  - checkbox "Toggle Todo" [ref=e10]
+  - text: "Buy groceries"
+
+O LLM usa refs para interagir:
+→ ref=e5 para digitar no campo
+→ ref=e10 para marcar o checkbox
+
+Opções de configuração do servidor:
+--headless          sem janela visível
+--browser=firefox   escolher browser (chrome, firefox, webkit, msedge)
+--isolated          cada sessão começa limpa
+--port 8931         modo servidor HTTP standalone
+--extension         conectar ao browser existente</pre>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECAO 03 -->
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">03</div>
+    <div class="section-header">
+      <div class="section-icon">🧪</div>
+      <div class="section-heading">
+        <h2>Playwright CLI + Agents</h2>
+        <div class="meta"><span class="meta-chip chip-green">Hands-on</span><span class="meta-chip chip-purple">25 + 15 min</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">playwright-cli — CLI para coding agents</div>
+        <ul>
+          <li>Ferramenta de linha de comando projetada para <strong>coding agents</strong> (Claude Code, GitHub Copilot, etc.)</li>
+          <li>Comandos concisos e <strong>token-eficientes</strong> — não carrega schemas grandes no contexto</li>
+          <li>Após cada comando, retorna snapshot da página com refs para interação</li>
+          <li>Sessões persistentes — cookies e estado preservados entre chamadas</li>
+          <li>Skills instaláveis: <code>playwright-cli install --skills</code></li>
+          <li>Sessões nomeadas: <code>playwright-cli -s=login open https://app.com</code></li>
+          <li>Dashboard visual: <code>playwright-cli show</code> para monitorar sessões ativas</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Playwright Test Agents: Planner → Generator → Healer</div>
+        <ul>
+          <li>Pipeline de 3 agentes que geram suítes de teste automaticamente</li>
+          <li><strong>🎭 Planner:</strong> explora a app navegando ao vivo, gera plano de teste em Markdown (<code>specs/</code>). Recebe seed test como ponto de partida</li>
+          <li><strong>🎭 Generator:</strong> lê o plano Markdown e gera testes Playwright em <code>tests/</code>. Verifica seletores e assertions ao vivo</li>
+          <li><strong>🎭 Healer:</strong> executa testes que falharam, inspeciona a UI atual, propõe patches. Guardrails impedem loop infinito</li>
+          <li>Setup: <code>npx playwright init-agents --loop=vscode</code> (ou <code>--loop=claude</code>)</li>
+          <li>Healer tende a corrigir o teste, não a encontrar bugs da aplicação</li>
+        </ul>
+      </div>
+    </div>
+    <div class="code-block">
+      <pre># playwright-cli — comandos essenciais
+npm install -g @playwright/cli@latest
+
+playwright-cli open https://exemplo.com --headed
+playwright-cli snapshot                    # ver estado da página
+playwright-cli click e15                   # clicar usando ref
+playwright-cli fill e5 "teste@email.com"   # preencher campo
+playwright-cli type "texto livre"          # digitar texto
+playwright-cli press Enter                 # pressionar tecla
+playwright-cli screenshot                  # capturar tela
+playwright-cli network                     # ver requisições
+playwright-cli console                     # ver console do browser
+playwright-cli eval "document.title"       # executar JS
+
+# Sessões e monitoramento
+playwright-cli -s=checkout open https://loja.com
+playwright-cli list                        # listar sessões
+playwright-cli show                        # dashboard visual
+
+# Playwright Test Agents — setup
+npx playwright init-agents --loop=vscode
+# Estrutura gerada:
+# specs/    → planos em Markdown (Planner)
+# tests/    → testes gerados (Generator)
+# seed.spec.ts → ponto de partida</pre>
+    </div>
+    <div class="practice-box">
+      <div class="practice-box-title">Para práticar em casa</div>
+      <ul>
+        <li>Instale playwright-cli e explore 1 fluxo da sua app com <code>open</code> + <code>snapshot</code> + <code>click</code></li>
+        <li>Rode <code>npx playwright init-agents</code> e use o Planner para gerar um plano de teste</li>
+        <li>Revise o plano gerado em <code>specs/</code> antes de rodar o Generator</li>
+        <li>Compare o código gerado pelo Generator com seus testes existentes</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECAO 04 -->
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">04</div>
+    <div class="section-header">
+      <div class="section-icon">⚡</div>
+      <div class="section-heading">
+        <h2>Cursor: Rules, Skills e Agents</h2>
+        <div class="meta"><span class="meta-chip chip-green">Produtividade</span><span class="meta-chip chip-purple">25 min [DEEP]</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Cursor Rules</div>
+        <ul>
+          <li>Carregadas <strong>automáticamente</strong> conforme tipo de arquivo</li>
+          <li>Padronizam comportamento do assistente</li>
+          <li>Definem convenções de teste, fixtures, autenticação</li>
+          <li>Reduzem retrabalho em PR review</li>
+          <li>Garantem consistência de output entre pessoas do time</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Cursor Skills</div>
+        <ul>
+          <li>Conjuntos de instruções executadas <strong>sob demanda</strong></li>
+          <li>Transferem conhecimento humano para arquivos reutilizáveis</li>
+          <li>Podem ser criadas a partir de exemplos, prompts ou do zero</li>
+          <li>Evoluem conforme necessidades do projeto</li>
+          <li>Podem ser globais ou por contexto específico</li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Agents no Cursor</div>
+        <ul>
+          <li>Entidades executoras que acionam skills e rules</li>
+          <li>Gerenciam checkout/check-in de skills sob demanda</li>
+          <li>Carregam apenas o necessário, reduzindo consumo de tokens</li>
+          <li>Sobreposição de conceitos com skills/rules é normal</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Diferenca-chave</div>
+        <ul>
+          <li><strong>Rules:</strong> automática por contexto (tipo de arquivo)</li>
+          <li><strong>Skills:</strong> acionada sob demanda pelo usuario</li>
+          <li><strong>Agents:</strong> executores que combinam ambos</li>
+          <li>Não se apegue a nomenclaturas — foque no resultado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="practice-box">
+      <div class="practice-box-title">Para práticar em casa</div>
+      <ul>
+        <li>Crie 1 rule para padronizar formato de testes no seu projeto</li>
+        <li>Crie 1 skill para uma tarefa recorrente (ex: revisão de código, análise de log)</li>
+        <li>Compare resultado do assistente com e sem rules ativas</li>
+        <li>Compartilhe sua skill com um colega e peça feedback</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECAO 05 -->
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">05</div>
+    <div class="section-header">
+      <div class="section-icon">📊</div>
+      <div class="section-heading">
+        <h2>Skills na prática: Dashboards e Observabilidade</h2>
+        <div class="meta"><span class="meta-chip chip-green">Casó real</span><span class="meta-chip chip-purple">10 min</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Casó real: ClickHouse + Grafana</div>
+        <ul>
+          <li>Skills acessam ClickHouse para executar queries automáticas</li>
+          <li>Geram dashboards em JSON e publicam via API no Grafana</li>
+          <li>Antes: semanas para criar dashboards manualmente</li>
+          <li>Agora: horas com automação via skills + scripts Python</li>
+          <li>Skills criadas sob demanda com prompts simples no chat</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Framework honeydoo (wrapper Playwright)</div>
+        <ul>
+          <li>Coleta dados antes, durante e após execução de testes</li>
+          <li>Armazena em múltiplas tabelas no ClickHouse</li>
+          <li>Integrações automáticas com CircleCI</li>
+          <li>Notificações automáticas via Slack para times responsaveis</li>
+          <li>Abertura automática de tickets no Jira em caso de falha</li>
+        </ul>
+      </div>
+    </div>
+    <div class="code-block">
+      <pre>Fluxo de dados:
+Testes (honeydoo/Playwright)
+  -> Coleta métricas (antes/durante/depois)
+  -> ClickHouse (armazenamento otimizado)
+  -> Skills (queries automáticas sob demanda)
+  -> Grafana (dashboards via API)
+  -> Slack/Jira (notificações e tickets)
+
+Exemplos de dashboards gerados:
+- Monitoramento de runs de testes
+- Taxa de falhas com alertas por threshold
+- Tempo de execução por suite
+- Identificação de falhas recorrentes
+- Diagramas de entidades do banco</pre>
+    </div>
+    <div class="remember-box">
+      <div class="remember-box-title">Para lembrar</div>
+      <p>A extração de dados e feita pelo framework (honeydoo), não pela IA. A IA entra na camada de consulta e visualização, gerando queries e dashboards via skills.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SECAO 06 -->
+<section class="content-section">
+  <div class="container">
+    <div class="section-number">06</div>
+    <div class="section-header">
+      <div class="section-icon">🏢</div>
+      <div class="section-heading">
+        <h2>Cultura de IA e Boas Práticas</h2>
+        <div class="meta"><span class="meta-chip chip-green">Mindset</span><span class="meta-chip chip-purple">15 min</span></div>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Adoção de IA na empresa</div>
+        <ul>
+          <li>Autonomia dos times para criar skills e pipelines próprios</li>
+          <li>Cotas para ferramentas como Cursor e Claude Code</li>
+          <li>Incubadora interna para projetos inovadores</li>
+          <li>Skills criadas para um time rápidamente adaptadas por outros</li>
+          <li>Repositório centralizado para compartilhamento de projetos e skills</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Produtividade e qualidade</div>
+        <ul>
+          <li>Aumento percebido de produtividade, mas sem métricas precisas ainda</li>
+          <li>Experimentação constante dificulta estabelecer baseline</li>
+          <li>Foco atual: qualidade dos resultados, não velocidade pura</li>
+          <li>Mensuração pode vir em fases futuras com processos mais estáveis</li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-grid">
+      <div class="card">
+        <div class="card-title">Boas práticas consolidadas</div>
+        <ul>
+          <li><strong>Revisão humana:</strong> revise planos, skills e testes gerados pela IA. Não confie cegamente</li>
+          <li><strong>Tokens como recurso:</strong> use arquivos intermediários, compactação de contexto, carregue apenas skills necessárias</li>
+          <li><strong>Arquitetura primeiro:</strong> mantenha POM, separação de responsabilidades e padrões consistentes</li>
+          <li><strong>Evolução contínua:</strong> cenário muda rápido — experimente, adapte e compartilhe</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-title">Segurança e transparência (Diligence)</div>
+        <ul>
+          <li>Nunca compartilhe dados sensíveis com a IA</li>
+          <li>Use variáveis de ambiente para credenciais</li>
+          <li>Marque em tickets e documentos quando IA foi usada</li>
+          <li>Valide fontes antes de confiar em respostas geradas</li>
+        </ul>
+      </div>
+    </div>
+    <div class="warn-box">
+      <div class="warn-box-title">Regra de ouro</div>
+      <p>IA não substitui boa arquitetura de testes. Sem governança, velocidade sobe, mas qualidade cai. Ferramenta boa é a que resolve seu problema com qualidade e responsabilidade.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CHEAT SHEET -->
+<section class="cheat-section">
+  <div class="container">
+    <p class="section-label">Referência Rápida</p>
+    <h2 class="section-title">Cheat Sheet · AI PARTY v2</h2>
+    <div class="cheat-grid">
+      <div class="cheat-card">
+        <div class="cheat-card-title">The 4Ds</div>
+        <div class="cheat-row"><span class="cheat-key">Delegation</span><span class="cheat-desc">decidir quem faz o que + modelo certo</span></div>
+        <div class="cheat-row"><span class="cheat-key">Description</span><span class="cheat-desc">pedir com clareza, exemplos e regras</span></div>
+        <div class="cheat-row"><span class="cheat-key">Discernment</span><span class="cheat-desc">avaliar saída com sensó crítico</span></div>
+        <div class="cheat-row"><span class="cheat-key">Diligence</span><span class="cheat-desc">segurança, .env, transparência</span></div>
+      </div>
+      <div class="cheat-card">
+        <div class="cheat-card-title">Contexto e Tokens</div>
+        <div class="cheat-row"><span class="cheat-key">/compact</span><span class="cheat-desc">resume sem perder contexto</span></div>
+        <div class="cheat-row"><span class="cheat-key">/clear</span><span class="cheat-desc">zera para nova tarefa</span></div>
+        <div class="cheat-row"><span class="cheat-key">tokens</span><span class="cheat-desc">limite de foco do modelo</span></div>
+        <div class="cheat-row"><span class="cheat-key">arquivos</span><span class="cheat-desc">salvar info evita alucinações</span></div>
+      </div>
+      <div class="cheat-card">
+        <div class="cheat-card-title">Playwright</div>
+        <div class="cheat-row"><span class="cheat-key">MCP</span><span class="cheat-desc">servidor para IDEs (snapshots, alto token)</span></div>
+        <div class="cheat-row"><span class="cheat-key">CLI</span><span class="cheat-desc">comandos token-eficientes para agents</span></div>
+        <div class="cheat-row"><span class="cheat-key">🎭 Planner</span><span class="cheat-desc">explora app → plano Markdown</span></div>
+        <div class="cheat-row"><span class="cheat-key">🎭 Generator</span><span class="cheat-desc">plano → testes Playwright</span></div>
+        <div class="cheat-row"><span class="cheat-key">🎭 Healer</span><span class="cheat-desc">executa, diagnostica e corrige testes</span></div>
+        <div class="cheat-row"><span class="cheat-key">init-agents</span><span class="cheat-desc">setup do pipeline de agents</span></div>
+      </div>
+      <div class="cheat-card">
+        <div class="cheat-card-title">Cursor</div>
+        <div class="cheat-row"><span class="cheat-key">Rules</span><span class="cheat-desc">automática por tipo de arquivo</span></div>
+        <div class="cheat-row"><span class="cheat-key">Skills</span><span class="cheat-desc">playbook sob demanda</span></div>
+        <div class="cheat-row"><span class="cheat-key">Agents</span><span class="cheat-desc">executores que combinam ambos</span></div>
+        <div class="cheat-row"><span class="cheat-key">workflow</span><span class="cheat-desc">consistência de time</span></div>
+      </div>
+      <div class="cheat-card">
+        <div class="cheat-card-title">Observabilidade</div>
+        <div class="cheat-row"><span class="cheat-key">ClickHouse</span><span class="cheat-desc">banco otimizado para dashboards</span></div>
+        <div class="cheat-row"><span class="cheat-key">Grafana</span><span class="cheat-desc">visualização via API</span></div>
+        <div class="cheat-row"><span class="cheat-key">honeydoo</span><span class="cheat-desc">wrapper Playwright + coleta</span></div>
+        <div class="cheat-row"><span class="cheat-key">Skills</span><span class="cheat-desc">queries automáticas + publicação</span></div>
+      </div>
+      <div class="cheat-card">
+        <div class="cheat-card-title">Perguntas de auto-check</div>
+        <div class="cheat-row"><span class="cheat-key">Objetivo claro?</span><span class="cheat-desc">sim/não</span></div>
+        <div class="cheat-row"><span class="cheat-key">Critério de sucesso?</span><span class="cheat-desc">sim/não</span></div>
+        <div class="cheat-row"><span class="cheat-key">Validação humana?</span><span class="cheat-desc">sempre</span></div>
+        <div class="cheat-row"><span class="cheat-key">Modelo adequado?</span><span class="cheat-desc">verificar</span></div>
+        <div class="cheat-row"><span class="cheat-key">Dados sensíveis?</span><span class="cheat-desc">nunca expor</span></div>
+      </div>
+      <div class="cheat-card">
+        <div class="cheat-card-title">Stack recomendada</div>
+        <div class="cheat-row"><span class="cheat-key">Camada 1</span><span class="cheat-desc">Cursor + Rules + Skills</span></div>
+        <div class="cheat-row"><span class="cheat-key">Camada 2</span><span class="cheat-desc">Playwright MCP + CLI + Agents</span></div>
+        <div class="cheat-row"><span class="cheat-key">Camada 3</span><span class="cheat-desc">Grafana + ClickHouse</span></div>
+        <div class="cheat-row"><span class="cheat-key">Camada 4</span><span class="cheat-desc">GitHub + Jira + Slack</span></div>
+        <div class="cheat-row"><span class="cheat-key">Camada 5</span><span class="cheat-desc">Governança + revisão humana</span></div>
+      </div>
+      <div class="cheat-card">
+        <div class="cheat-card-title">Links úteis</div>
+        <div class="cheat-row"><span class="cheat-key"><a href="https://playwright.dev/docs/getting-started-mcp" target="_blank" rel="noopener">Playwright MCP</a></span><span class="cheat-desc">docs oficial MCP</span></div>
+        <div class="cheat-row"><span class="cheat-key"><a href="https://playwright.dev/docs/getting-started-cli" target="_blank" rel="noopener">playwright-cli</a></span><span class="cheat-desc">docs oficial CLI</span></div>
+        <div class="cheat-row"><span class="cheat-key"><a href="https://playwright.dev/docs/test-agents" target="_blank" rel="noopener">Test Agents</a></span><span class="cheat-desc">Planner/Generator/Healer</span></div>
+        <div class="cheat-row"><span class="cheat-key"><a href="https://trace.playwright.dev/" target="_blank" rel="noopener">trace.playwright.dev</a></span><span class="cheat-desc">trace viewer</span></div>
+        <div class="cheat-row"><span class="cheat-key"><a href="https://testingwithrenata.com/" target="_blank" rel="noopener">testingwithrenata.com</a></span><span class="cheat-desc">mais conteúdo</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<button class="theme-toggle-btn theme-toggle-btn--fixed"
+        aria-label="Ativar modo claro"
+        aria-pressed="false"
+        title="Modo escuro ativo — clique para claro">
+  <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+    <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+  </svg>
+  <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+  </svg>
+</button>
+
+<footer class="footer">
+  <div class="container">
+    <p class="green" style="font-size:20px; margin-bottom:8px;">AI PARTY · v2</p>
+    <p>Material do Aluno</p>
+    <p style="margin-top:8px;"><a href="https://testingwithrenata.com/" target="_blank" rel="noopener" style="color:var(--teal); text-decoration:none;">testingwithrenata.com</a> · bons estudos!</p>
+  </div>
+</footer>
+
+<script src="js/theme-toggle.js"></script>
+</body>
+</html>
